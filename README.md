@@ -10,32 +10,25 @@ The .mo files are generated automatically.
 
 Spamty is currently available in:
 
-|Language |Status |URL suffix |Language Code |
-|---|---|---|---|
-|Arabic |experimental (rtl) |ar |ar_AE |
-|German |100% |de |de_DE |
-|English |100% primary |en |en_EN |
+|Language |Status |details |URL suffix |Language Code |
+|---|---|---|---|---|
+|Arabic |:interrobang: |experimental (rtl) |ar |ar_AE |
+|German |:white_check_mark: |100% |de |de_DE |
+|English |:white_check_mark: |100%, primary |en |en_EN |
+|Spanish |:x: |Google translator |es |es_ES |
+|French |:bangbang: |needs review |fr |fr_FR |
+|Hindi |:x: |Google translator |hi |? |
+|Italian |:bangbang: |need review |it |it_IT |
+|Japanese |:x: |Google translator |jp |? |
+|Portuguese |:x: |Google translator |pt |? |
+|Russian |:x: |Google translator |ru |? |
+|Turkish |:x: |Google translator |tr |? |
+|Chinese |:x: |Google translator |zh |zh_CN |
+|Upside down English |:heavy_minus_sign: | |up |en_NG |
+|Emoji English |:heavy_minus_sign: | |ej |en_IN |
 
 
-
- * **Arabic** (experimental): URL `ar`; Language Code `ar_AE`
- * **German** (100% complete): URL `de`; Language Code `de_DE`
- * **English** (primary language): URL `en`; Language Code `en_EN`
- * **Spanish** (Google translator): URL `es`; Language Code `es_ES`
- * **French** (bad quality): URL `fr`; Language Code `fr_FR`
- * **Hindi** (Google translator): URL `hi`; Language Code `????`
- * **Italian** (bad quality): URL `it`; Language Code `????`
- * **Japanese** (Google translator): URL `jp`; Language Code `????`
- * **Portuguese** (Google translator): URL `pt`; Language Code `????`
- * **Russian** (Google translator): URL `ru`; Language Code `????`
- * **Turkish** (Google translator): URL `tr`; Language Code `????`
- * **Chinese** (Google translator): URL `zh`; Language Code `zh_CN`
-
- * **Upside down English** (not finished): URL `up`; Language Code `en_NG`
- * **Emoji English** (not finished): URL `ej`; Language Code `en_IN`
-
-For URLs we use *ISO 639-1 codes* <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>.
-
+For URLs we prefer to use *ISO 639-1 codes* <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>.
 
 
 
