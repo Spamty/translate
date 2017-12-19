@@ -17,13 +17,13 @@ Spamty is currently available in:
 |English |:white_check_mark: |100%, primary |en |en_EN |
 |Spanish |:x: |Google translator |es |es_ES |
 |French |:bangbang: |needs review |fr |fr_FR |
-|Hindi |:x: |Google translator |hi |? |
-|Italian |:bangbang: |need review |it |it_IT |
-|Japanese |:x: |Google translator |jp |? |
-|Portuguese |:x: |Google translator |pt |? |
-|Russian |:x: |Google translator |ru |? |
-|Turkish |:x: |Google translator |tr |? |
-|Chinese |:x: |Google translator |zh |zh_CN |
+|Hindi |:x: |Incomplete |hi |hi_IN |
+|Italian |:x: |Incomplete |it |it_IT |
+|Japanese |:x: |Incomplete |jp |ja_JP |
+|Portuguese |:x: |Incomplete |pt |pt_PT |
+|Russian |:x: |Incomplete |ru |ru_RU |
+|Turkish |:x: |Incomplete |tr |tr_TR |
+|Chinese |:x: |Incomplete |zh |zh_CN |
 |Upside down English |:heavy_minus_sign: | |up |en_NG |
 |Emoji English |:heavy_minus_sign: | |ej |en_IN |
 
