@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2017-12-19 14:29+0100\n"
-"PO-Revision-Date: 2017-12-19 14:31+0100\n"
+"POT-Creation-Date: 2018-01-31 17:39+0100\n"
+"PO-Revision-Date: 2018-01-31 17:39+0100\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: fr\n"
@@ -137,7 +137,7 @@ msgstr ""
 "Cette forme est déconseillée. Vous devez <a>utiliser la plus récente</a>."
 
 #: encryption_v1.php:24 encryption_v2.php:22 encryption_v3.php:22
-#: encryption_v4.php:26 includes/form.php:49 includes/ws-header.php:73
+#: encryption_v4.php:26 includes/form.php:49 includes/ws-header.php:78
 msgid "Email"
 msgstr "Email"
 
@@ -193,12 +193,14 @@ msgid "<a>See how it works</a>"
 msgstr "<a>Comment ça marche?</a>"
 
 #: encryption_v4.php:30
-msgid "We only store an <a>encrypted</a> version of your Email. "
-msgstr "Nous stockons uniquement une version <a>cryptée</a> de votre Email. "
+msgid ""
+"You accept that we store an <a>encrypted</a> version of your email address "
+"and make your email address available for others on our website. "
+msgstr ""
 
 #: encryption_v4.php:31
-msgid "You accept our <a>privacy policy</a>."
-msgstr "Vous acceptez notre <a>politique de confidentialité</a>."
+msgid "Please read the <a>privacy policy</a>."
+msgstr ""
 
 #: encryption_v4.php:31 includes/ws-footer.php:7 privacy.php:4 privacy.php:13
 msgid "Privacy Policy"
@@ -485,7 +487,7 @@ msgstr ""
 "La clé de chiffrement est générée de façon aléatoire et est égal à votre "
 "lien de Spamty. "
 
-#: howencryptionworks.php:18 privacy.php:23
+#: howencryptionworks.php:18 privacy.php:26
 msgid ""
 "We encrypt the address with the <a>AES-256 algorithm</a> which is also used "
 "in the US to encrypt \"Top Secret\" documents."
@@ -493,11 +495,11 @@ msgstr ""
 "Nous chiffrons l’adresse avec <a>l’algorithme AES-256</a> qui est également "
 "utilisé aux États-Unis pour chiffrer les documents „Top Secret“."
 
-#: howencryptionworks.php:18 privacy.php:23
+#: howencryptionworks.php:18 privacy.php:26
 msgid "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
 msgstr "https://fr.wikipedia.org/wiki/Advanced_Encryption_Standard"
 
-#: howencryptionworks.php:18 privacy.php:23 privacy.php:43
+#: howencryptionworks.php:18 privacy.php:26 privacy.php:36
 msgid "On Wikipedia"
 msgstr "Sur Wikipedia"
 
@@ -621,11 +623,11 @@ msgstr "Veuillez remplir tous les champs. "
 msgid "Your email was successfully sent. Thanks."
 msgstr "Votre email a été envoyé avec succès. Merci."
 
-#: includes/form.php:34 includes/ws-header.php:61
+#: includes/form.php:34 includes/ws-header.php:66
 msgid "We speak: "
 msgstr "Nous parlons: "
 
-#: includes/form.php:42 includes/ws-header.php:67
+#: includes/form.php:42 includes/ws-header.php:72
 msgid "Name"
 msgstr "Nom"
 
@@ -637,15 +639,15 @@ msgstr "Votre nom"
 msgid "You could enter anonym@example.com to stay anonymous."
 msgstr "Vous pouvez entrer anonym@example.com rester anonyme."
 
-#: includes/form.php:59 includes/form.php:61 includes/ws-header.php:79
+#: includes/form.php:59 includes/form.php:61 includes/ws-header.php:84
 msgid "Subject"
 msgstr "Sujet"
 
-#: includes/form.php:66 includes/ws-header.php:85
+#: includes/form.php:66 includes/ws-header.php:90
 msgid "Message"
 msgstr "Message"
 
-#: includes/form.php:75 includes/ws-header.php:95
+#: includes/form.php:75 includes/ws-header.php:100
 msgid "SEND"
 msgstr "ENVOYEZ"
 
@@ -662,7 +664,7 @@ msgid "Blog"
 msgstr "Blog"
 
 #: includes/ws-footer.php:4 includes/ws-header.php:10 legal.php:16
-#: privacy.php:31 privacy.php:45
+#: privacy.php:40 privacy.php:41 privacy.php:56
 msgid "Contact"
 msgstr "Contact"
 
@@ -678,11 +680,11 @@ msgstr "Mentions légales"
 msgid "Developer"
 msgstr "Développeur"
 
-#: includes/ws-head.php:97
+#: includes/ws-head.php:121
 msgid "Protect your Email Address against Spam"
 msgstr "Protégez votre adresse e-mail contre le spam"
 
-#: includes/ws-head.php:108 index.php:5
+#: includes/ws-head.php:132 index.php:5
 msgid ""
 "Tired of spam? Spamty helps you to protect your email address on the web by "
 "asking people to solve a captcha before they see it."
@@ -698,11 +700,11 @@ msgstr "Accueil"
 msgid "Encryption"
 msgstr "Cryptage"
 
-#: includes/ws-header.php:46 includes/ws-header.php:55
+#: includes/ws-header.php:51 includes/ws-header.php:60
 msgid "Contact us"
 msgstr "Contactez-nous"
 
-#: includes/ws-header.php:94
+#: includes/ws-header.php:99
 msgid "Close"
 msgstr "Fermer"
 
@@ -735,6 +737,34 @@ msgstr ""
 #: index.php:17 premium.php:70
 msgid "Start using Spamty"
 msgstr "Commencez à utiliser Spamty"
+
+#: lang.php:4 lang.php:13
+msgid "Languages"
+msgstr ""
+
+#: lang.php:5
+msgid ""
+"Our website is available in many different languages. Please help "
+"translating it."
+msgstr ""
+
+#: lang.php:16
+msgid "Spamty is available in these languages:"
+msgstr ""
+
+#: lang.php:25
+msgid "The following translations are incomplete or in 'beta' mode:"
+msgstr ""
+
+#: lang.php:55
+msgid "We need help!"
+msgstr ""
+
+#: lang.php:57
+msgid ""
+"Please help us to translate the website in more languages or to improve "
+"existing translations <a>on Github</a>."
+msgstr ""
 
 #: legal.php:5
 msgid ""
@@ -1035,17 +1065,18 @@ msgid "All fields are required. "
 msgstr "Tous les champs sont requis. "
 
 #: newsletter.php:42
-msgid "The newsletter powered by <a>Mailchimp</a>. "
-msgstr "Le bulletin d’information alimenté par <a>Mailchimp</a>. "
+msgid ""
+"The newsletter is powered by <a>Mailchimp</a>. By signing up you agree that "
+"we pass your data to Mailchimp. "
+msgstr ""
 
 #: newsletter.php:42
 msgid "Mailchimp Website"
 msgstr "Mailchimp Site"
 
 #: newsletter.php:43
-msgid "By signing up you agree to our <a>privacy policy</a>. "
+msgid "Please read our <a>privacy policy</a> more more infotmation. "
 msgstr ""
-"En vous inscrivant, vous acceptez notre <a>politique de confidentialité</a>. "
 
 #: newsletter.php:49
 msgid "Subscribe"
@@ -1136,17 +1167,19 @@ msgstr ""
 #: privacy.php:15
 msgid ""
 "We will explain on this page what information we collect, how the data is "
-"stored and how we use your personal information."
+"stored and how we use your personal information according to the EU General "
+"Data Protection Regulation (GDPR)."
 msgstr ""
-"Nous allons vous expliquer sur cette page les informations que nous "
-"recueillons, comment les données sont stockées et comment nous utilisons vos "
-"informations personnelles."
 
-#: privacy.php:17
+#: privacy.php:16
+msgid "See below for the identity and the contact details of the controller."
+msgstr ""
+
+#: privacy.php:18
 msgid "What kind of information do we store?"
 msgstr "Quel genre d’information ne nous stockons?"
 
-#: privacy.php:18
+#: privacy.php:19
 msgid ""
 "The use of this website is possible without the declaration of any personal "
 "data. It is voluntary to share personal data with us."
@@ -1155,7 +1188,7 @@ msgstr ""
 "personnelles. Il est volontaire pour partager des données personnelles avec "
 "nous."
 
-#: privacy.php:19
+#: privacy.php:20
 msgid ""
 "If you <a>create a link to your email address</a> we will store your email "
 "encrypted in our database. "
@@ -1163,16 +1196,26 @@ msgstr ""
 "Si vous <a>créez un lien vers votre adresse e-mail</a>, nous allons stocker "
 "votre e-mail crypté dans notre base de données. "
 
-#: privacy.php:20
+#: privacy.php:21
 msgid "Furthermore we store the date and time when the link was generated. "
 msgstr ""
 "En outre, nous stockons la date et l’heure lorsque le lien a été généré. "
 
 #: privacy.php:22
+msgid "If you sign up for our newsletter we will store your email address."
+msgstr ""
+
+#: privacy.php:23
+msgid ""
+"We store your email address as long as you do not ask us to delete it but we "
+"cannot guarantee any service or the availability of Spamty."
+msgstr ""
+
+#: privacy.php:25
 msgid "How is the email address encrypted?"
 msgstr "Comment l’adresse e-mail est crypté?"
 
-#: privacy.php:24
+#: privacy.php:27
 msgid ""
 "The key for the encryption is randomly generated. It is not stored on our "
 "server. It is contained in the link to your email address. A decryption "
@@ -1182,47 +1225,100 @@ msgstr ""
 "stockées sur notre serveur. Elle est contenue dans le lien à votre adresse e-"
 "mail. Un décryptage sans cette clé est impossible."
 
-#: privacy.php:26
+#: privacy.php:28
+msgid ""
+"If you sign up for our newsletter your email address will be protected in "
+"the database of Mailchimp."
+msgstr ""
+
+#: privacy.php:29 privacy.php:37
+msgid "You can find their <a>privacy policy here</a>."
+msgstr "Vous pouvez trouver leur <a>politique de confidentialité ici</a>."
+
+#: privacy.php:29 privacy.php:37
+msgid "Mailchimp privacy policy"
+msgstr "Politique de confidentialité Mailchimp"
+
+#: privacy.php:31
 msgid "Sharing of personal data"
 msgstr "Partage des données personnelles"
 
-#: privacy.php:27
+#: privacy.php:32
 msgid "Of course we do not share any personal data with third parties."
 msgstr "Bien sûr, nous ne partageons pas de données personnelles à des tiers."
 
-#: privacy.php:28
+#: privacy.php:33
 msgid ""
 "If someone clicks on the link to your email address he will be able to see "
-"your email. You shouldn't share the link with anyone who is not allowed to "
-"view your email address."
+"your email after he solved a captcha. You shouldn't share the link with "
+"anyone who is not allowed to view your email address."
 msgstr ""
-"Si quelqu’un clique sur le lien à votre adresse e-mail, il sera en mesure de "
-"voir votre boîte email. Vous ne devez pas partager le lien avec quelqu’un "
-"qui ne soit pas autorisé à voir votre adresse email."
 
-#: privacy.php:30
+#: privacy.php:34
+msgid ""
+"The newsletter is powered by <a>Mailchimp</a> (The Rocket Science Group, "
+"LLC, 512 Means St., Suite 404, Atlanta, Georgia 30318, USA). "
+msgstr ""
+"Le bulletin est alimenté par <a>Mailchimp</a> (The Rocket Science Group, "
+"LLC, 512 Moyens St., Suite 404, Atlanta, Georgia 30318, USA). "
+
+#: privacy.php:34
+msgid "Mailchimp"
+msgstr "MailChimp"
+
+#: privacy.php:35
+msgid "If you sign up your personal data will be share with this company."
+msgstr ""
+"Si vous vous inscrivez vos données personnelles seront part avec cette "
+"société."
+
+#: privacy.php:36
+msgid "Mailchimp complies to the <a>EU-US Privacy Shield</a>. "
+msgstr ""
+
+#: privacy.php:36
+msgid "https://en.wikipedia.org/wiki/EU-US_Privacy_Shield"
+msgstr ""
+
+#: privacy.php:39
 msgid "How can I delete my data?"
 msgstr "Comment puis-je supprimer mes données?"
 
-#: privacy.php:31
+#: privacy.php:40
 msgid "Please <a>contact us</a> to deactivate the link or to delete your data."
 msgstr ""
 "S’il vous plaît <a>nous contacter</a> pour désactiver le lien ou de "
 "supprimer vos données."
 
-#: privacy.php:33
-msgid "Usage Statistics (Piwik)"
-msgstr "Statistiques d’utilisation (Piwik)"
+#: privacy.php:41
+msgid ""
+"We can also ask Mailchimp to delete the data which was used for our "
+"newsletter. Please <a>conatct us</a>."
+msgstr ""
 
-#: privacy.php:34
+#: privacy.php:42
+msgid ""
+"According to article 17 and 18 GDPR you have a right to erasure of your data "
+"and to restriction the processing of your data."
+msgstr ""
+
+#: privacy.php:43
+msgid "You can withdraw your consent in processing your data at any time."
+msgstr ""
+
+#: privacy.php:45
+msgid "Usage statistics and tracking"
+msgstr ""
+
+#: privacy.php:46
 msgid "We do not track our visitors."
 msgstr "Nous ne suivent pas de nos visiteurs."
 
-#: privacy.php:36
-msgid "Cookie Policy"
-msgstr "Politique de cookies"
+#: privacy.php:48
+msgid "Cookie policy"
+msgstr ""
 
-#: privacy.php:37
+#: privacy.php:49
 msgid ""
 "Cookies are small files that are stored in your browser. With this for "
 "example it is possible to store and get your preferred language setting."
@@ -1231,7 +1327,7 @@ msgstr ""
 "Avec ce par exemple, il est possible de stocker et d’obtenir votre paramètre "
 "de langue préférée."
 
-#: privacy.php:38
+#: privacy.php:50
 msgid ""
 "You can disable cookies in your browser's setting. Then we won't be able to "
 "store them."
@@ -1239,63 +1335,28 @@ msgstr ""
 "Vous pouvez désactiver les cookies dans les paramètres de votre navigateur. "
 "Ensuite, nous ne serons pas capables de les stocker."
 
-#: privacy.php:40
-msgid "Newsletter"
-msgstr "Newsletter"
-
-#: privacy.php:41
-msgid ""
-"The newsletter is powered by <a>Mailchimp</a> (The Rocket Science Group, "
-"LLC, 512 Means St., Suite 404, Atlanta, Georgia 30318, USA). "
+#: privacy.php:52
+msgid "Other rights"
 msgstr ""
-"Le bulletin est alimenté par <a>Mailchimp</a> (The Rocket Science Group, "
-"LLC, 512 Moyens St., Suite 404, Atlanta, Georgia 30318, USA). "
 
-#: privacy.php:41
-msgid "Mailchimp"
-msgstr "MailChimp"
-
-#: privacy.php:42
-msgid "If you sign up your personal data will be share with this company."
-msgstr ""
-"Si vous vous inscrivez vos données personnelles seront part avec cette "
-"société."
-
-#: privacy.php:43
-msgid "Mailchimp complies to the <a>Safe Harbor Principles</a>. "
-msgstr "Mailchimp conforme aux <a>principes Safe Harbor</a>. "
-
-#: privacy.php:43
+#: privacy.php:53
 msgid ""
-"https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles"
-msgstr "https://fr.wikipedia.org/wiki/Safe_Harbor"
-
-#: privacy.php:44
-msgid "You can find their <a>privacy policy here</a>."
-msgstr "Vous pouvez trouver leur <a>politique de confidentialité ici</a>."
-
-#: privacy.php:44
-msgid "Mailchimp privacy policy"
-msgstr "Politique de confidentialité Mailchimp"
-
-#: privacy.php:45
-msgid ""
-"We can delete the data which was stored for the newsletter. Please "
-"<a>conatct us</a>."
+"You can request an statement about you personal data which we store and "
+"process."
 msgstr ""
-"Nous pouvons supprimer les données qui a été stocké à la newsletter. S’il "
-"vous plaît <a>nous conatct</a>."
 
-#: privacy.php:48
-msgid "More Informationen"
-msgstr "Plus d’informations"
+#: privacy.php:54
+msgid ""
+"You have the right to lodge a complaint with a supervisory authority "
+"according to the GDPR."
+msgstr ""
 
-#: privacy.php:49
+#: privacy.php:57
 msgid ""
 "You can contact me if you have any questions according the data protection:"
 msgstr "Vous pouvez me contacter si vous avez des questions:"
 
-#: privacy.php:51
+#: privacy.php:59
 msgid "More contact options"
 msgstr "Plusieurs options de contact"
 
@@ -1365,6 +1426,64 @@ msgstr ""
 #: why.php:26
 msgid "Protected against spam"
 msgstr "Protégé contre le spam"
+
+#~ msgid "We only store an <a>encrypted</a> version of your Email. "
+#~ msgstr ""
+#~ "Nous stockons uniquement une version <a>cryptée</a> de votre Email. "
+
+#~ msgid "You accept our <a>privacy policy</a>."
+#~ msgstr "Vous acceptez notre <a>politique de confidentialité</a>."
+
+#~ msgid "The newsletter powered by <a>Mailchimp</a>. "
+#~ msgstr "Le bulletin d’information alimenté par <a>Mailchimp</a>. "
+
+#~ msgid "By signing up you agree to our <a>privacy policy</a>. "
+#~ msgstr ""
+#~ "En vous inscrivant, vous acceptez notre <a>politique de confidentialité</"
+#~ "a>. "
+
+#~ msgid ""
+#~ "We will explain on this page what information we collect, how the data is "
+#~ "stored and how we use your personal information."
+#~ msgstr ""
+#~ "Nous allons vous expliquer sur cette page les informations que nous "
+#~ "recueillons, comment les données sont stockées et comment nous utilisons "
+#~ "vos informations personnelles."
+
+#~ msgid ""
+#~ "If someone clicks on the link to your email address he will be able to "
+#~ "see your email. You shouldn't share the link with anyone who is not "
+#~ "allowed to view your email address."
+#~ msgstr ""
+#~ "Si quelqu’un clique sur le lien à votre adresse e-mail, il sera en mesure "
+#~ "de voir votre boîte email. Vous ne devez pas partager le lien avec "
+#~ "quelqu’un qui ne soit pas autorisé à voir votre adresse email."
+
+#~ msgid "Usage Statistics (Piwik)"
+#~ msgstr "Statistiques d’utilisation (Piwik)"
+
+#~ msgid "Cookie Policy"
+#~ msgstr "Politique de cookies"
+
+#~ msgid "Newsletter"
+#~ msgstr "Newsletter"
+
+#~ msgid "Mailchimp complies to the <a>Safe Harbor Principles</a>. "
+#~ msgstr "Mailchimp conforme aux <a>principes Safe Harbor</a>. "
+
+#~ msgid ""
+#~ "https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles"
+#~ msgstr "https://fr.wikipedia.org/wiki/Safe_Harbor"
+
+#~ msgid ""
+#~ "We can delete the data which was stored for the newsletter. Please "
+#~ "<a>conatct us</a>."
+#~ msgstr ""
+#~ "Nous pouvons supprimer les données qui a été stocké à la newsletter. S’il "
+#~ "vous plaît <a>nous conatct</a>."
+
+#~ msgid "More Informationen"
+#~ msgstr "Plus d’informations"
 
 #~ msgid "You can support us with a Bitcoin donation if you like our website: "
 #~ msgstr ""
