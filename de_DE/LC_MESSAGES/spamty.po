@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2018-01-31 17:29+0100\n"
-"PO-Revision-Date: 2018-01-31 17:38+0100\n"
+"POT-Creation-Date: 2018-07-06 16:28+0200\n"
+"PO-Revision-Date: 2018-07-06 16:30+0200\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: de\n"
@@ -39,8 +39,8 @@ msgstr ""
 "Sorgen über Spam machen zu müssen."
 
 #: about.php:15
-msgid "Spamty was created in 2014 by Philipp. You can find me here: "
-msgstr "Spamty wurde im Jahr 2014 von Philipp erstellt. Du findest mich hier: "
+msgid "Spamty was created in 2014. You can find me here: "
+msgstr "Spamty wurde im Jahr 2014 erstellt. Du findest mich hier: "
 
 #: about.php:20
 msgid "The idea"
@@ -87,21 +87,26 @@ msgstr ""
 "Hast du Probleme mit unserer API? Benötigst du Hilfe? Oder möchtest du neue "
 "Features vorschlagen? "
 
-#: contact-dev.php:16 contact.php:20
-msgid "Feel free to contact me via this form."
-msgstr "Du kannst mich gerne jederzeit über das Formular kontaktieren."
+#: contact-dev.php:16 contact.php:16
+msgid "Feel free to contact me via email:"
+msgstr "Du kannst mich gerne jederzeit per E-Mail kontaktieren:"
 
-#: contact-dev.php:18
-msgid "You can also:"
-msgstr "Du kannst uns auch:"
+#: contact-dev.php:17 contact.php:17
+msgid "Go to my email address on Spamty."
+msgstr "Zu meiner E-Mail Adresse auf Spamty."
 
-#: contact-dev.php:20
-msgid "Send us an email"
-msgstr "Eine E-Mail schicken"
+#: contact-dev.php:19 contact.php:19
+msgid "GPG Key"
+msgstr "GPG-Schlüssel"
 
-#: contact-dev.php:21 contact.php:15 legal.php:22
-msgid "WhatsApp:"
-msgstr "WhatsApp:"
+#: contact-dev.php:20 contact.php:20
+msgid "<a>Please use GPG to encrypt emails!</a>"
+msgstr "<a>Bitte benutze GPG, um E-Mails zu verschlüsseln!</a>"
+
+#: contact-dev.php:20 contact.php:20 error-404.php:55 legal.php:23
+#: privacy.php:61
+msgid "https://emailselfdefense.fsf.org/en/windows.html"
+msgstr "https://emailselfdefense.fsf.org/de/windows.html"
 
 #: contact.php:5
 msgid ""
@@ -109,18 +114,6 @@ msgid ""
 msgstr ""
 "Kontaktiere das Spamty Team hier, wenn du Hilfe brauchst oder einfach nur "
 "reden willst."
-
-#: contact.php:16 legal.php:23
-msgid "Fax:"
-msgstr "Fax:"
-
-#: contact.php:17
-msgid "Go to my email address"
-msgstr "Zu meiner E-Mail Adresse"
-
-#: contact.php:19
-msgid "Contact Form"
-msgstr "Kontaktformular"
 
 #: encryption_v1.php:4 encryption_v1.php:13 encryption_v2.php:4
 #: encryption_v2.php:13
@@ -136,7 +129,7 @@ msgid "This Form is deprecated. You have to <a>use the latest one</a>."
 msgstr "Dieses Formular ist veraltet. Hier geht es <a>zu dem aktuellen</a>."
 
 #: encryption_v1.php:24 encryption_v2.php:22 encryption_v3.php:22
-#: encryption_v4.php:26 includes/form.php:49 includes/ws-header.php:78
+#: encryption_v4.php:26 encryption_v5.php:26
 msgid "Email"
 msgstr "E-Mail"
 
@@ -159,7 +152,7 @@ msgstr ""
 "schützen."
 
 #: encryption_v3.php:4 encryption_v3.php:13 encryption_v4.php:7
-#: encryption_v4.php:16
+#: encryption_v4.php:16 encryption_v5.php:7 encryption_v5.php:16
 msgid "Protect your Email Address"
 msgstr "Schütze deine E-Mail Adresse"
 
@@ -167,7 +160,7 @@ msgstr "Schütze deine E-Mail Adresse"
 msgid "Protect your email address for free against Spam."
 msgstr "Schütze deine E-Mail-Adresse kostenlos vor Spam."
 
-#: encryption_v3.php:24 encryption_v4.php:28 includes/form.php:51
+#: encryption_v3.php:24 encryption_v4.php:28 encryption_v5.php:28
 msgid "Your email address"
 msgstr "Deine E-Mail Adresse"
 
@@ -175,11 +168,11 @@ msgstr "Deine E-Mail Adresse"
 msgid "We only store an encrypted version of your email address."
 msgstr "Wir speichern deine E-Mail Adresse nicht im Klartext."
 
-#: encryption_v3.php:30 encryption_v4.php:39
+#: encryption_v3.php:30 encryption_v4.php:39 encryption_v5.php:39
 msgid "GET LINK"
 msgstr "GENERIEREN"
 
-#: encryption_v4.php:8
+#: encryption_v4.php:8 encryption_v5.php:8
 msgid ""
 "Create a Spamty link and protect your email address on the internet against "
 "spam."
@@ -187,11 +180,11 @@ msgstr ""
 "Erstelle einen Spamty Link und schütze deine E-Mail-Adresse im Internet vor "
 "Spam."
 
-#: encryption_v4.php:21
+#: encryption_v4.php:21 encryption_v5.php:21
 msgid "<a>See how it works</a>"
 msgstr "<a>Erfahre, wie es geht</a>"
 
-#: encryption_v4.php:30
+#: encryption_v4.php:30 encryption_v5.php:30
 msgid ""
 "You accept that we store an <a>encrypted</a> version of your email address "
 "and make your email address available for others on our website. "
@@ -200,46 +193,48 @@ msgstr ""
 "Adresse speichern und diese für andere auf unserer Website zur Verfügung "
 "stellen. "
 
-#: encryption_v4.php:31
+#: encryption_v4.php:31 encryption_v5.php:31
 msgid "Please read the <a>privacy policy</a>."
 msgstr "Bitte lies hierzu die <a>Datenschutzerklärung</a>."
 
-#: encryption_v4.php:31 includes/ws-footer.php:7 privacy.php:4 privacy.php:13
+#: encryption_v4.php:31 encryption_v5.php:31 includes/ws-footer.php:7
+#: privacy.php:4 privacy.php:13
 msgid "Privacy Policy"
 msgstr "Datenschutzbestimmungen"
 
-#: encryption_v4.php:50
+#: encryption_v4.php:50 encryption_v5.php:50
 msgid ""
 "Please do not fill out the \"Name\" field. It is only for spam protection. "
 msgstr "Bitte fülle nicht das Feld „Name“ aus. Es dient nur als Spam-Schutz. "
 
-#: encryption_v4.php:51 encryption_v4.php:61
+#: encryption_v4.php:51 encryption_v4.php:61 encryption_v5.php:51
+#: encryption_v5.php:61
 msgid "<a>Reload the Form</a> and try again."
 msgstr "<a>Lade das Formular neu</a> und versuche es nochmals."
 
-#: encryption_v4.php:53 encryption_v4.php:63 mail.php:77 mail.php:87
-#: mail.php:100
+#: encryption_v4.php:53 encryption_v4.php:63 encryption_v5.php:53
+#: encryption_v5.php:63 mail.php:77 mail.php:87 mail.php:100
 msgid "<a>Contact me</a> if you need help."
 msgstr "<a>Schreibe mir</a>, wenn du Hilfe brachst."
 
-#: encryption_v4.php:60 includes/form-tab.php:14 includes/form.php:10
+#: encryption_v4.php:60 encryption_v5.php:60
 msgid "This was no valid email address. "
 msgstr "Das war keine gültige E-Mail Adresse. "
 
-#: encryption_v4.php:74 mail-frame.php:194 mail-frame.php:201 mail.php:159
-#: mail.php:167
+#: encryption_v4.php:74 encryption_v5.php:74 mail-frame.php:194
+#: mail-frame.php:201 mail.php:162 mail.php:170
 msgid "Sorry, we had technical problems."
 msgstr "Leider hatten wir technische Probleme."
 
-#: encryption_v4.php:75 mail-frame.php:150 mail-frame.php:202 mail.php:110
-#: mail.php:168
+#: encryption_v4.php:75 encryption_v5.php:75 mail-frame.php:150
+#: mail-frame.php:202 mail.php:110 mail.php:171
 msgid ""
 "Please send an email to contact@spamty.eu with the following error code. "
 msgstr ""
 "Schicke bitte eine E-Mail an contact@spamty.eu und gebe folgenden Fehlercode "
 "an. "
 
-#: encryption_v4.php:76
+#: encryption_v4.php:76 encryption_v5.php:76
 msgid ""
 "We will try to fix this problem and we can also create a new Spamty link for "
 "you manually."
@@ -247,86 +242,86 @@ msgstr ""
 "Wir werden versuchen, das Problem zu beheben, und können dir auch einen "
 "neuen Spamty-Link erstellen."
 
-#: encryption_v4.php:112
+#: encryption_v4.php:112 encryption_v5.php:112
 msgid "Your Spamty link"
 msgstr "Dein Spamty-Link"
 
-#: encryption_v4.php:113
+#: encryption_v4.php:113 encryption_v5.php:113
 msgid "This is the link where your email address can be found:"
 msgstr "Das ist der Link, unter dem deine E-Mail-Adresse gefunden werden kann:"
 
-#: encryption_v4.php:116
+#: encryption_v4.php:116 encryption_v5.php:116
 msgid "What's next?"
 msgstr "Und jetzt?"
 
-#: encryption_v4.php:119
+#: encryption_v4.php:119 encryption_v5.php:119
 msgid "Pay what you want"
 msgstr "\"Pay what you want\""
 
-#: encryption_v4.php:122
+#: encryption_v4.php:122 encryption_v5.php:122
 msgid ""
 "You can support us with a Bitcoin (BTC) donation if you like our website: "
 msgstr ""
 "Um uns bei der Finanzierung zu helfen, kannst du gerne Bitcoins (BTC) "
 "spenden: "
 
-#: encryption_v4.php:123 faq.php:37
+#: encryption_v4.php:123 encryption_v5.php:123 faq.php:37
 msgid "Or use any other crypto currency. Like Bitcoin Cash (BCH): "
 msgstr "Oder irgendeine andere Kryptowährung, wie Bitcoin Cash (BCH): "
 
-#: encryption_v4.php:124 faq.php:38
+#: encryption_v4.php:124 encryption_v5.php:124 faq.php:38
 msgid "Or Litecoin (LTC): "
 msgstr "Oder Litecoin (LTC): "
 
-#: encryption_v4.php:125 faq.php:39
+#: encryption_v4.php:125 encryption_v5.php:125 faq.php:39
 msgid "Dogecoin (DOGE): "
 msgstr "Dogecoin (DOGE): "
 
-#: encryption_v4.php:126 faq.php:40
+#: encryption_v4.php:126 encryption_v5.php:126 faq.php:40
 msgid "Or Ethereum: "
 msgstr "Oder Ethereum: "
 
-#: encryption_v4.php:132
+#: encryption_v4.php:132 encryption_v5.php:132
 msgid "Too long?"
 msgstr "Link zu lang?"
 
-#: encryption_v4.php:135
+#: encryption_v4.php:135 encryption_v5.php:135
 msgid "You can <a>shorten this URL</a>."
 msgstr "Du kannst <a>diese URL kürzen</a>."
 
-#: encryption_v4.php:140
+#: encryption_v4.php:140 encryption_v5.php:140
 msgid "Share the link"
 msgstr "Teile den Link"
 
-#: encryption_v4.php:143
+#: encryption_v4.php:143 encryption_v5.php:143
 msgid "You can share this link now on the internet."
 msgstr "Du kannst den Link nun im Internet veröffentlichen."
 
-#: encryption_v4.php:144
+#: encryption_v4.php:144 encryption_v5.php:144
 msgid "Share the Link "
 msgstr "Teile den Link "
 
-#: encryption_v4.php:146
+#: encryption_v4.php:146 encryption_v5.php:146
 msgid "Share on Facebook"
 msgstr "Auf Facebook teilen"
 
-#: encryption_v4.php:147
+#: encryption_v4.php:147 encryption_v5.php:147
 msgid "Protected against #Spam. My email address: "
 msgstr "Gegen #Spam geschützt. Meine E-Mail Adresse: "
 
-#: encryption_v4.php:147
+#: encryption_v4.php:147 encryption_v5.php:147
 msgid "Share on Twitter"
 msgstr "Auf Twitter teilen"
 
-#: encryption_v4.php:148
+#: encryption_v4.php:148 encryption_v5.php:148
 msgid "Link to my Email Address"
 msgstr "Link zu meiner E-Mail-Adresse"
 
-#: encryption_v4.php:148
+#: encryption_v4.php:148 encryption_v5.php:148
 msgid "You can find my email address here: "
 msgstr "Hier findest du meine E-Mail Adresse: "
 
-#: encryption_v4.php:148
+#: encryption_v4.php:148 encryption_v5.php:148
 msgid "Share via email"
 msgstr "Per E-Mail teilen"
 
@@ -371,6 +366,14 @@ msgid "You can report this error here so we can try to fix it. "
 msgstr ""
 "Du kannst diesen Fehler melden, damit wir versuchen können, ihn zu beheben. "
 
+#: error-404.php:54 legal.php:22 privacy.php:60
+msgid "<a>Please use my GPG key to encrypt emails!</a>"
+msgstr "<a>Bitte benutze meinen GPG-Key, um E-Mails zu verschlüsseln!</a>"
+
+#: error-404.php:55 legal.php:23 privacy.php:61
+msgid "(<a>GPG Tutorial</a>)"
+msgstr "(<a>GPG Anleitung</a>)"
+
 #: faq.php:4
 msgid "Frequently Asked Questions"
 msgstr "Häufige Fragen"
@@ -387,7 +390,7 @@ msgstr ""
 msgid "Frequently Asked Questions <small>and the answers</small>"
 msgstr "Häufige Fragen <small> und die Antworten</small>"
 
-#: faq.php:15 faq.php:45
+#: faq.php:15 faq.php:45 howencryptionworks.php:30 howitworks.php:45
 msgid "Feel free to <a>contact me</a> if you have any other questions."
 msgstr "Du kannst mich gerne <a>kontaktieren</a>, wenn du weitere Fragen hast."
 
@@ -440,7 +443,7 @@ msgid "To help financing this project you can donate some Bitcoins:"
 msgstr ""
 "Um uns bei der Finanzierung zu helfen, kannst du gerne Bitcoins spenden:"
 
-#: faq.php:43
+#: faq.php:43 howencryptionworks.php:28 howitworks.php:43
 msgid "I have more questions!"
 msgstr "Ich habe weitere Fragen!"
 
@@ -612,42 +615,6 @@ msgstr "<a>Probiere es selbst</a>."
 msgid "Display the email address"
 msgstr "E-Mail anzeigen"
 
-#: includes/form-tab.php:10 includes/form.php:6
-msgid "Please fill out all fields. "
-msgstr "Bitte fülle alle Felder aus. "
-
-#: includes/form-tab.php:40 includes/form.php:25
-msgid "Your email was successfully sent. Thanks."
-msgstr "Deine E-Mail wurde erfolgreich verschickt. Danke."
-
-#: includes/form.php:34 includes/ws-header.php:66
-msgid "We speak: "
-msgstr "Wir sprechen: "
-
-#: includes/form.php:42 includes/ws-header.php:72
-msgid "Name"
-msgstr "Name"
-
-#: includes/form.php:44
-msgid "Your name"
-msgstr "Dein Name"
-
-#: includes/form.php:53
-msgid "You could enter anonym@example.com to stay anonymous."
-msgstr "Du kannst anonym@example.com eingeben, um anonym zu bleiben."
-
-#: includes/form.php:59 includes/form.php:61 includes/ws-header.php:84
-msgid "Subject"
-msgstr "Betreff"
-
-#: includes/form.php:66 includes/ws-header.php:90
-msgid "Message"
-msgstr "Nachricht"
-
-#: includes/form.php:75 includes/ws-header.php:100
-msgid "SEND"
-msgstr "SENDEN"
-
 #: includes/ws-foot.php:1
 msgid "Language:"
 msgstr "Sprache:"
@@ -656,18 +623,18 @@ msgstr "Sprache:"
 msgid "Powered by"
 msgstr "Bereitgestellt von"
 
-#: includes/ws-footer.php:3 newsletter.php:14
-msgid "Blog"
-msgstr "Blog"
-
-#: includes/ws-footer.php:4 includes/ws-header.php:10 legal.php:16
+#: includes/ws-footer.php:3 includes/ws-header.php:10 legal.php:16
 #: privacy.php:40 privacy.php:41 privacy.php:56
 msgid "Contact"
 msgstr "Kontakt"
 
-#: includes/ws-footer.php:5
+#: includes/ws-footer.php:4
 msgid "FAQ/Help"
 msgstr "FAQ/Hilfe"
+
+#: includes/ws-footer.php:5
+msgid "Twitter"
+msgstr "Twitter"
 
 #: includes/ws-footer.php:6 legal.php:4 legal.php:13
 msgid "Legal Notice"
@@ -697,14 +664,6 @@ msgstr "Start"
 #: includes/ws-header.php:9
 msgid "Encryption"
 msgstr "Verschlüsseln"
-
-#: includes/ws-header.php:51 includes/ws-header.php:60
-msgid "Contact us"
-msgstr "Kontaktiere uns"
-
-#: includes/ws-header.php:99
-msgid "Close"
-msgstr "Schließen"
 
 #: index.php:4
 msgid "Protect your email address"
@@ -751,7 +710,7 @@ msgstr ""
 msgid "Spamty is available in these languages:"
 msgstr "Spamty ist in diesen Sprachen verfügbar:"
 
-#: lang.php:25
+#: lang.php:23
 msgid "The following translations are incomplete or in 'beta' mode:"
 msgstr "Die folgenden Übersetzungen sind unvollständig oder im \"Beta\"-Modus:"
 
@@ -788,19 +747,15 @@ msgstr ""
 msgid "This Website is provided by:"
 msgstr "Diese Website wird angeboten von:"
 
-#: legal.php:20
-msgid "My Email Address"
-msgstr "Meine E-Mail-Adresse"
+#: legal.php:21 privacy.php:59
+msgid "You can contact me via email:"
+msgstr "Du kannst mich per E-Mail kontaktieren:"
 
-#: legal.php:21
-msgid "Contact form"
-msgstr "Kontaktformular"
-
-#: legal.php:25
+#: legal.php:26
 msgid "Not Commercial"
 msgstr "Nicht Kommerzielles Angebot"
 
-#: legal.php:26
+#: legal.php:27
 msgid ""
 "This webservice is provided without a gainful intension. Spamty is "
 "completely ad-free."
@@ -808,11 +763,11 @@ msgstr ""
 "Diese Website ist ein rein privates, nicht kommerzielles Angebot und wird "
 "auch nicht mit gewinnbringenden Absichten betrieben."
 
-#: legal.php:28
+#: legal.php:29
 msgid "Disclaimer"
 msgstr "Haftungsausschluss"
 
-#: legal.php:29
+#: legal.php:30
 msgid ""
 "We assume no liability for the correctness and the up-to-dateness of the "
 "content of this website. "
@@ -820,13 +775,13 @@ msgstr ""
 "Wir übernehmen keine Haftung für die Richtigkeit, Vollständigkeit und "
 "Aktualität des Inhalts dieser Website. "
 
-#: legal.php:30
+#: legal.php:31
 msgid "We are not obliged to check external pages for their lawfulness. "
 msgstr ""
 "Wir sind nicht verpflichtet externe Websites bzw. Links zu diesen Seiten auf "
 "deren Rechtmäßigkeit zu überprüfen. "
 
-#: legal.php:31
+#: legal.php:32
 msgid ""
 "We are not liable for the content of linked websites but we will immediately "
 "remove links to external pages containing unlawful content if we notice."
@@ -835,7 +790,7 @@ msgstr ""
 "Bekanntwerden von Rechtswidrigen Inhalten oder anderen Rechtsverletzungen, "
 "werden wir diese Inhalte oder Links sofort entfernen."
 
-#: legal.php:32
+#: legal.php:33
 msgid ""
 "The users are liable for everything they do and the content they publish on "
 "this website. "
@@ -843,22 +798,22 @@ msgstr ""
 "Die Benutzer sind verantwortlich für das, was sie tun und die Inhalte, die "
 "sie auf dieser Website veröffentlichen. "
 
-#: legal.php:33
+#: legal.php:34
 msgid ""
 "According to &sect;&sect; 7 to 10 TMG we are not liable for their content."
 msgstr ""
 "Nach &sect;&sect; 7 bis 10 TMG sind wir für Ihre Inhalte nicht "
 "verantwortlich."
 
-#: legal.php:35
+#: legal.php:36
 msgid "Data Protection"
 msgstr "Datenschutz"
 
-#: legal.php:36
+#: legal.php:37
 msgid "You can find our <a>privacy policy here</a>. "
 msgstr "Du findest unsere <a>Datenschutzbestimmungen hier</a>. "
 
-#: legal.php:37
+#: legal.php:38
 msgid ""
 "There are detailed information about cookies, our newsletter and the storage "
 "of personal data."
@@ -866,27 +821,27 @@ msgstr ""
 "Dort sind unter anderem weitere Informationen zu Cookies, Newsletter und der "
 "Speicherung deiner persönlichen Daten."
 
-#: legal.php:39
+#: legal.php:40
 msgid "Acknowledgements"
 msgstr "Nachweise"
 
-#: legal.php:40
+#: legal.php:41
 msgid "Picture on our Error 404 Page: "
 msgstr "Bild auf der Error-404-Seite: "
 
-#: legal.php:41
+#: legal.php:42
 msgid "\"<a>Blue heeler pup</a>\" by Dana Sibera, "
 msgstr "„<a>Blue heeler pup</a>“ von Dana Sibera, "
 
-#: legal.php:41
+#: legal.php:42
 msgid "On Flickr"
 msgstr "Auf Flickr"
 
-#: legal.php:42
+#: legal.php:43
 msgid "licensed under <a>Creative Commons BY 2.0</a>."
 msgstr "unter der <a>Creative Commons BY 2.0</a> Lizenz."
 
-#: legal.php:42
+#: legal.php:43
 msgid "https://creativecommons.org/licenses/by/2.0/"
 msgstr "https://creativecommons.org/licenses/by/2.0/deed.de"
 
@@ -957,7 +912,7 @@ msgstr "Deine IP-Adresse wurde wegen Spamming blockiert."
 msgid "We can help you to see the requested email address:"
 msgstr "Wir können dir helfen, die gewünschte E-Mail Adresse zu sehen:"
 
-#: mail-frame.php:151 mail-frame.php:203 mail.php:112 mail.php:170
+#: mail-frame.php:151 mail-frame.php:203 mail.php:112 mail.php:173
 msgid ""
 "We will try to fix this problem and tell you the email address you wanted to "
 "see."
@@ -965,11 +920,11 @@ msgstr ""
 "Wir geben dir dann die E-Mail Adresse, die du eigentlich wolltest und "
 "beheben dieses Problem. "
 
-#: mail-frame.php:188 mail.php:153
+#: mail-frame.php:188 mail.php:156
 msgid "Here is the Email Address you wanted to see:"
 msgstr "Hier ist die E-Mail-Adresse, die du sehen wolltest:"
 
-#: mail-frame.php:195 mail.php:160
+#: mail-frame.php:195 mail.php:163
 msgid ""
 "This link was invalid. You - or the person who gave you this link - probably "
 "made a typo. "
@@ -977,7 +932,7 @@ msgstr ""
 "Dieser Link war ungültig. Du - oder die Person, von der du den Link hast - "
 "hat vermutlich einen Tippfehler gemacht. "
 
-#: mail-frame.php:196 mail.php:161
+#: mail-frame.php:196 mail.php:164
 msgid ""
 "We would love to help you with this problem but we can't. We also don't know "
 "the correct link. "
@@ -993,7 +948,7 @@ msgstr "E-Mail Adresse"
 msgid "Please solve the captcha below to see the email address:"
 msgstr "Bitte löse das Captcha unten um die E-Mail Adresse zu sehen:"
 
-#: mail.php:111 mail.php:169
+#: mail.php:111 mail.php:172
 msgid "You can also <a>use our contact form</a>. "
 msgstr "Du kannst auch <a>unser Kontaktformular</a> benutzen. "
 
@@ -1026,63 +981,9 @@ msgstr ""
 "oder warten, bis du eine neue IP-Adresse von deinem Provider erhältst (in "
 "der Regel automatisch in ein paar Stunden)."
 
-#: mail.php:162
+#: mail.php:165
 msgid "You can <a>contact me</a> if you have questions."
 msgstr "<a>Schreibe mir</a>, wenn du Fragen hast."
-
-#: newsletter.php:4
-msgid "Subscribe to our newsletter"
-msgstr "Abonniere unseren Newsletter"
-
-#: newsletter.php:5
-msgid ""
-"We will inform you regularly about all news from Spamty with our free email "
-"newsletter."
-msgstr ""
-"Wir informieren dich regelmäßig über alle Neuigkeiten von Spamty mit unserem "
-"Newsletter."
-
-#: newsletter.php:13
-msgid "Stay informed <small>with our newsletter</small>"
-msgstr "Bleibe informiert <small>mit unserem Newsletter</small>"
-
-#: newsletter.php:14
-msgid "We will inform you regularly about all news from <a>our blog</a>. "
-msgstr ""
-"Wir informieren dich regelmäßig über alle Neuigkeiten aus <a>dem Blog</a>. "
-
-#: newsletter.php:28
-msgid "Email Address "
-msgstr "E-Mail-Adresse "
-
-#: newsletter.php:32
-msgid "Language "
-msgstr "Sprache "
-
-#: newsletter.php:41
-msgid "All fields are required. "
-msgstr "Alle Felder müssen ausgefüllt werden. "
-
-#: newsletter.php:42
-msgid ""
-"The newsletter is powered by <a>Mailchimp</a>. By signing up you agree that "
-"we pass your data to Mailchimp. "
-msgstr ""
-"Der Newsletter wird von <a>Mailchimp</a> betrieben. Durch deine Anmeldung "
-"erklärst du, dass wir deine Daten an Mailchimp übergeben dürfen. "
-
-#: newsletter.php:42
-msgid "Mailchimp Website"
-msgstr "Mailchimp Website"
-
-#: newsletter.php:43
-msgid "Please read our <a>privacy policy</a> more more infotmation. "
-msgstr ""
-"Bitte lies unsere <a>Datenschutzerklärung</a> für weitere Informationen. "
-
-#: newsletter.php:49
-msgid "Subscribe"
-msgstr "Abonnieren"
 
 #: premium.php:4
 msgid "Premium Service"
@@ -1381,10 +1282,6 @@ msgid ""
 "You can contact me if you have any questions according the data protection:"
 msgstr "Bei Fragen zum Datenschutz kannst du mich jederzeit kontaktieren:"
 
-#: privacy.php:59
-msgid "More contact options"
-msgstr "Weitere Kontaktmöglichkeiten"
-
 #: why.php:4
 msgid "Why should I use this service?"
 msgstr "Warum sollte ich diesen Service nutzen?"
@@ -1452,6 +1349,120 @@ msgstr ""
 #: why.php:26
 msgid "Protected against spam"
 msgstr "Gegen Spam geschützt"
+
+#~ msgid "Spamty was created in 2014 by Philipp. You can find me here: "
+#~ msgstr ""
+#~ "Spamty wurde im Jahr 2014 von Philipp erstellt. Du findest mich hier: "
+
+#~ msgid "Feel free to contact me via this form."
+#~ msgstr "Du kannst mich gerne jederzeit über das Formular kontaktieren."
+
+#~ msgid "You can also:"
+#~ msgstr "Du kannst uns auch:"
+
+#~ msgid "Send us an email"
+#~ msgstr "Eine E-Mail schicken"
+
+#~ msgid "WhatsApp:"
+#~ msgstr "WhatsApp:"
+
+#~ msgid "Fax:"
+#~ msgstr "Fax:"
+
+#~ msgid "Go to my email address"
+#~ msgstr "Zu meiner E-Mail Adresse"
+
+#~ msgid "Contact Form"
+#~ msgstr "Kontaktformular"
+
+#~ msgid "Please fill out all fields. "
+#~ msgstr "Bitte fülle alle Felder aus. "
+
+#~ msgid "Your email was successfully sent. Thanks."
+#~ msgstr "Deine E-Mail wurde erfolgreich verschickt. Danke."
+
+#~ msgid "We speak: "
+#~ msgstr "Wir sprechen: "
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Your name"
+#~ msgstr "Dein Name"
+
+#~ msgid "You could enter anonym@example.com to stay anonymous."
+#~ msgstr "Du kannst anonym@example.com eingeben, um anonym zu bleiben."
+
+#~ msgid "Subject"
+#~ msgstr "Betreff"
+
+#~ msgid "Message"
+#~ msgstr "Nachricht"
+
+#~ msgid "SEND"
+#~ msgstr "SENDEN"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Contact us"
+#~ msgstr "Kontaktiere uns"
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "My Email Address"
+#~ msgstr "Meine E-Mail-Adresse"
+
+#~ msgid "Contact form"
+#~ msgstr "Kontaktformular"
+
+#~ msgid "Subscribe to our newsletter"
+#~ msgstr "Abonniere unseren Newsletter"
+
+#~ msgid ""
+#~ "We will inform you regularly about all news from Spamty with our free "
+#~ "email newsletter."
+#~ msgstr ""
+#~ "Wir informieren dich regelmäßig über alle Neuigkeiten von Spamty mit "
+#~ "unserem Newsletter."
+
+#~ msgid "Stay informed <small>with our newsletter</small>"
+#~ msgstr "Bleibe informiert <small>mit unserem Newsletter</small>"
+
+#~ msgid "We will inform you regularly about all news from <a>our blog</a>. "
+#~ msgstr ""
+#~ "Wir informieren dich regelmäßig über alle Neuigkeiten aus <a>dem Blog</"
+#~ "a>. "
+
+#~ msgid "Email Address "
+#~ msgstr "E-Mail-Adresse "
+
+#~ msgid "Language "
+#~ msgstr "Sprache "
+
+#~ msgid "All fields are required. "
+#~ msgstr "Alle Felder müssen ausgefüllt werden. "
+
+#~ msgid ""
+#~ "The newsletter is powered by <a>Mailchimp</a>. By signing up you agree "
+#~ "that we pass your data to Mailchimp. "
+#~ msgstr ""
+#~ "Der Newsletter wird von <a>Mailchimp</a> betrieben. Durch deine Anmeldung "
+#~ "erklärst du, dass wir deine Daten an Mailchimp übergeben dürfen. "
+
+#~ msgid "Mailchimp Website"
+#~ msgstr "Mailchimp Website"
+
+#~ msgid "Please read our <a>privacy policy</a> more more infotmation. "
+#~ msgstr ""
+#~ "Bitte lies unsere <a>Datenschutzerklärung</a> für weitere Informationen. "
+
+#~ msgid "Subscribe"
+#~ msgstr "Abonnieren"
+
+#~ msgid "More contact options"
+#~ msgstr "Weitere Kontaktmöglichkeiten"
 
 #~ msgid "We only store an <a>encrypted</a> version of your Email. "
 #~ msgstr "Wir speichern deine E-Mail Adresse <a>nicht im Klartext</a>. "
