@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2018-07-06 16:28+0200\n"
-"PO-Revision-Date: 2018-07-06 16:30+0200\n"
+"POT-Creation-Date: 2018-12-01 09:50+0100\n"
+"PO-Revision-Date: 2018-12-01 09:52+0100\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: de\n"
@@ -197,7 +197,7 @@ msgstr ""
 msgid "Please read the <a>privacy policy</a>."
 msgstr "Bitte lies hierzu die <a>Datenschutzerklärung</a>."
 
-#: encryption_v4.php:31 encryption_v5.php:31 includes/ws-footer.php:7
+#: encryption_v4.php:31 encryption_v5.php:31 includes/ws-footer.php:18
 #: privacy.php:4 privacy.php:13
 msgid "Privacy Policy"
 msgstr "Datenschutzbestimmungen"
@@ -623,24 +623,28 @@ msgstr "Sprache:"
 msgid "Powered by"
 msgstr "Bereitgestellt von"
 
-#: includes/ws-footer.php:3 includes/ws-header.php:10 legal.php:16
+#: includes/ws-footer.php:11
+msgid "Ad"
+msgstr "Werbung"
+
+#: includes/ws-footer.php:14 includes/ws-header.php:10 legal.php:16
 #: privacy.php:40 privacy.php:41 privacy.php:56
 msgid "Contact"
 msgstr "Kontakt"
 
-#: includes/ws-footer.php:4
+#: includes/ws-footer.php:15
 msgid "FAQ/Help"
 msgstr "FAQ/Hilfe"
 
-#: includes/ws-footer.php:5
+#: includes/ws-footer.php:16
 msgid "Twitter"
 msgstr "Twitter"
 
-#: includes/ws-footer.php:6 legal.php:4 legal.php:13
+#: includes/ws-footer.php:17 legal.php:4 legal.php:13
 msgid "Legal Notice"
 msgstr "Impressum"
 
-#: includes/ws-footer.php:8
+#: includes/ws-footer.php:19
 msgid "Developer"
 msgstr "Entwickler"
 
