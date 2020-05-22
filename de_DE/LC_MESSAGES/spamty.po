@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
 "POT-Creation-Date: 2020-05-22 17:04+0200\n"
-"PO-Revision-Date: 2020-05-22 17:08+0200\n"
+"PO-Revision-Date: 2020-05-22 17:20+0200\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: de\n"
@@ -430,11 +430,11 @@ msgstr "Auf Wikipedia"
 
 #: website/howencryptionworks.php:21
 msgid "with a key"
-msgstr ""
+msgstr "mit einem Schlüssel"
 
 #: website/howencryptionworks.php:22
 msgid "is encrypted to this:"
-msgstr ""
+msgstr "wir zu folgendem verschlüsselt:"
 
 #: website/howencryptionworks.php:24
 msgid ""
@@ -828,7 +828,7 @@ msgstr "E-Mail anzeigen"
 
 #: website/mail-frame.php:114 website/mail.php:74
 msgid "Please do not fill out the email field. It is for spam protection only."
-msgstr "Bitte fülle nicht das Feld „email“ aus. Es dient nur als Spam-Schutz. "
+msgstr "Bitte fülle nicht das Feld „email“ aus. Es dient nur als Spam-Schutz."
 
 #: website/mail-frame.php:115 website/mail-frame.php:125
 #: website/mail-frame.php:138 website/mail.php:75 website/mail.php:85
@@ -876,7 +876,7 @@ msgid ""
 "see."
 msgstr ""
 "Wir geben dir dann die E-Mail Adresse, die du eigentlich wolltest und "
-"beheben dieses Problem. "
+"beheben dieses Problem."
 
 #: website/mail.php:4 website/mail.php:33
 msgid "Email Address"
@@ -936,15 +936,15 @@ msgstr "Werbefrei"
 
 #: website/premium.php:49
 msgid "Upload your Logo"
-msgstr ""
+msgstr "Eigenes Logo"
 
 #: website/premium.php:54
 msgid "Payment"
-msgstr ""
+msgstr "Bezahlung"
 
 #: website/premium.php:56
 msgid "PayPal or Bitcoin"
-msgstr ""
+msgstr "PayPal oder Bitcoin"
 
 #: website/premium.php:59
 msgid "Costs"
@@ -968,10 +968,14 @@ msgid ""
 "choose how much you are willing to pay. 1 &euro; is fine and 5 &euro; are "
 "better."
 msgstr ""
+"Der Premium-Service hilft mir die Kosten von Spamty.eu zu decken. Du kannst "
+"selbst wählen, wie viel du bezahlen möchtet. 1 &euro; ist okay und 5 &euro; "
+"sind besser."
 
 #: website/premium.php:74
 msgid "The costs for operating Spamty are currently 97 &euro; per year: "
 msgstr ""
+"Die Kosten für den Betrieb von Spamty betragen zur Zeit 97 &euro; im Jahr: "
 
 #: website/premium.php:85
 msgid "Demo"
@@ -1122,7 +1126,7 @@ msgstr "https://de.wikipedia.org/wiki/EU-US_Privacy_Shield"
 
 #: website/privacy.php:39
 msgid "How can I delete my data?"
-msgstr "Daten löschen"
+msgstr "Wie kann ich meine Daten löschen?"
 
 #: website/privacy.php:40
 msgid "Please <a>contact us</a> to deactivate the link or to delete your data."

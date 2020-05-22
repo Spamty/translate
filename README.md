@@ -15,7 +15,7 @@ Spamty is currently available in:
 |Arabic |:interrobang: |experimental (rtl) |ar |ar_AE |ar_AE.UTF-8 |
 |German |:white_check_mark: |100% |de |de_DE |de_DE.UTF-8 |
 |English |:white_check_mark: |primary |en |en_US |en_US.UTF-8 |
-|Spanish |:x: |Google translator |es |es_ES |es_ES.UTF-8 |
+|Spanish |:bangbang: |needs review |es |es_ES |es_ES.UTF-8 |
 |French |:bangbang: |needs review |fr |fr_FR |fr_FR.UTF-8 |
 |Hindi |:x: |Incomplete |hi |hi_IN |? |
 |Italian |:x: |Incomplete |it |it_IT |it_IT.UTF-8? |
