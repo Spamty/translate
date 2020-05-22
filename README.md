@@ -14,7 +14,7 @@ Spamty is currently available in:
 |---|---|---|---|---|---|
 |Arabic |:interrobang: |experimental (rtl) |ar |ar_AE |ar_AE.UTF-8 |
 |German |:white_check_mark: |100% |de |de_DE |de_DE.UTF-8 |
-|English |:white_check_mark: |100%, primary |en |en_US |en_US.UTF-8 |
+|English |:white_check_mark: |primary |en |en_US |en_US.UTF-8 |
 |Spanish |:x: |Google translator |es |es_ES |es_ES.UTF-8 |
 |French |:bangbang: |needs review |fr |fr_FR |fr_FR.UTF-8 |
 |Hindi |:x: |Incomplete |hi |hi_IN |? |
@@ -24,8 +24,8 @@ Spamty is currently available in:
 |Russian |:x: |Incomplete |ru |ru_RU |? |
 |Turkish |:x: |Incomplete |tr |tr_TR |? |
 |Chinese |:x: |Incomplete |zh |zh_CN |zh_CN.UTF-8 |
-|Upside down English |:heavy_minus_sign: | |up |en_NG |en_NG.UTF-8 |
-|Emoji English |:heavy_minus_sign: | |ej |en_IN |en_IN.UTF-8 |
+|Upside down English |:x: |Incomplete |up |en_NG |en_NG.UTF-8 |
+|Emoji English |:x: |Incomplete |ej |en_IN |en_IN.UTF-8 |
 
 
 For URLs we prefer to use *ISO 639-1 codes* <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>.
