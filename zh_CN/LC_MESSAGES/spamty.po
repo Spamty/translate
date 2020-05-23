@@ -1,614 +1,542 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2017-12-19 14:29+0100\n"
-"PO-Revision-Date: 2017-12-19 17:24+0100\n"
+"POT-Creation-Date: 2020-05-23 15:38+0200\n"
+"PO-Revision-Date: 2020-05-23 15:41+0200\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: about.php:4
+#: website/about.php:4
 msgid "About Us"
 msgstr "关于我们"
 
-#: about.php:5
+#: website/about.php:5
 msgid ""
-"With Spamty you can protect your email against Spam. It was created in 2014 "
-"by Philipp."
-msgstr "随着Spamty你可以保护你的电子邮件免受垃圾邮件。它由菲利普于2014年创建。"
+"With Spamty you can protect your email against Spam. It was created in 2014."
+msgstr "使用垃圾邮件，您可以保护您的电子邮件免受垃圾邮件。它创建于 2014 年。"
 
-#: about.php:13
+#: website/about.php:13
 msgid "About Spamty"
 msgstr "关于 Spamty"
 
-#: about.php:14
+#: website/about.php:14
 msgid ""
 "With Spamty you can share your email address on the internet without "
 "worrying about Spam."
 msgstr "通过Spamty，您可以在互联网上分享您的电子邮件地址，而无需担心垃圾邮件。"
 
-#: about.php:15
-msgid "Spamty was created in 2014 by Philipp. You can find me here: "
-msgstr "Spamty由Philipp于2014年创建。你可以在这里找到我："
+#: website/about.php:15
+msgid "Spamty was created in 2014. You can find us here: "
+msgstr "垃圾邮件创建于 2014 年。您可以在这里找到我们: "
 
-#: about.php:20
-msgid "The idea"
-msgstr "这个想法"
-
-#: about.php:21
-msgid ""
-"In Germany we are obliged to publish an email address on our website. When I "
-"did this on my blog I got very much email spam (see also <a>Why to use "
-"Spamty?</a>). That's why I created Spamty to share my email address on the "
-"internet without receiving tons of spam mails."
-msgstr ""
-"在德国，我们有义务在我们的网站上发布电子邮件地址。当我在我的博客上这样做时，"
-"我收到了非常多的垃圾邮件（另请参阅<a>为什么要使用 垃圾邮件 ?</a> ）。这就是为"
-"什么我创建Spamty在互联网上分享我的电子邮件地址，而不收到大量的垃圾邮件。"
-
-#: about.php:24
-msgid "The website in 2014"
-msgstr "2014 年网站"
-
-#: contact-dev.php:4 contact.php:4 contact.php:13
+#: website/contact.php:4 website/contact.php:13
 msgid "Contact Me"
 msgstr "与我取得联系"
 
-#: contact-dev.php:5
-msgid ""
-"You can contact the Spamty team here if you have problems with the API or "
-"any other questions."
-msgstr "如果您在API或任何其他问题上遇到问题，可以联系Spamty团队。"
-
-#: contact-dev.php:13
-msgid "Developer contact"
-msgstr "开发人员接触"
-
-#: contact-dev.php:15
-msgid ""
-"Do you have any problems with our API? Do you need help? Or do you want to "
-"request new features? "
-msgstr "你对我们的API有任何问题吗？你需要帮助吗？或者你想要求新功能？"
-
-#: contact-dev.php:16 contact.php:20
-msgid "Feel free to contact me via this form."
-msgstr "请随时通过此表格与我联系。"
-
-#: contact-dev.php:18
-msgid "You can also:"
-msgstr ""
-
-#: contact-dev.php:20
-msgid "Send us an email"
-msgstr "给我们发邮件"
-
-#: contact-dev.php:21 contact.php:15 legal.php:22
-msgid "WhatsApp:"
-msgstr ""
-
-#: contact.php:5
+#: website/contact.php:5
 msgid ""
 "Feel free to contact the Spamty team if you need help or just want to talk."
-msgstr ""
+msgstr "如果您需要帮助或只想交谈，请随时联系垃圾邮件团队。"
 
-#: contact.php:16 legal.php:23
-msgid "Fax:"
-msgstr "传真:"
+#: website/contact.php:16
+msgid "Feel free to contact me via email:"
+msgstr "请随时通过电子邮件与我联系："
 
-#: contact.php:17
-msgid "Go to my email address"
-msgstr ""
+#: website/contact.php:17
+msgid "Go to my email address on Spamty."
+msgstr "转到我在垃圾邮件上的电子邮件地址。"
 
-#: contact.php:19
-msgid "Contact Form"
-msgstr "联系方式"
+#: website/contact.php:19
+msgid "GPG Key"
+msgstr "GPG 密钥"
 
-#: encryption_v1.php:4 encryption_v1.php:13 encryption_v2.php:4
-#: encryption_v2.php:13
-msgid "Encrypt your Email Address"
-msgstr "加密电子邮件地址"
+#: website/contact.php:20
+msgid "<a>Please use GPG to encrypt emails!</a>"
+msgstr "<a>请使用 GPG 加密电子邮件！</a>"
 
-#: encryption_v1.php:5
-msgid "Start here and encrypt your email address."
-msgstr ""
+#: website/contact.php:20 website/error-404.php:51 website/legal.php:23
+#: website/privacy.php:54
+msgid "https://emailselfdefense.fsf.org/en/windows.html"
+msgstr "https://emailselfdefense.fsf.org/zh-hans/windows.html"
 
-#: encryption_v1.php:18 encryption_v2.php:16 encryption_v3.php:16
-msgid "This Form is deprecated. You have to <a>use the latest one</a>."
-msgstr ""
-
-#: encryption_v1.php:24 encryption_v2.php:22 encryption_v3.php:22
-#: encryption_v4.php:26 includes/form.php:49 includes/ws-header.php:73
-msgid "Email"
-msgstr "电子信箱"
-
-#: encryption_v1.php:26 encryption_v2.php:24
-msgid "Your Email Address"
-msgstr "你的电子邮件地址"
-
-#: encryption_v1.php:27 encryption_v2.php:25
-msgid "We only store an encrypted version of your Email."
-msgstr ""
-
-#: encryption_v1.php:32 encryption_v2.php:30
-msgid "ENCRYPT"
-msgstr ""
-
-#: encryption_v2.php:5
-msgid "Start here and encrypt your email address to protect it against spam."
-msgstr "从这里开始和加密您的电子邮件地址，以保护它免受垃圾邮件。"
-
-#: encryption_v3.php:4 encryption_v3.php:13 encryption_v4.php:7
-#: encryption_v4.php:16
+#: website/encryption_v5.php:7 website/encryption_v5.php:16
 msgid "Protect your Email Address"
 msgstr "保护您的电子邮件地址"
 
-#: encryption_v3.php:5
-msgid "Protect your email address for free against Spam."
-msgstr "保护您的电子邮件地址免费反垃圾邮件。"
-
-#: encryption_v3.php:24 encryption_v4.php:28 includes/form.php:51
-msgid "Your email address"
-msgstr "您的邮箱地址"
-
-#: encryption_v3.php:25
-msgid "We only store an encrypted version of your email address."
-msgstr "我们只能存储加密的版本，您的电子邮件地址。"
-
-#: encryption_v3.php:30 encryption_v4.php:39
-msgid "GET LINK"
-msgstr "获取链接"
-
-#: encryption_v4.php:8
+#: website/encryption_v5.php:8
 msgid ""
 "Create a Spamty link and protect your email address on the internet against "
 "spam."
 msgstr "创建 Spamty 的链接和保护你在互联网上对垃圾邮件的电子邮件地址。"
 
-#: encryption_v4.php:21
+#: website/encryption_v5.php:21
 msgid "<a>See how it works</a>"
 msgstr ""
 
-#: encryption_v4.php:30
-msgid "We only store an <a>encrypted</a> version of your Email. "
+#: website/encryption_v5.php:27 website/index.php:32
+msgid "Email"
+msgstr "电子信箱"
+
+#: website/encryption_v5.php:28 website/howencryptionworks.php:20
+#: website/index.php:33
+msgid "Your email address"
+msgstr "您的邮箱地址"
+
+#: website/encryption_v5.php:34 website/index.php:39
+msgid "Allow us to store your email address in cleartext."
 msgstr ""
 
-#: encryption_v4.php:31
-msgid "You accept our <a>privacy policy</a>."
+#: website/encryption_v5.php:37 website/index.php:42
+msgid ""
+"This is optional. Otherwise we store an AES-256 encrypted version of your "
+"email address in our database."
+msgstr ""
+"这是可选的。否则，我们将您的电子邮件地址的 AES-256 加密版本存储在我们的数据库"
+"中。"
+
+#: website/encryption_v5.php:45 website/index.php:50
+msgid "I accept the <a>privacy policy</a>."
 msgstr ""
 
-#: encryption_v4.php:31 includes/ws-footer.php:7 privacy.php:4 privacy.php:13
+#: website/encryption_v5.php:45 website/includes/ws-footer-premium.php:6
+#: website/includes/ws-footer.php:32 website/index.php:50 website/privacy.php:4
+#: website/privacy.php:13
 msgid "Privacy Policy"
 msgstr "隐私政策"
 
-#: encryption_v4.php:50
+#: website/encryption_v5.php:52 website/index.php:57
+#, fuzzy
+#| msgid "Share the Link "
+msgid "Create Link"
+msgstr "共享链接"
+
+#: website/encryption_v5.php:66 website/index.php:69
 msgid ""
 "Please do not fill out the \"Name\" field. It is only for spam protection. "
-msgstr "请不要不填写“名称“字段。它只是垃圾邮件保护。"
+msgstr "请不要不填写“名称“字段。它只是垃圾邮件保护."
 
-#: encryption_v4.php:51 encryption_v4.php:61
+#: website/encryption_v5.php:67 website/encryption_v5.php:77
+#: website/index.php:70 website/index.php:80
 msgid "<a>Reload the Form</a> and try again."
 msgstr ""
 
-#: encryption_v4.php:53 encryption_v4.php:63 mail.php:77 mail.php:87
-#: mail.php:100
+#: website/encryption_v5.php:69 website/encryption_v5.php:79
+#: website/index.php:72 website/index.php:82 website/mail.php:77
+#: website/mail.php:87 website/mail.php:100
 msgid "<a>Contact me</a> if you need help."
 msgstr ""
 
-#: encryption_v4.php:60 includes/form-tab.php:14 includes/form.php:10
+#: website/encryption_v5.php:76 website/index.php:79
 msgid "This was no valid email address. "
-msgstr "这是没有有效的电子邮件地址。"
+msgstr "这是没有有效的电子邮件地址."
 
-#: encryption_v4.php:74 mail-frame.php:194 mail-frame.php:201 mail.php:159
-#: mail.php:167
+#: website/encryption_v5.php:90 website/index.php:93 website/mail-frame.php:178
+#: website/mail-frame.php:185 website/mail.php:141 website/mail.php:149
 msgid "Sorry, we had technical problems."
 msgstr "对不起，我们已遇到技术问题。"
 
-#: encryption_v4.php:75 mail-frame.php:150 mail-frame.php:202 mail.php:110
-#: mail.php:168
+#: website/encryption_v5.php:91 website/index.php:94 website/mail-frame.php:186
+#: website/mail.php:150
 msgid ""
 "Please send an email to contact@spamty.eu with the following error code. "
-msgstr "请发送电子邮件到 contact@spamty.eu 与下面的错误代码。"
+msgstr "请发送电子邮件到 contact@spamty.eu 与下面的错误代码."
 
-#: encryption_v4.php:76
+#: website/encryption_v5.php:92 website/index.php:95
 msgid ""
 "We will try to fix this problem and we can also create a new Spamty link for "
 "you manually."
 msgstr "我们将会尝试修复此问题，我们手动也可以为你创建一个新的 Spamty 链接。"
 
-#: encryption_v4.php:112
+#: website/encryption_v5.php:131 website/index.php:132
 msgid "Your Spamty link"
 msgstr ""
 
-#: encryption_v4.php:113
+#: website/encryption_v5.php:132 website/index.php:133
 msgid "This is the link where your email address can be found:"
-msgstr "这是链接可以找到您的电子邮件地址 ︰"
+msgstr "这是链接可以找到您的电子邮件地址 :"
 
-#: encryption_v4.php:116
+#: website/encryption_v5.php:135
 msgid "What's next?"
 msgstr "下一步是什么？"
 
-#: encryption_v4.php:119
+#: website/encryption_v5.php:138
 msgid "Pay what you want"
 msgstr ""
 
-#: encryption_v4.php:122
+#: website/encryption_v5.php:141
 msgid ""
 "You can support us with a Bitcoin (BTC) donation if you like our website: "
 msgstr ""
 
-#: encryption_v4.php:123 faq.php:37
-msgid "Or use any other crypto currency. Like Bitcoin Cash (BCH): "
-msgstr ""
-
-#: encryption_v4.php:124 faq.php:38
-msgid "Or Litecoin (LTC): "
-msgstr ""
-
-#: encryption_v4.php:125 faq.php:39
-msgid "Dogecoin (DOGE): "
-msgstr ""
-
-#: encryption_v4.php:126 faq.php:40
-msgid "Or Ethereum: "
-msgstr ""
-
-#: encryption_v4.php:132
-msgid "Too long?"
-msgstr ""
-
-#: encryption_v4.php:135
-msgid "You can <a>shorten this URL</a>."
-msgstr ""
-
-#: encryption_v4.php:140
+#: website/encryption_v5.php:146
 msgid "Share the link"
 msgstr "共享链接"
 
-#: encryption_v4.php:143
+#: website/encryption_v5.php:149 website/index.php:164
 msgid "You can share this link now on the internet."
 msgstr "您可以共享此链接现在在互联网上。"
 
-#: encryption_v4.php:144
-msgid "Share the Link "
-msgstr "共享链接"
+#: website/encryption_v5.php:150 website/index.php:165
+msgid "Too long?"
+msgstr ""
 
-#: encryption_v4.php:146
+#: website/encryption_v5.php:150 website/index.php:165
+msgid "You can <a>shorten this URL</a>."
+msgstr ""
+
+#: website/encryption_v5.php:151
+msgid "Share the Link "
+msgstr "共享链接 "
+
+#: website/encryption_v5.php:152 website/index.php:167
 msgid "Share on Facebook"
 msgstr "分享至 Facebook"
 
-#: encryption_v4.php:147
+#: website/encryption_v5.php:153 website/index.php:168
 msgid "Protected against #Spam. My email address: "
 msgstr ""
 
-#: encryption_v4.php:147
+#: website/encryption_v5.php:153 website/index.php:168
 msgid "Share on Twitter"
 msgstr "分享至Twitter"
 
-#: encryption_v4.php:148
+#: website/encryption_v5.php:154 website/index.php:169
 msgid "Link to my Email Address"
 msgstr ""
 
-#: encryption_v4.php:148
+#: website/encryption_v5.php:154 website/index.php:169
 msgid "You can find my email address here: "
 msgstr ""
 
-#: encryption_v4.php:148
+#: website/encryption_v5.php:154 website/index.php:169
 msgid "Share via email"
 msgstr ""
 
-#: error-404.php:4
+#: website/error-404.php:4
 msgid "Page not found"
 msgstr "找不到您需要的页面"
 
-#: error-404.php:13
+#: website/error-404.php:13
 msgid "We couldn't find the Page you were looking for."
 msgstr ""
 
-#: error-404.php:15
-msgid "You can now take a nap."
-msgstr ""
-
-#: error-404.php:18
+#: website/error-404.php:15
 msgid "And now?"
 msgstr ""
 
-#: error-404.php:19
-msgid "If you've finished you can continue to our <a>Homepage</a> "
-msgstr ""
+#: website/error-404.php:16
+msgid ""
+"IYou can continue to our <a>Homepage</a> or search the Web for the Page you "
+"are looking for."
+msgstr "您可以继续访问我们的<a>主页</a>或搜索您要查找的主页。"
 
-#: error-404.php:20
-msgid "or search the Web for the Page you are looking for."
-msgstr ""
-
-#: error-404.php:23
+#: website/error-404.php:19
 msgid "Enter the name of the page you want to find:"
 msgstr ""
 
-#: error-404.php:49
+#: website/error-404.php:45
 msgid "Search"
 msgstr ""
 
-#: error-404.php:52 premium.php:71
+#: website/error-404.php:48
 msgid "Contact me"
 msgstr "联系我"
 
-#: error-404.php:53
+#: website/error-404.php:49
 msgid "You can report this error here so we can try to fix it. "
-msgstr "您可以报告此错误在这里，所以我们可以尝试修复它。"
+msgstr "您可以报告此错误在这里，所以我们可以尝试修复它. "
 
-#: faq.php:4
+#: website/error-404.php:50 website/legal.php:22 website/privacy.php:53
+msgid "<a>Please use my GPG key to encrypt emails!</a>"
+msgstr ""
+
+#: website/error-404.php:51 website/legal.php:23 website/privacy.php:54
+msgid "(<a>GPG Tutorial</a>)"
+msgstr ""
+
+#: website/faq.php:4
 msgid "Frequently Asked Questions"
 msgstr "Häufige Fragen"
 
-#: faq.php:5
+#: website/faq.php:5
 msgid ""
 "How Spamty works, how you can protect your email against spam and more "
 "frequently asked questions."
 msgstr "Spamty 如何，如何，您可以保护您免受垃圾邮件和更常问的问题的电子邮件。"
 
-#: faq.php:13
+#: website/faq.php:13
 msgid "Frequently Asked Questions <small>and the answers</small>"
 msgstr "经常问的问题 <small>和答案</small>"
 
-#: faq.php:15 faq.php:45
+#: website/faq.php:15 website/faq.php:51 website/howencryptionworks.php:30
+#: website/howitworks.php:45
 msgid "Feel free to <a>contact me</a> if you have any other questions."
 msgstr ""
 
-#: faq.php:18
+#: website/faq.php:18
 msgid "How does Spamty work?"
-msgstr ""
+msgstr "垃圾邮件是如何工作的？"
 
-#: faq.php:20
+#: website/faq.php:20
 msgid ""
 "We will give you a link. If someone clicks on it he has to solve a captcha "
 "before he can see your email address. We check if he is a human so you won't "
 "get spam by robots. "
 msgstr ""
+"我们将为您提供一个链接。如果有人点击它，他必须解决一个卡普查之前，他可以看到"
+"你的电子邮件地址。我们检查他是否是人类，这样你就不会收到机器人的垃圾邮件。"
 
-#: faq.php:21
+#: website/faq.php:21
 msgid "You should also have a look at <a>our tutorial</a>."
-msgstr ""
+msgstr "你也应该看看我们<a>的教程</a>。"
 
-#: faq.php:24
+#: website/faq.php:24
 msgid "The decryption URL is very long. Is it possible to get a shorter one?"
-msgstr ""
+msgstr "解密 URL 很长。有可能得到一个较短的？"
 
-#: faq.php:26
+#: website/faq.php:26
 msgid "The URL is very long because we need it for the en- and decryption."
-msgstr ""
+msgstr "URL 很长，因为我们需要它进行 en 和解密。"
 
-#: faq.php:27
+#: website/faq.php:27
 msgid "You can use <a>an URL Shortener</a> to get a shorter one."
-msgstr ""
+msgstr "您可以使用<a>URL 缩短器</a>获取较短的 URL。"
 
-#: faq.php:31
+#: website/faq.php:31
 msgid "How do you finance this project?"
-msgstr ""
+msgstr "您如何资助这个项目？"
 
-#: faq.php:33
+#: website/faq.php:33
 msgid "We don't have any ads on Spamty.eu and we would never sell your data. "
 msgstr ""
 
-#: faq.php:34
+#: website/faq.php:34
 msgid "To help financing this project you can donate some Bitcoins:"
 msgstr ""
 
-#: faq.php:43
+#: website/faq.php:40
+msgid "This are our yearly costs:"
+msgstr ""
+
+#: website/faq.php:42
+msgid "Server 1 = 30 EUR"
+msgstr ""
+
+#: website/faq.php:43
+msgid "spamty.eu Domain = 12 EUR"
+msgstr ""
+
+#: website/faq.php:44
+msgid "spamty.de Domain = 1 EUR"
+msgstr ""
+
+#: website/faq.php:45
+msgid "Backups = 24 EUR"
+msgstr ""
+
+#: website/faq.php:49 website/howencryptionworks.php:28
+#: website/howitworks.php:43
 msgid "I have more questions!"
 msgstr ""
 
-#: howencryptionworks.php:4
+#: website/howencryptionworks.php:4
 msgid "How Spamty encrypts data"
 msgstr ""
 
-#: howencryptionworks.php:5
+#: website/howencryptionworks.php:5
 msgid ""
 "We try to protect your email address as best as possible. That's why we "
 "encrypt your email address for the best security."
 msgstr ""
 
-#: howencryptionworks.php:13
+#: website/howencryptionworks.php:13
 msgid "How encryption works"
 msgstr ""
 
-#: howencryptionworks.php:14
+#: website/howencryptionworks.php:14
 msgid ""
 "We try to protect your email address as best as possible. That's why we "
 "store only an encrypted version of your email address in our database."
 msgstr ""
 
-#: howencryptionworks.php:16
+#: website/howencryptionworks.php:16
 msgid ""
 "When you enter your email address in the form to generate your link we "
 "encrypt your email to store it in our database. "
 msgstr ""
 
-#: howencryptionworks.php:17
+#: website/howencryptionworks.php:17
 msgid "The encryption key is randomly generated and equals your Spamty link. "
 msgstr ""
 
-#: howencryptionworks.php:18 privacy.php:23
+#: website/howencryptionworks.php:18 website/privacy.php:25
 msgid ""
 "We encrypt the address with the <a>AES-256 algorithm</a> which is also used "
 "in the US to encrypt \"Top Secret\" documents."
 msgstr ""
 
-#: howencryptionworks.php:18 privacy.php:23
+#: website/howencryptionworks.php:18 website/privacy.php:25
 msgid "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
 msgstr ""
 
-#: howencryptionworks.php:18 privacy.php:23 privacy.php:43
+#: website/howencryptionworks.php:18 website/privacy.php:25
 msgid "On Wikipedia"
 msgstr ""
 
-#: howencryptionworks.php:21
+#: website/howencryptionworks.php:21
+msgid "with a key"
+msgstr ""
+
+#: website/howencryptionworks.php:22
+msgid "is encrypted to this:"
+msgstr ""
+
+#: website/howencryptionworks.php:24
 msgid ""
 "By using this encryption method we ensure that no one has access to your "
 "email address if he didn't got the link from you. "
 msgstr ""
 
-#: howencryptionworks.php:22
+#: website/howencryptionworks.php:25
 msgid ""
 "Even if someone hacks our database (we hope this will never happen) he "
-"cannot send you spam because he would not be able to decrypt your email "
-"address."
+"cannot get your email address because he would not be able to decrypt the "
+"database."
 msgstr ""
 
-#: howencryptionworks.php:25
-msgid ""
-"The key in your Spamty link makes it very long. To share it we recommend you "
-"to use <a>an URL shortener</a>."
-msgstr ""
-
-#: howitworks.php:4 howitworks.php:13
+#: website/howitworks.php:4 website/howitworks.php:13
 msgid "How Spamty works"
 msgstr ""
 
-#: howitworks.php:5
+#: website/howitworks.php:5
 msgid ""
 "You'll get a link you can share. If someone clicks on it we check if he is "
 "human before he can see your email address."
 msgstr ""
 
-#: howitworks.php:14
+#: website/howitworks.php:14
 msgid ""
 "You can use Spamty if you want to share your email address on the internet "
 "(e.g. on Twitter, Craigslist, ...) without getting tons of spam. "
 msgstr ""
 
-#: howitworks.php:15
+#: website/howitworks.php:15
 msgid ""
 "You'll get a link to share it on the web. If someone visits this link he has "
 "to solve a captcha before we decrypt your email address of our database and "
 "display it on the website."
 msgstr ""
 
-#: howitworks.php:18
+#: website/howitworks.php:18
 msgid "Enter your email address in the form to generate your link."
 msgstr ""
 
-#: howitworks.php:19
+#: website/howitworks.php:19
 msgid "Encrypt the Email Address"
 msgstr ""
 
-#: howitworks.php:23
+#: website/howitworks.php:23
 msgid "You'll get a link to share on the web."
 msgstr ""
 
-#: howitworks.php:24
+#: website/howitworks.php:24
 msgid "Create a link to your address"
 msgstr ""
 
-#: howitworks.php:28
+#: website/howitworks.php:28
 msgid ""
 "The Spamty link is very long because it is used to encrypt your email "
 "address in our database for maximum security. "
 msgstr ""
 
-#: howitworks.php:29
+#: website/howitworks.php:29
 msgid "Read <a>how we encrypt data</a>."
 msgstr ""
 
-#: howitworks.php:33
+#: website/howitworks.php:33
 msgid ""
 "Share the link for example on your blog, on Twitter or anywhere you want."
 msgstr ""
 
-#: howitworks.php:34
+#: website/howitworks.php:34
 msgid "Share the link online"
 msgstr "共享链接在线"
 
-#: howitworks.php:38
+#: website/howitworks.php:38
 msgid ""
 "Someone who clicks on the link has to solve a captcha before he sees your "
 "email address. "
-msgstr "点击链接的人不得不解决一个验证码之前他会看到您的电子邮件地址。"
+msgstr "点击链接的人不得不解决一个验证码之前他会看到您的电子邮件地址. "
 
-#: howitworks.php:39
+#: website/howitworks.php:39
 msgid "<a>Try it yourself</a>."
 msgstr "<a>自己试试</a>。"
 
-#: howitworks.php:40
+#: website/howitworks.php:40
 msgid "Display the email address"
 msgstr "显示的电子邮件地址"
 
-#: includes/form-tab.php:10 includes/form.php:6
-msgid "Please fill out all fields. "
-msgstr "請填寫所有欄位"
-
-#: includes/form-tab.php:40 includes/form.php:25
-msgid "Your email was successfully sent. Thanks."
-msgstr "您的邮件已成功发送."
-
-#: includes/form.php:34 includes/ws-header.php:61
-msgid "We speak: "
-msgstr "我们所说:"
-
-#: includes/form.php:42 includes/ws-header.php:67
-msgid "Name"
-msgstr "氏名"
-
-#: includes/form.php:44
-msgid "Your name"
-msgstr "您的名字"
-
-#: includes/form.php:53
-msgid "You could enter anonym@example.com to stay anonymous."
-msgstr ""
-
-#: includes/form.php:59 includes/form.php:61 includes/ws-header.php:79
-msgid "Subject"
-msgstr "邮件主题"
-
-#: includes/form.php:66 includes/ws-header.php:85
-msgid "Message"
-msgstr "通知"
-
-#: includes/form.php:75 includes/ws-header.php:95
-msgid "SEND"
-msgstr "发送"
-
-#: includes/ws-foot.php:1
+#: website/includes/ws-foot.php:1
 msgid "Language:"
 msgstr "语言:"
 
-#: includes/ws-footer-premium.php:2
+#: website/includes/ws-footer-premium.php:4
 msgid "Powered by"
 msgstr "技术提供"
 
-#: includes/ws-footer.php:3 newsletter.php:14
-msgid "Blog"
-msgstr "博客 "
-
-#: includes/ws-footer.php:4 includes/ws-header.php:10 legal.php:16
-#: privacy.php:31 privacy.php:45
-msgid "Contact"
-msgstr "联络"
-
-#: includes/ws-footer.php:5
-msgid "FAQ/Help"
-msgstr "常见问题/帮助"
-
-#: includes/ws-footer.php:6 legal.php:4 legal.php:13
+#: website/includes/ws-footer-premium.php:5 website/includes/ws-footer.php:31
+#: website/legal.php:4 website/legal.php:13
 msgid "Legal Notice"
 msgstr "法律声明"
 
-#: includes/ws-footer.php:8
-msgid "Developer"
-msgstr "开发人员"
+#: website/includes/ws-footer.php:22
+msgid "Ad"
+msgstr ""
 
-#: includes/ws-head.php:97
+#: website/includes/ws-footer.php:28 website/includes/ws-header.php:14
+#: website/legal.php:16 website/privacy.php:33 website/privacy.php:49
+msgid "Contact"
+msgstr "联络"
+
+#: website/includes/ws-footer.php:29
+msgid "FAQ/Help"
+msgstr "常见问题/帮助"
+
+#: website/includes/ws-footer.php:30
+#, fuzzy
+#| msgid "Share on Twitter"
+msgid "Twitter"
+msgstr "分享至Twitter"
+
+#: website/includes/ws-footer.php:33
+msgid "API Documentation"
+msgstr ""
+
+#: website/includes/ws-footer.php:34
+msgid "Status Page"
+msgstr ""
+
+#: website/includes/ws-footer.php:35
+msgid "Bitbucket"
+msgstr ""
+
+#: website/includes/ws-footer.php:36
+msgid "Help to translate"
+msgstr ""
+
+#: website/includes/ws-head.php:121
 msgid "Protect your Email Address against Spam"
 msgstr "保护你抗击垃圾邮件的电子邮件地址"
 
-#: includes/ws-head.php:108 index.php:5
+#: website/includes/ws-head.php:132 website/index.php:8
 msgid ""
 "Tired of spam? Spamty helps you to protect your email address on the web by "
 "asking people to solve a captcha before they see it."
@@ -616,38 +544,30 @@ msgstr ""
 "厌倦了垃圾邮件？Spamty 可以帮助您保护您的电子邮件地址在网络上通过询问人们解决"
 "一个验证码，在他们看到它之前。"
 
-#: includes/ws-header.php:8
-msgid "Home"
-msgstr "网站首页"
+#: website/includes/ws-header.php:12
+msgid "Start"
+msgstr ""
 
-#: includes/ws-header.php:9
-msgid "Encryption"
-msgstr "加密"
+#: website/includes/ws-header.php:13
+msgid "Premium"
+msgstr ""
 
-#: includes/ws-header.php:46 includes/ws-header.php:55
-msgid "Contact us"
-msgstr "与我联系"
-
-#: includes/ws-header.php:94
-msgid "Close"
-msgstr "完型"
-
-#: index.php:4
+#: website/index.php:7
 msgid "Protect your email address"
 msgstr "保护您的电子邮件地址"
 
-#: index.php:14
+#: website/index.php:17
 msgid "Protect your Email"
 msgstr "保护您的电子邮件"
 
-#: index.php:15
+#: website/index.php:18
 msgid ""
 "Tired of Spam? With Spamty you can protect your email address to share it on "
 "the web."
 msgstr ""
 "厌倦了垃圾邮件？使用 Spamty，您可以保护您的电子邮件地址，在网络上分享。"
 
-#: index.php:16
+#: website/index.php:19
 msgid ""
 "Enter your email address below and we will encrypt it and give you a link. "
 "If somebody opens the link he has to solve a captcha and then he is able to "
@@ -656,543 +576,672 @@ msgstr ""
 "输入您的电子邮件地址，我们将对它进行加密，并给你一个链接。如果有人打开链接便"
 "要解决一个验证码，然后他才能够看到您的电子邮件地址。"
 
-#: index.php:17 premium.php:70
-msgid "Start using Spamty"
+#: website/index.php:19
+msgid "<a>Learn more!</a>"
 msgstr ""
 
-#: legal.php:5
+#: website/index.php:140 website/premium.php:74
+msgid "Support Spamty by a Donation"
+msgstr ""
+
+#: website/index.php:143
+msgid ""
+"You can support us with a donation via PayPal and upgrade to <a>premium</a>. "
+"Just follow these steps:"
+msgstr ""
+
+#: website/index.php:145 website/premium.php:80
+msgid ""
+"Send your donation via PayPal. Choose any amount with a minimum of 1 euro or "
+"equivalent."
+msgstr ""
+
+#: website/index.php:153
+msgid ""
+"Reply to the email we just sent you to claim an upgrade to a premium "
+"account. If you did not get an email from us please write to contact@spamty."
+"eu. Make sure to include your Spamty link that you just created."
+msgstr ""
+
+#: website/index.php:161
+#, fuzzy
+#| msgid "Share the link"
+msgid "Share your link"
+msgstr "共享链接"
+
+#: website/index.php:166
+#, fuzzy
+#| msgid "Share the link"
+msgid "Share the link "
+msgstr "共享链接"
+
+#: website/lang.php:4 website/lang.php:13
+#, fuzzy
+#| msgid "Language:"
+msgid "Languages"
+msgstr "语言:"
+
+#: website/lang.php:5
+msgid ""
+"Our website is available in many different languages. Please help "
+"translating it."
+msgstr ""
+
+#: website/lang.php:16
+msgid "Spamty is available in these languages:"
+msgstr ""
+
+#: website/lang.php:23
+msgid "The following translations are incomplete or in 'beta' mode:"
+msgstr ""
+
+#: website/lang.php:55
+msgid "We need help!"
+msgstr ""
+
+#: website/lang.php:57
+msgid ""
+"Please help us to translate the website in more languages or to improve "
+"existing translations <a>on Bitbucket</a>."
+msgstr ""
+
+#: website/legal.php:5
 msgid ""
 "Here are all legal information about Spamty including contact information "
 "according to German law."
 msgstr ""
 
-#: legal.php:14
+#: website/legal.php:14
 msgid ""
 "This is the legal notice according to &sect; 5 TMG (German teleservices act) "
 "for the following websites:"
 msgstr ""
 
-#: legal.php:18
+#: website/legal.php:18
 msgid "This Website is provided by:"
 msgstr ""
 
-#: legal.php:20
-msgid "My Email Address"
+#: website/legal.php:21 website/privacy.php:52
+msgid "You can contact me via email:"
 msgstr ""
 
-#: legal.php:21
-msgid "Contact form"
-msgstr ""
-
-#: legal.php:25
+#: website/legal.php:26
 msgid "Not Commercial"
 msgstr ""
 
-#: legal.php:26
+#: website/legal.php:27
 msgid ""
 "This webservice is provided without a gainful intension. Spamty is "
 "completely ad-free."
 msgstr ""
 
-#: legal.php:28
+#: website/legal.php:29
 msgid "Disclaimer"
 msgstr ""
 
-#: legal.php:29
+#: website/legal.php:30
 msgid ""
 "We assume no liability for the correctness and the up-to-dateness of the "
 "content of this website. "
 msgstr ""
 
-#: legal.php:30
+#: website/legal.php:31
 msgid "We are not obliged to check external pages for their lawfulness. "
 msgstr ""
 
-#: legal.php:31
+#: website/legal.php:32
 msgid ""
 "We are not liable for the content of linked websites but we will immediately "
 "remove links to external pages containing unlawful content if we notice."
 msgstr ""
 
-#: legal.php:32
+#: website/legal.php:33
 msgid ""
 "The users are liable for everything they do and the content they publish on "
 "this website. "
 msgstr ""
 
-#: legal.php:33
+#: website/legal.php:34
 msgid ""
 "According to &sect;&sect; 7 to 10 TMG we are not liable for their content."
 msgstr ""
 
-#: legal.php:35
+#: website/legal.php:36
 msgid "Data Protection"
 msgstr ""
 
-#: legal.php:36
+#: website/legal.php:37
 msgid "You can find our <a>privacy policy here</a>. "
 msgstr ""
 
-#: legal.php:37
+#: website/legal.php:38
 msgid ""
 "There are detailed information about cookies, our newsletter and the storage "
 "of personal data."
 msgstr ""
 
-#: legal.php:39
+#: website/legal.php:40
 msgid "Acknowledgements"
 msgstr ""
 
-#: legal.php:40
+#: website/legal.php:41
 msgid "Picture on our Error 404 Page: "
 msgstr ""
 
-#: legal.php:41
+#: website/legal.php:42
 msgid "\"<a>Blue heeler pup</a>\" by Dana Sibera, "
 msgstr ""
 
-#: legal.php:41
+#: website/legal.php:42
 msgid "On Flickr"
 msgstr ""
 
-#: legal.php:42
+#: website/legal.php:43
 msgid "licensed under <a>Creative Commons BY 2.0</a>."
 msgstr ""
 
-#: legal.php:42
+#: website/legal.php:43
 msgid "https://creativecommons.org/licenses/by/2.0/"
 msgstr "https://creativecommons.org/licenses/by/2.0/deed.zh"
 
-#: mail-frame.php:83 mail.php:64
+#: website/mail-frame.php:83 website/mail.php:64
 msgid ""
 "Some people use robots to search the internet for email addresses and send "
 "spam mails to them."
 msgstr ""
 
-#: mail-frame.php:83 mail.php:65
+#: website/mail-frame.php:83 website/mail.php:65
 msgid ""
 "To protect against spam you were redirected to this website. We will check "
 "if you are a human and if we can show you the email address."
 msgstr ""
 
-#: mail-frame.php:98 mail.php:49
+#: website/mail-frame.php:98 website/mail.php:49
 msgid ""
 "Enter the letters (not case sensitive) and numbers above to verify that you "
 "are no robot. "
 msgstr ""
 
-#: mail-frame.php:99 mail.php:50
+#: website/mail-frame.php:99 website/mail.php:50
 msgid "If you have problems try a <a>different image</a>."
 msgstr ""
 
-#: mail-frame.php:100 mail.php:63
+#: website/mail-frame.php:100 website/mail.php:63
 msgid "Why?"
 msgstr ""
 
-#: mail-frame.php:103 mail.php:58
+#: website/mail-frame.php:103 website/mail.php:58
 msgid "Show Email"
 msgstr ""
 
-#: mail-frame.php:114 mail.php:74
+#: website/mail-frame.php:114 website/mail.php:74
 msgid "Please do not fill out the email field. It is for spam protection only."
 msgstr ""
 
-#: mail-frame.php:115 mail-frame.php:125 mail-frame.php:138 mail.php:75
-#: mail.php:85 mail.php:98
+#: website/mail-frame.php:115 website/mail-frame.php:125
+#: website/mail-frame.php:138 website/mail.php:75 website/mail.php:85
+#: website/mail.php:98
 msgid "Go back and try again."
 msgstr ""
 
-#: mail-frame.php:117 mail-frame.php:127 mail-frame.php:140
+#: website/mail-frame.php:117 website/mail-frame.php:127
+#: website/mail-frame.php:140
 msgid "Please send an email to contact@spamty.eu if you need help."
 msgstr ""
 
-#: mail-frame.php:124 mail.php:84
+#: website/mail-frame.php:124 website/mail.php:84
 msgid "Please fill out the Captcha field. "
 msgstr ""
 
-#: mail-frame.php:137 mail.php:97
+#: website/mail-frame.php:137 website/mail.php:97
 msgid "We couldn't verify that you are a human. "
 msgstr ""
 
-#: mail-frame.php:148 mail.php:108
-msgid "Your IP address was blocked because of spamming."
-msgstr ""
-
-#: mail-frame.php:149 mail.php:109
-msgid "We can help you to see the requested email address:"
-msgstr ""
-
-#: mail-frame.php:151 mail-frame.php:203 mail.php:112 mail.php:170
-msgid ""
-"We will try to fix this problem and tell you the email address you wanted to "
-"see."
-msgstr ""
-
-#: mail-frame.php:188 mail.php:153
+#: website/mail-frame.php:172 website/mail.php:135
 msgid "Here is the Email Address you wanted to see:"
 msgstr ""
 
-#: mail-frame.php:195 mail.php:160
+#: website/mail-frame.php:179 website/mail.php:142
 msgid ""
 "This link was invalid. You - or the person who gave you this link - probably "
 "made a typo. "
 msgstr ""
 
-#: mail-frame.php:196 mail.php:161
+#: website/mail-frame.php:180 website/mail.php:143
 msgid ""
 "We would love to help you with this problem but we can't. We also don't know "
 "the correct link. "
 msgstr ""
 
-#: mail.php:4 mail.php:33
+#: website/mail-frame.php:187 website/mail.php:152
+msgid ""
+"We will try to fix this problem and tell you the email address you wanted to "
+"see."
+msgstr ""
+
+#: website/mail.php:4 website/mail.php:33
 msgid "Email Address"
 msgstr ""
 
-#: mail.php:38
+#: website/mail.php:38
 msgid "Please solve the captcha below to see the email address:"
 msgstr ""
 
-#: mail.php:111 mail.php:169
-msgid "You can also <a>use our contact form</a>. "
-msgstr ""
-
-#: mail.php:116
-msgid "I'm no spammer!"
-msgstr ""
-
-#: mail.php:117
-msgid ""
-"Your current IP address was reported on stopforumspam.com. We suppose you "
-"are a spammer."
-msgstr ""
-
-#: mail.php:118
-msgid ""
-"You probably got a random IP address from your internet service provider "
-"which someone else used earlier for spamming."
-msgstr ""
-
-#: mail.php:119
-msgid ""
-"You can <a>remove this IP address from the stopforumspam-database</a> or "
-"wait until you get a new IP address from your provider (usually a few hours)."
-msgstr ""
-
-#: mail.php:162
+#: website/mail.php:144
 msgid "You can <a>contact me</a> if you have questions."
 msgstr ""
 
-#: newsletter.php:4
-msgid "Subscribe to our newsletter"
+#: website/mail.php:151
+msgid "You can also <a>use our contact form</a>. "
 msgstr ""
 
-#: newsletter.php:5
-msgid ""
-"We will inform you regularly about all news from Spamty with our free email "
-"newsletter."
-msgstr ""
-
-#: newsletter.php:13
-msgid "Stay informed <small>with our newsletter</small>"
-msgstr ""
-
-#: newsletter.php:14
-msgid "We will inform you regularly about all news from <a>our blog</a>. "
-msgstr ""
-
-#: newsletter.php:28
-msgid "Email Address "
-msgstr ""
-
-#: newsletter.php:32
-msgid "Language "
-msgstr ""
-
-#: newsletter.php:41
-msgid "All fields are required. "
-msgstr ""
-
-#: newsletter.php:42
-msgid "The newsletter powered by <a>Mailchimp</a>. "
-msgstr ""
-
-#: newsletter.php:42
-msgid "Mailchimp Website"
-msgstr ""
-
-#: newsletter.php:43
-msgid "By signing up you agree to our <a>privacy policy</a>. "
-msgstr ""
-
-#: newsletter.php:49
-msgid "Subscribe"
-msgstr ""
-
-#: premium.php:4
+#: website/premium.php:4
 msgid "Premium Service"
 msgstr ""
 
-#: premium.php:5
+#: website/premium.php:5
 msgid ""
 "We offer Spamty for free but there are also some additional features for "
 "users of our premium service."
 msgstr ""
 
-#: premium.php:13
+#: website/premium.php:13
 msgid "Spamty Premium"
 msgstr ""
 
-#: premium.php:16
+#: website/premium.php:13
+msgid "NEW"
+msgstr ""
+
+#: website/premium.php:16
 msgid ""
 "We are working on some new features for a premium service. This is currently "
 "a beta test and only available for a few selected users."
 msgstr ""
 
-#: premium.php:29
+#: website/premium.php:29
 msgid "Best spam protection"
 msgstr ""
 
-#: premium.php:34
-msgid "Ad free"
-msgstr ""
-
-#: premium.php:39
+#: website/premium.php:34
 msgid "Secure Captcha"
 msgstr ""
 
-#: premium.php:44
+#: website/premium.php:39
 msgid "Multilingual"
 msgstr ""
 
-#: premium.php:49
-msgid "Own Logo"
+#: website/premium.php:44
+msgid "Ad free"
 msgstr ""
 
-#: premium.php:54
-msgid "Custom Short-URL"
+#: website/premium.php:49
+msgid "Upload your Logo"
 msgstr ""
 
-#: premium.php:59
-msgid "No Spamty navigation"
+#: website/premium.php:54
+msgid "Payment"
 msgstr ""
 
-#: premium.php:64
+#: website/premium.php:59
 msgid "Costs"
 msgstr ""
 
-#: premium.php:65
-msgid "Completely free"
+#: website/premium.php:60
+msgid "Free"
 msgstr ""
 
-#: premium.php:66
-msgid "unknown"
+#: website/premium.php:61
+msgid "Donate what you want"
 msgstr ""
 
-#: premium.php:76
+#: website/premium.php:65
+msgid "Start using Spamty"
+msgstr ""
+
+#: website/premium.php:66
+msgid "Signup here"
+msgstr ""
+
+#: website/premium.php:77
+msgid ""
+"You can support us with a donation via PayPal and upgrade to premium. Just "
+"follow these steps:"
+msgstr ""
+
+#: website/premium.php:79
+msgid "Create your Spamty link <a>by signing up</a>."
+msgstr ""
+
+#: website/premium.php:88
+msgid ""
+"Send an email to contact@spamty.eu to claim an upgrade to a premium account. "
+"Make sure to include your Spamty link that you just created."
+msgstr ""
+
+#: website/premium.php:96
+msgid "How much should I pay?"
+msgstr ""
+
+#: website/premium.php:97
+msgid ""
+"The premium service will help me to cover the costs of Spamty.eu. You can "
+"choose how much you are willing to pay. 1 &euro; is fine and 5 &euro; are "
+"better."
+msgstr ""
+
+#: website/premium.php:98
+msgid "The costs for operating Spamty are currently 97 &euro; per year: "
+msgstr ""
+
+#: website/premium.php:109
 msgid "Demo"
 msgstr ""
 
-#: premium.php:78
+#: website/premium.php:110
 msgid "Try the new features with <a>this link</a>."
 msgstr ""
 
-#: privacy.php:5
+#: website/privacy.php:5
 msgid ""
 "We protect your personal data as best as possible. Read our privacy policy "
 "to see what data we collect, store and share."
 msgstr ""
 
-#: privacy.php:15
+#: website/privacy.php:15
 msgid ""
 "We will explain on this page what information we collect, how the data is "
-"stored and how we use your personal information."
+"stored and how we use your personal information according to the EU General "
+"Data Protection Regulation (GDPR)."
 msgstr ""
 
-#: privacy.php:17
+#: website/privacy.php:16
+msgid "See below for the identity and the contact details of the controller."
+msgstr ""
+
+#: website/privacy.php:18
 msgid "What kind of information do we store?"
 msgstr ""
 
-#: privacy.php:18
+#: website/privacy.php:19
 msgid ""
 "The use of this website is possible without the declaration of any personal "
 "data. It is voluntary to share personal data with us."
 msgstr ""
 
-#: privacy.php:19
+#: website/privacy.php:20
 msgid ""
 "If you <a>create a link to your email address</a> we will store your email "
 "encrypted in our database. "
 msgstr ""
 
-#: privacy.php:20
+#: website/privacy.php:21
 msgid "Furthermore we store the date and time when the link was generated. "
 msgstr ""
 
-#: privacy.php:22
+#: website/privacy.php:22
+msgid ""
+"We store your email address as long as you do not ask us to delete it but we "
+"cannot guarantee any service or the availability of Spamty."
+msgstr ""
+
+#: website/privacy.php:24
 msgid "How is the email address encrypted?"
 msgstr ""
 
-#: privacy.php:24
+#: website/privacy.php:26
 msgid ""
 "The key for the encryption is randomly generated. It is not stored on our "
 "server. It is contained in the link to your email address. A decryption "
 "without this key is impossible."
 msgstr ""
 
-#: privacy.php:26
+#: website/privacy.php:28
 msgid "Sharing of personal data"
 msgstr ""
 
-#: privacy.php:27
+#: website/privacy.php:29
 msgid "Of course we do not share any personal data with third parties."
 msgstr ""
 
-#: privacy.php:28
+#: website/privacy.php:30
 msgid ""
 "If someone clicks on the link to your email address he will be able to see "
-"your email. You shouldn't share the link with anyone who is not allowed to "
-"view your email address."
+"your email after he solved a captcha. You shouldn't share the link with "
+"anyone who is not allowed to view your email address."
 msgstr ""
 
-#: privacy.php:30
+#: website/privacy.php:32
 msgid "How can I delete my data?"
 msgstr ""
 
-#: privacy.php:31
+#: website/privacy.php:33
 msgid "Please <a>contact us</a> to deactivate the link or to delete your data."
 msgstr ""
 
-#: privacy.php:33
-msgid "Usage Statistics (Piwik)"
+#: website/privacy.php:34
+msgid ""
+"According to article 17 and 18 GDPR you have a right to erasure of your data "
+"and to restriction the processing of your data."
 msgstr ""
 
-#: privacy.php:34
-msgid "We do not track our visitors."
+#: website/privacy.php:35
+msgid "You can withdraw your consent in processing your data at any time."
 msgstr ""
 
-#: privacy.php:36
-msgid "Cookie Policy"
+#: website/privacy.php:37
+msgid "Tracking and Webserver logs"
 msgstr ""
 
-#: privacy.php:37
+#: website/privacy.php:38
+msgid ""
+"Our webserver logs every request to this website in a log file. This is for "
+"security purposes to prevent DDOS attacks and to see how many visitors the "
+"website has. Additionally the webserver has logs for error messages that are "
+"dispayed."
+msgstr ""
+
+#: website/privacy.php:39
+msgid ""
+"To protect your privacy we only log the first 16 bits of an IPv4 address and "
+"the first 32 bits of an IPv6 address. Thus, the IPv4 address 82.98.87.93 and "
+"the IPv6 address 2a02:2e0:3fc:52:0:62:5768:38 are logged as 82.98.0.0 and "
+"2a02:2e0:: in the actual log files."
+msgstr ""
+
+#: website/privacy.php:41
+msgid "Cookie policy"
+msgstr ""
+
+#: website/privacy.php:42
 msgid ""
 "Cookies are small files that are stored in your browser. With this for "
 "example it is possible to store and get your preferred language setting."
 msgstr ""
 
-#: privacy.php:38
+#: website/privacy.php:43
 msgid ""
-"You can disable cookies in your browser's setting. Then we won't be able to "
-"store them."
+"Spamty only uses cookies to store your preffered language and we store a PHP "
+"Session ID that is required for the captcha and for security purposes. You "
+"can disable cookies in your browser settings then we won't be able to store "
+"them. You can also delete cookies in your browser."
 msgstr ""
 
-#: privacy.php:40
-msgid "Newsletter"
+#: website/privacy.php:45
+msgid "Other rights"
 msgstr ""
 
-#: privacy.php:41
+#: website/privacy.php:46
 msgid ""
-"The newsletter is powered by <a>Mailchimp</a> (The Rocket Science Group, "
-"LLC, 512 Means St., Suite 404, Atlanta, Georgia 30318, USA). "
+"You can request an statement about you personal data which we store and "
+"process."
 msgstr ""
 
-#: privacy.php:41
-msgid "Mailchimp"
-msgstr ""
-
-#: privacy.php:42
-msgid "If you sign up your personal data will be share with this company."
-msgstr ""
-
-#: privacy.php:43
-msgid "Mailchimp complies to the <a>Safe Harbor Principles</a>. "
-msgstr ""
-
-# Safe Harbour Info Link
-#: privacy.php:43
+#: website/privacy.php:47
 msgid ""
-"https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles"
-msgstr "https://zh.wikipedia.org/wiki/安全港原則"
-
-#: privacy.php:44
-msgid "You can find their <a>privacy policy here</a>."
+"You have the right to lodge a complaint with a supervisory authority "
+"according to the GDPR."
 msgstr ""
 
-#: privacy.php:44
-msgid "Mailchimp privacy policy"
-msgstr ""
-
-#: privacy.php:45
-msgid ""
-"We can delete the data which was stored for the newsletter. Please "
-"<a>conatct us</a>."
-msgstr ""
-
-#: privacy.php:48
-msgid "More Informationen"
-msgstr ""
-
-#: privacy.php:49
+#: website/privacy.php:50
 msgid ""
 "You can contact me if you have any questions according the data protection:"
 msgstr ""
 
-#: privacy.php:51
-msgid "More contact options"
-msgstr ""
-
-#: why.php:4
+#: website/why.php:4
 msgid "Why should I use this service?"
 msgstr ""
 
-#: why.php:5
+#: website/why.php:5
 msgid ""
 "Sometimes you may need to publish your email address on the internet. With "
 "Spamty you can protect it very good against spam."
 msgstr ""
 
-#: why.php:13
+#: website/why.php:13
 msgid "Why should I use Spamty?"
 msgstr ""
 
-#: why.php:14
+#: website/why.php:14
 msgid ""
 "Sometimes you may need to publish your email address on the Internet. We'll "
 "protect it against spam."
 msgstr ""
 
-#: why.php:16
+#: website/why.php:16
 msgid ""
 "If you publish your email address in forums, on Twitter or somewhere else on "
 "internet it is an easy target for spam robots."
 msgstr ""
 
-#: why.php:17
+#: website/why.php:17
 msgid ""
 "They browse the internet to collect email addresses and send spam to them."
 msgstr ""
 
-#: why.php:20
+#: website/why.php:20
 msgid "An easy spam target: email address in a Tweet"
 msgstr ""
 
-#: why.php:22
+#: website/why.php:22
 msgid ""
 "Spamty will convert your email address into a link. If someone clicks on "
 "this link we verify that this is a human before he can see your email "
 "address (see also: <a>How it works</a>)."
 msgstr ""
 
-#: why.php:23
+#: website/why.php:23
 msgid ""
 "And the best: we won't store your email address in our database. We encrypt "
 "it and the key ist your link. This means that we are never able to access "
 "your email address without the link."
 msgstr ""
 
-#: why.php:26
+#: website/why.php:26
 msgid "Protected against spam"
 msgstr ""
+
+#~ msgid "The idea"
+#~ msgstr "这个想法"
+
+#~ msgid ""
+#~ "In Germany we are obliged to publish an email address on our website. "
+#~ "When I did this on my blog I got very much email spam (see also <a>Why to "
+#~ "use Spamty?</a>). That's why I created Spamty to share my email address "
+#~ "on the internet without receiving tons of spam mails."
+#~ msgstr ""
+#~ "在德国，我们有义务在我们的网站上发布电子邮件地址。当我在我的博客上这样做"
+#~ "时，我收到了非常多的垃圾邮件（另请参阅<a>为什么要使用 垃圾邮件 ?</a> ）。"
+#~ "这就是为什么我创建Spamty在互联网上分享我的电子邮件地址，而不收到大量的垃圾"
+#~ "邮件。"
+
+#~ msgid "The website in 2014"
+#~ msgstr "2014 年网站"
+
+#~ msgid ""
+#~ "You can contact the Spamty team here if you have problems with the API or "
+#~ "any other questions."
+#~ msgstr "如果您在API或任何其他问题上遇到问题，可以联系Spamty团队。"
+
+#~ msgid "Developer contact"
+#~ msgstr "开发人员接触"
+
+#~ msgid ""
+#~ "Do you have any problems with our API? Do you need help? Or do you want "
+#~ "to request new features? "
+#~ msgstr "你对我们的API有任何问题吗？你需要帮助吗？或者你想要求新功能？"
+
+#~ msgid "Send us an email"
+#~ msgstr "给我们发邮件"
+
+#~ msgid "Fax:"
+#~ msgstr "传真:"
+
+#~ msgid "Contact Form"
+#~ msgstr "联系方式"
+
+#~ msgid "Encrypt your Email Address"
+#~ msgstr "加密电子邮件地址"
+
+#~ msgid "Your Email Address"
+#~ msgstr "你的电子邮件地址"
+
+#~ msgid ""
+#~ "Start here and encrypt your email address to protect it against spam."
+#~ msgstr "从这里开始和加密您的电子邮件地址，以保护它免受垃圾邮件。"
+
+#~ msgid "Protect your email address for free against Spam."
+#~ msgstr "保护您的电子邮件地址免费反垃圾邮件。"
+
+#~ msgid "GET LINK"
+#~ msgstr "获取链接"
+
+#~ msgid "Please fill out all fields. "
+#~ msgstr "請填寫所有欄位"
+
+#~ msgid "Your email was successfully sent. Thanks."
+#~ msgstr "您的邮件已成功发送."
+
+#~ msgid "We speak: "
+#~ msgstr "我们所说:"
+
+#~ msgid "Name"
+#~ msgstr "氏名"
+
+#~ msgid "Your name"
+#~ msgstr "您的名字"
+
+#~ msgid "Subject"
+#~ msgstr "邮件主题"
+
+#~ msgid "Message"
+#~ msgstr "通知"
+
+#~ msgid "SEND"
+#~ msgstr "发送"
+
+#~ msgid "Blog"
+#~ msgstr "博客 "
+
+#~ msgid "Developer"
+#~ msgstr "开发人员"
+
+#~ msgid "Home"
+#~ msgstr "网站首页"
+
+#~ msgid "Encryption"
+#~ msgstr "加密"
+
+#~ msgid "Contact us"
+#~ msgstr "与我联系"
+
+#~ msgid "Close"
+#~ msgstr "完型"
+
+# Safe Harbour Info Link
+#~ msgid ""
+#~ "https://en.wikipedia.org/wiki/International_Safe_Harbor_Privacy_Principles"
+#~ msgstr "https://zh.wikipedia.org/wiki/安全港原則"
 
 #~ msgid "Germany"
 #~ msgstr "德国"
@@ -1285,9 +1334,6 @@ msgstr ""
 #~ msgid "You can also enter your Spamty link here."
 #~ msgstr "Du kannst hier auch deinen Spamty-Link eingeben."
 
-#~ msgid "GPG key"
-#~ msgstr "GPG-Key"
-
 #~ msgid "We only store an encrypted version of your Email. "
 #~ msgstr "Wir speichern deine E-Mail Adresse nicht im Klartext. "
 
@@ -1371,9 +1417,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Außerdem übernehmen wir keine Haftung für, von Benutzern erstellte "
 #~ "Inhalte (vor allem Beiträge und Kommentare im Blog)"
-
-#~ msgid "Go to my Email Address"
-#~ msgstr "Zu meiner E-Mail Adresse"
 
 #~ msgid "You can encrypt the Mail with my GPG Key:"
 #~ msgstr "Du kannst die E-Mail mit meinem GPG-Key verschlüsseln:"
