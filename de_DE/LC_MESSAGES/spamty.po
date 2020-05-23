@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2020-05-22 17:04+0200\n"
-"PO-Revision-Date: 2020-05-22 17:20+0200\n"
+"POT-Creation-Date: 2020-05-23 15:23+0200\n"
+"PO-Revision-Date: 2020-05-23 15:23+0200\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Poedit-Basepath: ../../..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -69,7 +69,7 @@ msgid "<a>Please use GPG to encrypt emails!</a>"
 msgstr "<a>Bitte benutze GPG, um E-Mails zu verschlüsseln!</a>"
 
 #: website/contact.php:20 website/error-404.php:51 website/legal.php:23
-#: website/privacy.php:61
+#: website/privacy.php:54
 msgid "https://emailselfdefense.fsf.org/en/windows.html"
 msgstr "https://emailselfdefense.fsf.org/de/windows.html"
 
@@ -165,70 +165,70 @@ msgstr ""
 "Wir werden versuchen, das Problem zu beheben, und können dir auch einen "
 "neuen Spamty-Link erstellen."
 
-#: website/encryption_v5.php:131 website/index.php:131
+#: website/encryption_v5.php:131 website/index.php:132
 msgid "Your Spamty link"
 msgstr "Dein Spamty-Link"
 
-#: website/encryption_v5.php:132 website/index.php:132
+#: website/encryption_v5.php:132 website/index.php:133
 msgid "This is the link where your email address can be found:"
 msgstr "Das ist der Link, unter dem deine E-Mail-Adresse gefunden werden kann:"
 
-#: website/encryption_v5.php:135 website/index.php:135
+#: website/encryption_v5.php:135
 msgid "What's next?"
 msgstr "Und jetzt?"
 
-#: website/encryption_v5.php:138 website/index.php:138 website/premium.php:61
+#: website/encryption_v5.php:138
 msgid "Pay what you want"
 msgstr "\"Pay what you want\""
 
-#: website/encryption_v5.php:141 website/index.php:141
+#: website/encryption_v5.php:141
 msgid ""
 "You can support us with a Bitcoin (BTC) donation if you like our website: "
 msgstr ""
 "Um uns bei der Finanzierung zu helfen, kannst du gerne Bitcoins (BTC) "
 "spenden: "
 
-#: website/encryption_v5.php:146 website/index.php:146
+#: website/encryption_v5.php:146
 msgid "Share the link"
 msgstr "Teile den Link"
 
-#: website/encryption_v5.php:149 website/index.php:149
+#: website/encryption_v5.php:149 website/index.php:164
 msgid "You can share this link now on the internet."
 msgstr "Du kannst den Link nun im Internet veröffentlichen."
 
-#: website/encryption_v5.php:150 website/index.php:150
+#: website/encryption_v5.php:150 website/index.php:165
 msgid "Too long?"
 msgstr "Link zu lang?"
 
-#: website/encryption_v5.php:150 website/index.php:150
+#: website/encryption_v5.php:150 website/index.php:165
 msgid "You can <a>shorten this URL</a>."
 msgstr "Du kannst <a>diese URL kürzen</a>."
 
-#: website/encryption_v5.php:151 website/index.php:151
+#: website/encryption_v5.php:151
 msgid "Share the Link "
 msgstr "Teile den Link "
 
-#: website/encryption_v5.php:152 website/index.php:152
+#: website/encryption_v5.php:152 website/index.php:167
 msgid "Share on Facebook"
 msgstr "Auf Facebook teilen"
 
-#: website/encryption_v5.php:153 website/index.php:153
+#: website/encryption_v5.php:153 website/index.php:168
 msgid "Protected against #Spam. My email address: "
 msgstr "Gegen #Spam geschützt. Meine E-Mail Adresse: "
 
-#: website/encryption_v5.php:153 website/index.php:153
+#: website/encryption_v5.php:153 website/index.php:168
 msgid "Share on Twitter"
 msgstr "Auf Twitter teilen"
 
-#: website/encryption_v5.php:154 website/index.php:154
+#: website/encryption_v5.php:154 website/index.php:169
 msgid "Link to my Email Address"
 msgstr "Link zu meiner E-Mail-Adresse"
 
-#: website/encryption_v5.php:154 website/index.php:154
+#: website/encryption_v5.php:154 website/index.php:169
 msgid "You can find my email address here: "
 msgstr "Hier findest du meine E-Mail Adresse: "
 
-#: website/encryption_v5.php:154 website/index.php:154
+#: website/encryption_v5.php:154 website/index.php:169
 msgid "Share via email"
 msgstr "Per E-Mail teilen"
 
@@ -260,7 +260,7 @@ msgstr "Gib den Namen der gewünschten Seite ein:"
 msgid "Search"
 msgstr "Suchen"
 
-#: website/error-404.php:48 website/premium.php:66
+#: website/error-404.php:48
 msgid "Contact me"
 msgstr "Kontaktiere mich"
 
@@ -269,11 +269,11 @@ msgid "You can report this error here so we can try to fix it. "
 msgstr ""
 "Du kannst diesen Fehler melden, damit wir versuchen können, ihn zu beheben. "
 
-#: website/error-404.php:50 website/legal.php:22 website/privacy.php:60
+#: website/error-404.php:50 website/legal.php:22 website/privacy.php:53
 msgid "<a>Please use my GPG key to encrypt emails!</a>"
 msgstr "<a>Bitte benutze meinen GPG-Key, um E-Mails zu verschlüsseln!</a>"
 
-#: website/error-404.php:51 website/legal.php:23 website/privacy.php:61
+#: website/error-404.php:51 website/legal.php:23 website/privacy.php:54
 msgid "(<a>GPG Tutorial</a>)"
 msgstr "(<a>GPG Anleitung</a>)"
 
@@ -411,7 +411,7 @@ msgstr ""
 "Der Schlüssel wird zufällig generiert und ist zugleich dann dein Spamty-"
 "Link. "
 
-#: website/howencryptionworks.php:18 website/privacy.php:26
+#: website/howencryptionworks.php:18 website/privacy.php:25
 msgid ""
 "We encrypt the address with the <a>AES-256 algorithm</a> which is also used "
 "in the US to encrypt \"Top Secret\" documents."
@@ -419,12 +419,11 @@ msgstr ""
 "Deine E-Mail-Adresse wird mit dem <a>AES-256 Algorithmus</a> verschlüsselt "
 "(dieser wird auch in den USA für streng geheime Dokumente verwendet)."
 
-#: website/howencryptionworks.php:18 website/privacy.php:26
+#: website/howencryptionworks.php:18 website/privacy.php:25
 msgid "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
 msgstr "https://de.wikipedia.org/wiki/Advanced_Encryption_Standard"
 
-#: website/howencryptionworks.php:18 website/privacy.php:26
-#: website/privacy.php:36
+#: website/howencryptionworks.php:18 website/privacy.php:25
 msgid "On Wikipedia"
 msgstr "Auf Wikipedia"
 
@@ -559,8 +558,7 @@ msgid "Ad"
 msgstr "Werbung"
 
 #: website/includes/ws-footer.php:28 website/includes/ws-header.php:14
-#: website/legal.php:16 website/privacy.php:40 website/privacy.php:41
-#: website/privacy.php:56
+#: website/legal.php:16 website/privacy.php:33 website/privacy.php:49
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -638,6 +636,43 @@ msgstr ""
 msgid "<a>Learn more!</a>"
 msgstr "<a>Mehr erfahren!</a>"
 
+#: website/index.php:140 website/premium.php:74
+msgid "Support Spamty by a Donation"
+msgstr "Unterstütze Spamty durch eine Spende"
+
+#: website/index.php:143
+msgid ""
+"You can support us with a donation via PayPal and upgrade to <a>premium</a>. "
+"Just follow these steps:"
+msgstr ""
+"Du kannst uns mit einer Spende über PayPal unterstützen und einen <a>Premium-"
+"Account</a> bekommen. Hierzu musst du folgendes tun:"
+
+#: website/index.php:145 website/premium.php:80
+msgid ""
+"Send your donation via PayPal. Choose any amount with a minimum of 1 euro or "
+"equivalent."
+msgstr "Spende über PayPal einen beliebigen Betrag, mindestens 1 Euro."
+
+#: website/index.php:153
+msgid ""
+"Reply to the email we just sent you to claim an upgrade to a premium "
+"account. If you did not get an email from us please write to contact@spamty."
+"eu. Make sure to include your Spamty link that you just created."
+msgstr ""
+"Antworte auf die E-Mail, die wir dir gerade geschickt haben, um ein Upgrade "
+"auf einen Premium-Account zu bekommen. Wenn du keine E-Mail erhalten hast, "
+"schicke eine Nachricht an contact@spamty.eu, in der du auch deinen soeben "
+"erstellten Spamty-Link angibst."
+
+#: website/index.php:161
+msgid "Share your link"
+msgstr "Teile den Link"
+
+#: website/index.php:166
+msgid "Share the link "
+msgstr "Teile den Link "
+
 #: website/lang.php:4 website/lang.php:13
 msgid "Languages"
 msgstr "Sprachen"
@@ -691,7 +726,7 @@ msgstr ""
 msgid "This Website is provided by:"
 msgstr "Diese Website wird angeboten von:"
 
-#: website/legal.php:21 website/privacy.php:59
+#: website/legal.php:21 website/privacy.php:52
 msgid "You can contact me via email:"
 msgstr "Du kannst mich per E-Mail kontaktieren:"
 
@@ -910,6 +945,10 @@ msgstr ""
 msgid "Spamty Premium"
 msgstr "Spamty Premium"
 
+#: website/premium.php:13
+msgid "NEW"
+msgstr "NEU"
+
 #: website/premium.php:16
 msgid ""
 "We are working on some new features for a premium service. This is currently "
@@ -942,27 +981,51 @@ msgstr "Eigenes Logo"
 msgid "Payment"
 msgstr "Bezahlung"
 
-#: website/premium.php:56
-msgid "PayPal or Bitcoin"
-msgstr "PayPal oder Bitcoin"
-
 #: website/premium.php:59
 msgid "Costs"
 msgstr "Kosten"
 
 #: website/premium.php:60
-msgid "Completely free"
-msgstr "Völlig kostenlos"
+msgid "Free"
+msgstr "Kostenlos"
+
+#: website/premium.php:61
+msgid "Donate what you want"
+msgstr "Spende was du möchtest"
 
 #: website/premium.php:65
 msgid "Start using Spamty"
 msgstr "Beginne hier"
 
-#: website/premium.php:72
+#: website/premium.php:66
+msgid "Signup here"
+msgstr "Beginne hier"
+
+#: website/premium.php:77
+msgid ""
+"You can support us with a donation via PayPal and upgrade to premium. Just "
+"follow these steps:"
+msgstr ""
+"Du kannst uns mit einer Spende über PayPal unterstützen und einen Premium-"
+"Account bekommen. Hierzu musst du folgendes tun:"
+
+#: website/premium.php:79
+msgid "Create your Spamty link <a>by signing up</a>."
+msgstr "Erstellen <a>hier einen neuen Spamty Link</a>."
+
+#: website/premium.php:88
+msgid ""
+"Send an email to contact@spamty.eu to claim an upgrade to a premium account. "
+"Make sure to include your Spamty link that you just created."
+msgstr ""
+"Schicke eine E-Mail an contact@spamty.eu um ein Upgrade auf einen Premium-"
+"Account zu bekommen. Bitte gib hier deinen Spamty Link an."
+
+#: website/premium.php:96
 msgid "How much should I pay?"
 msgstr "Wie viel sollte ich bezahlen?"
 
-#: website/premium.php:73
+#: website/premium.php:97
 msgid ""
 "The premium service will help me to cover the costs of Spamty.eu. You can "
 "choose how much you are willing to pay. 1 &euro; is fine and 5 &euro; are "
@@ -972,16 +1035,16 @@ msgstr ""
 "selbst wählen, wie viel du bezahlen möchtet. 1 &euro; ist okay und 5 &euro; "
 "sind besser."
 
-#: website/premium.php:74
+#: website/premium.php:98
 msgid "The costs for operating Spamty are currently 97 &euro; per year: "
 msgstr ""
 "Die Kosten für den Betrieb von Spamty betragen zur Zeit 97 &euro; im Jahr: "
 
-#: website/premium.php:85
+#: website/premium.php:109
 msgid "Demo"
 msgstr "Demo"
 
-#: website/premium.php:86
+#: website/premium.php:110
 msgid "Try the new features with <a>this link</a>."
 msgstr "Probiere die neuen Funktionen aus mit <a>diesem Link</a>."
 
@@ -1035,12 +1098,6 @@ msgstr ""
 "erstellst. "
 
 #: website/privacy.php:22
-msgid "If you sign up for our newsletter we will store your email address."
-msgstr ""
-"Wenn du dich für den Newsletter anmeldest, werden wir deine E-Mail Adresse "
-"speichern."
-
-#: website/privacy.php:23
 msgid ""
 "We store your email address as long as you do not ask us to delete it but we "
 "cannot guarantee any service or the availability of Spamty."
@@ -1049,11 +1106,11 @@ msgstr ""
 "löschen. Wir können aber keinen Service garantieren oder, dass Spamty "
 "verfügbar bleibt."
 
-#: website/privacy.php:25
+#: website/privacy.php:24
 msgid "How is the email address encrypted?"
 msgstr "Wie wird die E-Mail-Adresse verschlüsselt?"
 
-#: website/privacy.php:27
+#: website/privacy.php:26
 msgid ""
 "The key for the encryption is randomly generated. It is not stored on our "
 "server. It is contained in the link to your email address. A decryption "
@@ -1065,30 +1122,14 @@ msgstr ""
 "nicht möglich."
 
 #: website/privacy.php:28
-msgid ""
-"If you sign up for our newsletter your email address will be protected in "
-"the database of Mailchimp."
-msgstr ""
-"Wenn du dich für den Newsletter anmeldest, wird deine E-Mail-Adresse in der "
-"Datenbank von Mailchimp sicher geschützt."
-
-#: website/privacy.php:29 website/privacy.php:37
-msgid "You can find their <a>privacy policy here</a>."
-msgstr "Du findest die <a>Datenschutzbestimmungen von Mailchimp</a> hier."
-
-#: website/privacy.php:29 website/privacy.php:37
-msgid "Mailchimp privacy policy"
-msgstr "Mailchimp Datenschutz"
-
-#: website/privacy.php:31
 msgid "Sharing of personal data"
 msgstr "Weitergabe von Daten"
 
-#: website/privacy.php:32
+#: website/privacy.php:29
 msgid "Of course we do not share any personal data with third parties."
 msgstr "Deine Daten werden selbstverständlich nicht an Dritte weitergegeben."
 
-#: website/privacy.php:33
+#: website/privacy.php:30
 msgid ""
 "If someone clicks on the link to your email address he will be able to see "
 "your email after he solved a captcha. You shouldn't share the link with "
@@ -1098,51 +1139,17 @@ msgstr ""
 "Mail-Adresse sehen, nachdem er ein Captcha gelöst hat. Du solltest den Link "
 "mit niemand teilen, der deine E-Mail-Adresse nicht sehen darf."
 
-#: website/privacy.php:34
-msgid ""
-"The newsletter is powered by <a>Mailchimp</a> (The Rocket Science Group, "
-"LLC, 512 Means St., Suite 404, Atlanta, Georgia 30318, USA). "
-msgstr ""
-"Der Newsletter wird von <a>Mailchimp</a> (The Rocket Science Group, LLC, 512 "
-"Means St., Suite 404, Atlanta, Georgia 30318, USA) versendet. "
-
-#: website/privacy.php:34
-msgid "Mailchimp"
-msgstr "Mailchimp"
-
-#: website/privacy.php:35
-msgid "If you sign up your personal data will be share with this company."
-msgstr ""
-"Meldest du dich zum Newsletter an, werden deine persönlichen Daten an das "
-"Unternehmen übertragen."
-
-#: website/privacy.php:36
-msgid "Mailchimp complies to the <a>EU-US Privacy Shield</a>. "
-msgstr "MailChimp entspricht dem <a> EU-US Privacy Shield</a>. "
-
-#: website/privacy.php:36
-msgid "https://en.wikipedia.org/wiki/EU-US_Privacy_Shield"
-msgstr "https://de.wikipedia.org/wiki/EU-US_Privacy_Shield"
-
-#: website/privacy.php:39
+#: website/privacy.php:32
 msgid "How can I delete my data?"
 msgstr "Wie kann ich meine Daten löschen?"
 
-#: website/privacy.php:40
+#: website/privacy.php:33
 msgid "Please <a>contact us</a> to deactivate the link or to delete your data."
 msgstr ""
 "<a>Kontaktiere uns</a> bitte um den Link zu deiner E-Mail Adresse zu "
 "deaktivieren oder um deine Daten löschen zu lassen."
 
-#: website/privacy.php:41
-msgid ""
-"We can also ask Mailchimp to delete the data which was used for our "
-"newsletter. Please <a>conatct us</a>."
-msgstr ""
-"Wir können auch Mailchimp darum beten deine Daten zu löschen, die für den "
-"Newsletter verwendet wurden. Bitte <a>kontaktiere uns</a>."
-
-#: website/privacy.php:42
+#: website/privacy.php:34
 msgid ""
 "According to article 17 and 18 GDPR you have a right to erasure of your data "
 "and to restriction the processing of your data."
@@ -1150,25 +1157,45 @@ msgstr ""
 "Gemäß Artikel 17 und 18 DSGVO Sie haben ein Recht auf Löschung Ihrer Daten "
 "und zur Einschränkung der Verarbeitung Ihrer Daten."
 
-#: website/privacy.php:43
+#: website/privacy.php:35
 msgid "You can withdraw your consent in processing your data at any time."
 msgstr ""
 "Sie können Ihre Einwilligung in die Verarbeitung Ihrer Daten jederzeit "
 "widerrufen."
 
-#: website/privacy.php:45
-msgid "Usage statistics and tracking"
-msgstr "Benutzungsstatistiken und Tracking"
+#: website/privacy.php:37
+msgid "Tracking and Webserver logs"
+msgstr "Tracking und Webserver Logs"
 
-#: website/privacy.php:46
-msgid "We do not track our visitors."
-msgstr "Wir verfolgen nicht unserer Besucher."
+#: website/privacy.php:38
+msgid ""
+"Our webserver logs every request to this website in a log file. This is for "
+"security purposes to prevent DDOS attacks and to see how many visitors the "
+"website has. Additionally the webserver has logs for error messages that are "
+"dispayed."
+msgstr ""
+"Unser Webserver speichert jeden Aufruf einer Webseite in einer Log-Datei. "
+"Das dient der Sicherheit und um DDOS Angriffe zu verhindern. Außerdem können "
+"wir so die Anzahl der Nutzer/Website-Aufrufe sehen. Zusätzlich hat der "
+"Webserver Logs für Fehlermeldungen."
 
-#: website/privacy.php:48
+#: website/privacy.php:39
+msgid ""
+"To protect your privacy we only log the first 16 bits of an IPv4 address and "
+"the first 32 bits of an IPv6 address. Thus, the IPv4 address 82.98.87.93 and "
+"the IPv6 address 2a02:2e0:3fc:52:0:62:5768:38 are logged as 82.98.0.0 and "
+"2a02:2e0:: in the actual log files."
+msgstr ""
+"Um unsere Besucher zu schützen speichern wir nur die ersten 16 Bit von IPv4 "
+"Adressen und die ersten 32 Bit von IPv6 Adressen. Das heißt die IPv4 Adresse "
+"82.98.87.93 und die IPv6 Adresse 2a02:2e0:3fc:52:0:62:5768:38 werden als "
+"82.98.0.0 und als 2a02:2e0:: in den Logs gespeichert."
+
+#: website/privacy.php:41
 msgid "Cookie policy"
 msgstr "Cookie-Richtlinie"
 
-#: website/privacy.php:49
+#: website/privacy.php:42
 msgid ""
 "Cookies are small files that are stored in your browser. With this for "
 "example it is possible to store and get your preferred language setting."
@@ -1177,19 +1204,24 @@ msgstr ""
 "Mit diesen kann zum Beispiel die bevorzugte Spracheinstellung gespeichert "
 "werden."
 
-#: website/privacy.php:50
+#: website/privacy.php:43
 msgid ""
-"You can disable cookies in your browser's setting. Then we won't be able to "
-"store them."
+"Spamty only uses cookies to store your preffered language and we store a PHP "
+"Session ID that is required for the captcha and for security purposes. You "
+"can disable cookies in your browser settings then we won't be able to store "
+"them. You can also delete cookies in your browser."
 msgstr ""
-"Du kannst Cookies in deinem Browser deaktivieren und löschen. Dann werden "
-"keine mehr durch diese Website gespeichert."
+"Spamty benutzt Cookies nur um die bevorzugte Sprache zu speichern und eine "
+"PHP Session ID festzulegen. Diese ist für Captchas und zum Absichern unserer "
+"Website erforderlich. Du kannst Cookies in den Einstellungen deines "
+"Webbrowsers verbieten, damit wir keine Cookies mehr speichern können. Du "
+"kannst Cookies außerdem in deinem Webbrowser löschen."
 
-#: website/privacy.php:52
+#: website/privacy.php:45
 msgid "Other rights"
 msgstr "Sonstige Rechte"
 
-#: website/privacy.php:53
+#: website/privacy.php:46
 msgid ""
 "You can request an statement about you personal data which we store and "
 "process."
@@ -1197,7 +1229,7 @@ msgstr ""
 "Sie können anfordern, dass eine Auskunft über Ihre persönlichen Daten, die "
 "wir speichern und verarbeiten, erteilen."
 
-#: website/privacy.php:54
+#: website/privacy.php:47
 msgid ""
 "You have the right to lodge a complaint with a supervisory authority "
 "according to the GDPR."
@@ -1205,7 +1237,7 @@ msgstr ""
 "Sie haben das Recht auf Beschwerde bei einer Aufsichtsbehörde gemäß der "
 "DSGVO."
 
-#: website/privacy.php:57
+#: website/privacy.php:50
 msgid ""
 "You can contact me if you have any questions according the data protection:"
 msgstr "Bei Fragen zum Datenschutz kannst du mich jederzeit kontaktieren:"
@@ -1277,6 +1309,71 @@ msgstr ""
 #: website/why.php:26
 msgid "Protected against spam"
 msgstr "Gegen Spam geschützt"
+
+#~ msgid "PayPal or Bitcoin"
+#~ msgstr "PayPal oder Bitcoin"
+
+#~ msgid "Completely free"
+#~ msgstr "Völlig kostenlos"
+
+#~ msgid "If you sign up for our newsletter we will store your email address."
+#~ msgstr ""
+#~ "Wenn du dich für den Newsletter anmeldest, werden wir deine E-Mail "
+#~ "Adresse speichern."
+
+#~ msgid ""
+#~ "If you sign up for our newsletter your email address will be protected in "
+#~ "the database of Mailchimp."
+#~ msgstr ""
+#~ "Wenn du dich für den Newsletter anmeldest, wird deine E-Mail-Adresse in "
+#~ "der Datenbank von Mailchimp sicher geschützt."
+
+#~ msgid "You can find their <a>privacy policy here</a>."
+#~ msgstr "Du findest die <a>Datenschutzbestimmungen von Mailchimp</a> hier."
+
+#~ msgid "Mailchimp privacy policy"
+#~ msgstr "Mailchimp Datenschutz"
+
+#~ msgid ""
+#~ "The newsletter is powered by <a>Mailchimp</a> (The Rocket Science Group, "
+#~ "LLC, 512 Means St., Suite 404, Atlanta, Georgia 30318, USA). "
+#~ msgstr ""
+#~ "Der Newsletter wird von <a>Mailchimp</a> (The Rocket Science Group, LLC, "
+#~ "512 Means St., Suite 404, Atlanta, Georgia 30318, USA) versendet. "
+
+#~ msgid "Mailchimp"
+#~ msgstr "Mailchimp"
+
+#~ msgid "If you sign up your personal data will be share with this company."
+#~ msgstr ""
+#~ "Meldest du dich zum Newsletter an, werden deine persönlichen Daten an das "
+#~ "Unternehmen übertragen."
+
+#~ msgid "Mailchimp complies to the <a>EU-US Privacy Shield</a>. "
+#~ msgstr "MailChimp entspricht dem <a> EU-US Privacy Shield</a>. "
+
+#~ msgid "https://en.wikipedia.org/wiki/EU-US_Privacy_Shield"
+#~ msgstr "https://de.wikipedia.org/wiki/EU-US_Privacy_Shield"
+
+#~ msgid ""
+#~ "We can also ask Mailchimp to delete the data which was used for our "
+#~ "newsletter. Please <a>conatct us</a>."
+#~ msgstr ""
+#~ "Wir können auch Mailchimp darum beten deine Daten zu löschen, die für den "
+#~ "Newsletter verwendet wurden. Bitte <a>kontaktiere uns</a>."
+
+#~ msgid "Usage statistics and tracking"
+#~ msgstr "Benutzungsstatistiken und Tracking"
+
+#~ msgid "We do not track our visitors."
+#~ msgstr "Wir verfolgen nicht unserer Besucher."
+
+#~ msgid ""
+#~ "You can disable cookies in your browser's setting. Then we won't be able "
+#~ "to store them."
+#~ msgstr ""
+#~ "Du kannst Cookies in deinem Browser deaktivieren und löschen. Dann werden "
+#~ "keine mehr durch diese Website gespeichert."
 
 #~ msgid "The idea"
 #~ msgstr "Die Idee"
@@ -1425,9 +1522,6 @@ msgstr "Gegen Spam geschützt"
 
 #~ msgid "Custom Short-URL"
 #~ msgstr "Eigene Kurz-URL"
-
-#~ msgid "No Spamty navigation"
-#~ msgstr "Keine Spamty Navigation"
 
 #~ msgid "unknown"
 #~ msgstr "unbekannt"
@@ -1599,10 +1693,6 @@ msgstr "Gegen Spam geschützt"
 
 #~ msgid "More Informationen"
 #~ msgstr "Weitere Informationen"
-
-#~ msgid "You can support us with a Bitcoin donation if you like our website: "
-#~ msgstr ""
-#~ "Um uns bei der Finanzierung zu helfen, kannst du gerne Bitcoins spenden: "
 
 #~ msgid "You can use <a>any URL Shortener</a> to get a shorter one."
 #~ msgstr ""
