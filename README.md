@@ -1,5 +1,15 @@
 # Translations
 
+[![Open Issues](https://img.shields.io/bitbucket/issues/spamty/translate.svg)](https://bitbucket.org/spamty/translate/issues?status=open)
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/spamty?style=social)](https://twitter.com/Spamty) 
+[![Mastodon Follow](https://img.shields.io/static/v1?label=@spamty@fosstodon.org&message=%20&style=social&logo=mastodon)](https://fosstodon.org/@spamty) 
+[![Keybase](https://img.shields.io/static/v1?label=Keybase&message=%20&style=social&logo=keybase)](https://keybase.io/spamty)
+[![Bitbucket](https://img.shields.io/static/v1?label=Bitbucket&message=%20&style=social&logo=bitbucket)](https://bitbucket.org/spamty/)
+
+[![Email](https://img.shields.io/badge/Email-contact@spamty.eu-grey)](https://spamty.eu/contact.php) 
+[![PGP Key](https://img.shields.io/badge/PGP-ACA54A165C6F2311-blue)](https://spamty.eu/contact.php) 
+
 This is the translation for the spamty.eu website.
 
 Translation is done with .po files located in `/translate/LANG_LANG/LC_MESSAGES/spamty.po`.
