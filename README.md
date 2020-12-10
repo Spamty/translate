@@ -4,7 +4,6 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/spamty?style=social)](https://twitter.com/Spamty)
 [![Mastodon Follow](https://img.shields.io/static/v1?label=@spamty@fosstodon.org&message=%20&style=social&logo=mastodon)](https://fosstodon.org/@spamty)
-[![Keybase](https://img.shields.io/static/v1?label=Keybase&message=%20&style=social&logo=keybase)](https://keybase.io/spamty)
 [![GitHub](https://img.shields.io/github/followers/spamty?label=GitHub&style=social)](https://github.com/spamty/)
 
 [![Email](https://img.shields.io/badge/Email-contact@spamty.eu-grey)](https://spamty.eu/contact.php)
@@ -20,13 +19,13 @@ The .mo files are generated automatically.
 
 Spamty is currently available in:
 
-|Language |Status |details |URL suffix |Language Code |System locale |
-|---|---|---|---|---|---|
-|German |:white_check_mark: |100% |de |de_DE |de_DE.UTF-8 |
-|English |:white_check_mark: |primary |en |en_US |en_US.UTF-8 |
-|Spanish |:x: |Incomplete |es |es_ES |es_ES.UTF-8 |
-|French |:x: |Incomplete |fr |fr_FR |fr_FR.UTF-8 |
-|Chinese |:x: |Incomplete |zh |zh_CN |zh_CN.UTF-8 |
+|Language |Status             |details    |URL |Language Code |System      |
+|---      |---                |---        |--- |---           |---         |
+|German   |:white_check_mark: |76%        |de  |de_DE         |de_DE.UTF-8 |
+|English  |:white_check_mark: |primary    |en  |en_US         |en_US.UTF-8 |
+|Spanish  |:x:                |Incomplete |es  |es_ES         |es_ES.UTF-8 |
+|French   |:x:                |Incomplete |fr  |fr_FR         |fr_FR.UTF-8 |
+|Chinese  |:x:                |Incomplete |zh  |zh_CN         |zh_CN.UTF-8 |
 
 For URLs we prefer to use *ISO 639-1 codes* <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>.
 
