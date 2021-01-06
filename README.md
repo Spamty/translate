@@ -7,7 +7,6 @@
 [![GitHub](https://img.shields.io/github/followers/spamty?label=GitHub&style=social)](https://github.com/spamty/)
 
 [![Email](https://img.shields.io/badge/Email-contact@spamty.eu-grey)](https://spamty.eu/contact.php)
-[![PGP Key](https://img.shields.io/badge/PGP-ACA54A165C6F2311-blue)](https://spamty.eu/contact.php)
 
 This is the translation for the spamty.eu website.
 
@@ -21,7 +20,8 @@ Spamty is currently available in:
 
 |Language |Status             |details    |URL |Language Code |System      |
 |---      |---                |---        |--- |---           |---         |
-|German   |:white_check_mark: |76%        |de  |de_DE         |de_DE.UTF-8 |
+|German   |:white_check_mark: |100%       |de  |de_DE         |de_DE.UTF-8 |
+|Arabic   |:x:                |TBD        |ar  |              |            |
 |English  |:white_check_mark: |primary    |en  |en_US         |en_US.UTF-8 |
 |Spanish  |:x:                |Incomplete |es  |es_ES         |es_ES.UTF-8 |
 |French   |:x:                |Incomplete |fr  |fr_FR         |fr_FR.UTF-8 |
