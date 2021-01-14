@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2021-01-06 17:56+0100\n"
-"PO-Revision-Date: 2021-01-06 17:56+0100\n"
+"POT-Creation-Date: 2021-01-14 21:55+0100\n"
+"PO-Revision-Date: 2021-01-14 21:57+0100\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: fr\n"
@@ -32,7 +32,7 @@ msgstr "N’hésitez pas à me contacter par e-mail:"
 msgid "Go to my email address on Spamty."
 msgstr "Lien vers mon adresse E-mail."
 
-#: website/contact.php:58 website/feed.php:154
+#: website/contact.php:58 website/feed.php:153
 msgid "creator of Spamty"
 msgstr "créateur de Spamty"
 
@@ -40,13 +40,9 @@ msgstr "créateur de Spamty"
 msgid "GPG Key"
 msgstr "GPG Key"
 
-#: website/contact.php:79
-msgid "<a>Please use GPG to encrypt emails!</a>"
-msgstr "<a>S’il vous plaît utiliser GPG pour chiffrer les e-mails!</a>"
-
-#: website/contact.php:79
-msgid "https://emailselfdefense.fsf.org/en/windows.html"
-msgstr "https://emailselfdefense.fsf.org/fr/windows.html"
+#: website/contact.php:79 website/legal.php:25 website/privacy.php:138
+msgid "Please use my GPG key to encrypt emails!"
+msgstr "S’il vous plaît utiliser GPG pour chiffrer les e-mails!"
 
 #: website/donate.php:4
 msgid "Donate for Spamty.eu"
@@ -385,94 +381,99 @@ msgid ""
 "If you want to use Spamty to create links to multiple email addresses you "
 "can <a>use our API</a>. "
 msgstr ""
+"Si vous souhaitez utiliser Spamty pour créer des liens vers plusieurs "
+"adresses e-mail, vous <a>pouvez utiliser notre API</a>. "
 
 #: website/faq.php:100
 msgid ""
 "Or you can <a>contact me</a> to get access to a bulk link creator tool. This "
 "can be used to create Spamty links for a list of hundreds of email addresses."
 msgstr ""
+"Ou vous pouvez <a>me contacter pour avoir</a> accès à un outil de créateur "
+"de lien en vrac. Cela peut être utilisé pour créer des liens Spamty pour une "
+"liste de centaines d’adresses e-mail."
 
 #: website/faq.php:105
 msgid "Is the source code public? Can I run a self-hosted version?"
 msgstr ""
+"Le code source est-il public ? Puis-je exécuter une version auto-hébergée ?"
 
 #: website/faq.php:107
 msgid "I created a small PHP script to run a self-hosted version of Spamty."
 msgstr ""
+"J’ai créé un petit script PHP pour exécuter une version auto-hébergée de "
+"Spamty."
 
 #: website/faq.php:114
 msgid ""
 "Upload the PHP file to your web server and edit the file to adjust it to "
 "your needs."
 msgstr ""
+"Téléchargez le fichier PHP sur votre serveur Web et modifiez le fichier pour "
+"l’ajuster à vos besoins."
 
 #: website/feed.php:106
 msgid "Spamty news feed"
-msgstr ""
+msgstr "Flux d’actualités Spamty"
 
 #: website/feed.php:107
 msgid "Stay informed about recents developments with this news feed."
-msgstr ""
+msgstr "Restez informé des développements récents avec ce fil d’actualité."
 
 #: website/feed.php:113
 msgid "Spamty news blog"
-msgstr ""
+msgstr "Spamty blog nouvelles"
 
 #: website/feed.php:115
 msgid "The news feed is only available in English."
-msgstr ""
+msgstr "Le fil d’actualité n’est disponible qu’en anglais."
 
-#: website/feed.php:117
-#, fuzzy
-#| msgid "You can also subscribe us on"
-msgid "You can also subscribe on"
-msgstr "Vous pouvez également nous abonner sur"
+#: website/includes/ws-foot.php:6 website/includes/ws-foot.php:78
+msgid "Language"
+msgstr "Langue"
 
-#: website/includes/ws-foot.php:1
-msgid "Language:"
-msgstr "Langue:"
-
-#: website/includes/ws-foot.php:7
+#: website/includes/ws-foot.php:41
 msgid "Translate"
 msgstr "Aide à la traduction"
 
-#: website/includes/ws-foot.php:15
+#: website/includes/ws-foot.php:55
 msgid ""
 "This is going to create a Cookie to store your preferred language. Is this "
 "okay?"
 msgstr ""
+"Cela va créer un cookie pour stocker votre langue préférée. C’est bon ?"
 
 #: website/includes/ws-footer.php:7 website/legal.php:16 website/privacy.php:38
 #: website/privacy.php:131
 msgid "Contact"
 msgstr "Contact"
 
-#: website/includes/ws-footer.php:8 website/show.php:160
+#: website/includes/ws-footer.php:8 website/show.php:158
 #: website/show_js.php:202
 msgid "FAQ/Help"
 msgstr "Aide/FAQ"
 
 #: website/includes/ws-footer.php:9
 msgid "Newsfeed"
-msgstr ""
+msgstr "Newsfeed"
 
 #: website/includes/ws-footer.php:10 website/legal.php:4 website/legal.php:13
-#: website/show.php:161 website/show_js.php:203
+#: website/show.php:159 website/show_js.php:203
 msgid "Legal Notice"
 msgstr "Mentions légales"
 
 #: website/includes/ws-footer.php:11 website/index.php:38
 #: website/index_bulk.php:50 website/index_js.php:108 website/index_text.php:47
-#: website/privacy.php:4 website/privacy.php:13 website/show.php:162
+#: website/privacy.php:4 website/privacy.php:13 website/show.php:160
 #: website/show_js.php:204
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
-#: website/includes/ws-head.php:95
+#: website/includes/ws-head.php:104
 msgid "Protect your Email Address against Spam"
 msgstr "Protégez votre adresse e-mail contre le spam"
 
-#: website/includes/ws-head.php:106 website/index.php:5
+#: website/includes/ws-head.php:115 website/index.php:5
 #: website/index_bulk.php:5 website/index_js.php:5 website/legal.php:30
 msgid ""
 "Tired of spam? Spamty helps you to protect your email address on the web by "
@@ -487,11 +488,11 @@ msgstr "Start"
 
 #: website/includes/ws-header.php:15
 msgid "Donate"
-msgstr ""
+msgstr "Faire un don"
 
 #: website/includes/ws-header.php:16
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: website/index.php:4 website/index_bulk.php:4 website/index_js.php:4
 msgid "Protect your email address"
@@ -533,10 +534,8 @@ msgid "Your email address"
 msgstr "Votre adresse email"
 
 #: website/index.php:31 website/index_js.php:101
-#, fuzzy
-#| msgid "More contact options"
 msgid "Protect other contact information"
-msgstr "Plusieurs options de contact"
+msgstr "Protéger les autres coordonnées"
 
 #: website/index.php:38 website/index_bulk.php:50 website/index_js.php:108
 #: website/index_text.php:47
@@ -548,6 +547,9 @@ msgid ""
 "We store an AES-256 encrypted version of your email address in our database. "
 "This means we cannot see your email address unless we get your Spamty link."
 msgstr ""
+"Nous stockons une version cryptée AES-256 de votre adresse e-mail dans notre "
+"base de données. Cela signifie que nous ne pouvons pas voir votre adresse e-"
+"mail à moins d’obtenir votre lien Spamty."
 
 #: website/index.php:48 website/index_bulk.php:60 website/index_js.php:118
 #: website/index_text.php:57
@@ -570,8 +572,7 @@ msgstr "<a>Recharger le formulaire</a> et essayez à nouveau."
 #: website/index.php:63 website/index.php:74 website/index_bulk.php:83
 #: website/index_js.php:147 website/index_js.php:157 website/index_text.php:81
 #: website/index_text.php:92 website/index_text.php:102 website/show.php:31
-#: website/show.php:71 website/show.php:94 website/show_js.php:32
-#: website/show_js.php:91 website/show_js.php:114
+#: website/show_js.php:32 website/show_js.php:91 website/show_js.php:114
 msgid "<a>Contact me</a> if you need help."
 msgstr "<a>Contactez-moi</a> si vous avez besoin d’aide."
 
@@ -580,8 +581,6 @@ msgid "This was no valid email address. "
 msgstr "Il s’agissait d’aucune adresse de courriel valide. "
 
 #: website/index.php:86 website/index_js.php:169 website/index_text.php:115
-#, fuzzy
-#| msgid "Please send an email to contact@spamty.eu if you need help."
 msgid "Please send an email to contact@spamty.eu to get help."
 msgstr ""
 "S’il vous plaît envoyez un courriel à contact@spamty.eu si vous avez besoin "
@@ -598,33 +597,27 @@ msgstr "Voici le lien où se trouve votre adresse email:"
 
 #: website/index.php:118 website/index_js.php:202 website/index_text.php:147
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Copier dans le presse-papiers"
 
 #: website/index.php:118 website/index_js.php:202 website/index_text.php:147
 msgid "Copied!"
-msgstr ""
+msgstr "Copié !"
 
 #: website/index.php:125 website/index_js.php:209 website/index_text.php:154
 msgid "Show me HTML code"
-msgstr ""
+msgstr "Montrez-moi le code HTML"
 
 #: website/index.php:127 website/index_js.php:211 website/index_text.php:156
-#, fuzzy
-#| msgid "My Email Address"
 msgid "My email address"
 msgstr "Mon adresse mail"
 
 #: website/index.php:136 website/index_js.php:220 website/index_text.php:165
-#, fuzzy
-#| msgid ""
-#| "You can support us with a donation via PayPal and upgrade to <a>premium</"
-#| "a>. Just follow these steps:"
 msgid ""
 "You can support us with a <a>donation via PayPal or Bitcoin</a> and upgrade "
 "to premium."
 msgstr ""
-"Vous pouvez nous soutenir par un don via PayPal et passer à <a>premium</a>. "
-"Il suffit de suivre les étapes suivantes :"
+"Vous pouvez nous soutenir par un don <a>via PayPal Bitcoin et passer</a> à "
+"la prime."
 
 #: website/index.php:142 website/index_js.php:226 website/index_text.php:171
 msgid "Share your link"
@@ -671,18 +664,14 @@ msgid "Share via email"
 msgstr "Partagez-le par mail"
 
 #: website/index_bulk.php:28
-#, fuzzy
-#| msgid "Enter your email address in the form to generate your link."
 msgid "Enter one valid email address per line. No other seperators."
-msgstr "Entrez votre adresse email dans le formulaire pour générer votre lien."
+msgstr "Entrez une adresse e-mail valide par ligne. Pas d’autres séperateurs."
 
 #: website/index_bulk.php:29 website/index_text.php:30
 msgid "characters"
-msgstr ""
+msgstr "caractères"
 
 #: website/index_bulk.php:32 website/index_text.php:33
-#, fuzzy
-#| msgid "Protect your email address"
 msgid "Protect only your email address"
 msgstr "Protégez votre adresse e-mail"
 
@@ -691,43 +680,41 @@ msgid ""
 "I am legally allowed to create Spamty links for all the email addresses; "
 "especially I have permission of the data subjects."
 msgstr ""
+"Je suis légalement autorisé à créer des liens Spamty pour toutes les "
+"adresses e-mail; surtout j’ai la permission des sujets de données."
 
 #: website/index_bulk.php:42
-#, fuzzy
-#| msgid ""
-#| "We will try to fix this problem and tell you the email address you wanted "
-#| "to see."
 msgid ""
 "We will not send a confirmation email to the email addresses entered above."
 msgstr ""
-"Nous allons essayer de résoudre ce problème et vous dire l’adresse e-mail "
-"que vous vouliez voir."
+"Nous n’enverrons pas d’e-mail de confirmation aux adresses e-mail saisies ci-"
+"dessus."
 
 #: website/index_js.php:26 website/show_js.php:43
 msgid "Your browser does not support JavaScript. Please enable JavaScript."
 msgstr ""
+"Votre navigateur ne prend pas en charge JavaScript. S’il vous plaît activer "
+"JavaScript."
 
 #: website/index_js.php:27
 msgid "Or go to the version without JavaScript."
-msgstr ""
+msgstr "Ou aller à la version sans JavaScript."
 
 #: website/index_js.php:112
 msgid "Encryption is done with JavaScript in your browser."
-msgstr ""
+msgstr "Le chiffrement se fait avec JavaScript dans votre navigateur."
 
 #: website/index_js.php:144
 msgid "There was a problem with the \"ciphertext\" from encryption. "
-msgstr ""
+msgstr "Il y avait un problème avec le « texte chiffré » du cryptage. "
 
 #: website/index_js.php:154
 msgid "There was a problem with the \"salt\" from encryption. "
-msgstr ""
+msgstr "Il y avait un problème avec le « sel » du cryptage. "
 
 #: website/index_text.php:4
-#, fuzzy
-#| msgid "Protect your Email Address against Spam"
 msgid "Protect your data with Spamty"
-msgstr "Protégez votre adresse e-mail contre le spam"
+msgstr ""
 
 #: website/index_text.php:5
 #, fuzzy
@@ -836,12 +823,6 @@ msgstr "Ce site Web est fourni par:"
 #: website/legal.php:24 website/privacy.php:137
 msgid "You can contact me via email:"
 msgstr "Vous pouvez me contacter par courrier électronique :"
-
-#: website/legal.php:25 website/privacy.php:138
-#, fuzzy
-#| msgid "<a>Please use my GPG key to encrypt emails!</a>"
-msgid "Please use my GPG key to encrypt emails!"
-msgstr "<a>S’il vous plaît utiliser GPG pour chiffrer les e-mails!</a>"
 
 #: website/legal.php:28
 msgid "Not Commercial"
@@ -1337,7 +1318,7 @@ msgid ""
 "You can contact me if you have any questions according the data protection:"
 msgstr "Vous pouvez me contacter si vous avez des questions:"
 
-#: website/show.php:29 website/show.php:113 website/show_js.php:30
+#: website/show.php:29 website/show.php:112 website/show_js.php:30
 msgid ""
 "This link was invalid. You - or the person who gave you this link - probably "
 "made a typo. "
@@ -1345,7 +1326,7 @@ msgstr ""
 "Ce lien n'était pas valide. Vous - ou la personne qui vous a donné ce lien - "
 "avez probablement fait une faute de frappe. "
 
-#: website/show.php:30 website/show.php:114 website/show_js.php:31
+#: website/show.php:30 website/show.php:113 website/show_js.php:31
 msgid ""
 "We would love to help you with this problem but we can't. We also don't know "
 "the correct link. "
@@ -1366,23 +1347,17 @@ msgid ""
 "are a human. "
 msgstr ""
 
-#: website/show.php:48 website/show_js.php:62
-#, fuzzy
-#| msgid "If you have problems try a <a>different image</a>."
-msgid "If you have problems <a>contact me</a>."
-msgstr "Si vous avez des problèmes, essayez une <a>image différente</a>."
-
-#: website/show.php:53 website/show_js.php:67
+#: website/show.php:52 website/show_js.php:67
 #, fuzzy
 #| msgid "Show Email"
 msgid "Show me!"
 msgstr "Afficher Email"
 
-#: website/show.php:57 website/show_js.php:71
+#: website/show.php:56 website/show_js.php:71
 msgid "Why?"
 msgstr "Le Pourquoi ?"
 
-#: website/show.php:58 website/show_js.php:72
+#: website/show.php:57 website/show_js.php:72
 #, fuzzy
 #| msgid ""
 #| "Some people use robots to search the internet for email addresses and "
@@ -1394,7 +1369,7 @@ msgstr ""
 "Certaines personnes utilisent des robots pour rechercher sur Internet des "
 "adresses e-mail et envoyer des messages de spam pour eux."
 
-#: website/show.php:59 website/show_js.php:73
+#: website/show.php:58 website/show_js.php:73
 #, fuzzy
 #| msgid ""
 #| "To protect against spam you were redirected to this website. We will "
@@ -1407,26 +1382,28 @@ msgstr ""
 "vérifier si vous êtes un humain et si nous pouvons vous montrer l’adresse e-"
 "mail."
 
-#: website/show.php:68 website/show_js.php:88
+#: website/show.php:67 website/show_js.php:88
 msgid "Please do not fill out the email field. It is for spam protection only."
 msgstr ""
 "S’il vous plaît ne pas remplir le champ email. Il est pour la protection "
 "anti-spam uniquement."
 
-#: website/show.php:69 website/show.php:92 website/show_js.php:89
+#: website/show.php:68 website/show.php:91 website/show_js.php:89
 #: website/show_js.php:112
 msgid "Go back and try again."
 msgstr "Veuillez revenir en arrière et réessayer."
 
-#: website/show.php:91 website/show_js.php:111
+#: website/show.php:70 website/show.php:93 website/show.php:114
+#, fuzzy
+#| msgid "<a>Contact me</a> if you need help."
+msgid "<a>Contact the Spamty.eu team</a> if you need help."
+msgstr "<a>Contactez-moi</a> si vous avez besoin d’aide."
+
+#: website/show.php:90 website/show_js.php:111
 msgid "We couldn't verify that you are a human. "
 msgstr "Nous ne pouvions pas vérifier que vous êtes un être humain. "
 
-#: website/show.php:115
-msgid "You can <a>contact me</a> if you have questions."
-msgstr "Vous pouvez <a>me contacter</a> si vous avez des questions."
-
-#: website/show.php:123 website/show_js.php:129
+#: website/show.php:122 website/show_js.php:129
 #, fuzzy
 #| msgid ""
 #| "Please send an email to contact@spamty.eu with the following error code. "
@@ -1435,11 +1412,7 @@ msgstr ""
 "S’il vous plaît envoyez un courriel à contact@spamty.eu avec le code "
 "d’erreur suivant. "
 
-#: website/show.php:124 website/show_js.php:130
-msgid "You can also <a>use our contact form</a>. "
-msgstr "Vous pouvez utiliser <a>notre formulaire de contact</a>. "
-
-#: website/show.php:125 website/show_js.php:131
+#: website/show.php:123 website/show_js.php:131
 msgid ""
 "We will try to fix this problem and tell you the email address you wanted to "
 "see."
@@ -1447,17 +1420,27 @@ msgstr ""
 "Nous allons essayer de résoudre ce problème et vous dire l’adresse e-mail "
 "que vous vouliez voir."
 
-#: website/show.php:133 website/show_js.php:143
+#: website/show.php:131 website/show_js.php:143
 msgid "Here is the information you wanted to see:"
 msgstr "Voici l’information que vous vouliez voir:"
 
-#: website/show.php:137 website/show_js.php:163
+#: website/show.php:135 website/show_js.php:163
 msgid "Here is the Email Address you wanted to see:"
 msgstr "Voici l’adresse email que vous vouliez voir:"
 
-#: website/show.php:159 website/show_js.php:201
+#: website/show.php:157 website/show_js.php:201
 msgid "Powered by"
 msgstr "Realisé Par"
+
+#: website/show_js.php:62
+#, fuzzy
+#| msgid "If you have problems try a <a>different image</a>."
+msgid "If you have problems <a>contact me</a>."
+msgstr "Si vous avez des problèmes, essayez une <a>image différente</a>."
+
+#: website/show_js.php:130
+msgid "You can also <a>use our contact form</a>. "
+msgstr "Vous pouvez utiliser <a>notre formulaire de contact</a>. "
 
 #: website/status.php:4
 msgid "Statuspage"
@@ -1483,88 +1466,6 @@ msgstr ""
 msgid "Disabled Spamty links"
 msgstr ""
 
-#: website/v-mailhide-io.php:4
-msgid "Spamty vs. Mailhide.io"
-msgstr ""
-
-#: website/v-mailhide-io.php:5 website/v-mailhide-io.php:15
-msgid ""
-"Spamty is a great replacement for Mailhide.io because it is GDPR compliant."
-msgstr ""
-
-#: website/v-mailhide-io.php:14
-msgid "Mailhide.io replacement"
-msgstr ""
-
-#: website/v-mailhide-io.php:16 website/v-recaptcha-mailhide.php:14
-msgid ""
-"You can use Spamty if you want to share your email address on the internet "
-"(e.g. on Twitter, Craigslist, ...) without getting tons of spam. "
-msgstr ""
-"Vous pouvez utiliser Spamty si vous voulez partager votre adresse de "
-"courrier électronique sur internet (par exemple sur Twitter, Craigslist,…) "
-"sans avoir des tonnes de spam. "
-
-#: website/v-mailhide-io.php:17 website/v-recaptcha-mailhide.php:15
-msgid ""
-"You'll get a link to share it on the web. If someone visits this link he has "
-"to solve a captcha before we decrypt your email address of our database and "
-"display it on the website."
-msgstr ""
-"Vous aurez un lien pour partager sur le web. Si une personne visite ce lien "
-"il doit résoudre un captcha avant nous décrypter votre adresse d’e-mail de "
-"notre base de données et l’afficher sur le site Web."
-
-#: website/v-mailhide-io.php:29 website/v-recaptcha-mailhide.php:28
-#: website/v-scrim.php:26
-msgid "Best spam protection"
-msgstr "Protection anti spam"
-
-#: website/v-mailhide-io.php:34 website/v-recaptcha-mailhide.php:33
-#: website/v-scrim.php:31
-msgid "Secure Captcha"
-msgstr "Captcha sécurisé"
-
-#: website/v-mailhide-io.php:39 website/v-recaptcha-mailhide.php:43
-#: website/v-scrim.php:36
-msgid "Free"
-msgstr "Gratuit"
-
-#: website/v-mailhide-io.php:44 website/v-recaptcha-mailhide.php:38
-#: website/v-scrim.php:46
-msgid "Multilingual"
-msgstr "Multilingue"
-
-#: website/v-mailhide-io.php:49 website/v-recaptcha-mailhide.php:48
-#: website/v-scrim.php:41
-msgid "API for developers"
-msgstr ""
-
-#: website/v-mailhide-io.php:54 website/v-recaptcha-mailhide.php:53
-#: website/v-scrim.php:51
-msgid "GDPR compliant"
-msgstr ""
-
-#: website/v-mailhide-io.php:59 website/v-recaptcha-mailhide.php:58
-#: website/v-scrim.php:56
-msgid "Encrypted database"
-msgstr ""
-
-#: website/v-mailhide-io.php:64 website/v-recaptcha-mailhide.php:63
-#: website/v-scrim.php:61
-msgid "Online"
-msgstr ""
-
-#: website/v-mailhide-io.php:65 website/v-mailhide-io.php:66
-#: website/v-recaptcha-mailhide.php:65 website/v-scrim.php:63
-msgid "since"
-msgstr ""
-
-#: website/v-mailhide-io.php:71 website/v-recaptcha-mailhide.php:70
-#: website/v-scrim.php:68
-msgid "Start using Spamty"
-msgstr "Commencez à utiliser Spamty"
-
 #: website/v-recaptcha-mailhide.php:4
 msgid "Spamty vs. reCAPTCHA Mailhide"
 msgstr ""
@@ -1579,9 +1480,68 @@ msgstr ""
 msgid "reCAPTCHA Mailhide alternative"
 msgstr ""
 
+#: website/v-recaptcha-mailhide.php:14
+msgid ""
+"You can use Spamty if you want to share your email address on the internet "
+"(e.g. on Twitter, Craigslist, ...) without getting tons of spam. "
+msgstr ""
+"Vous pouvez utiliser Spamty si vous voulez partager votre adresse de "
+"courrier électronique sur internet (par exemple sur Twitter, Craigslist,…) "
+"sans avoir des tonnes de spam. "
+
+#: website/v-recaptcha-mailhide.php:15
+msgid ""
+"You'll get a link to share it on the web. If someone visits this link he has "
+"to solve a captcha before we decrypt your email address of our database and "
+"display it on the website."
+msgstr ""
+"Vous aurez un lien pour partager sur le web. Si une personne visite ce lien "
+"il doit résoudre un captcha avant nous décrypter votre adresse d’e-mail de "
+"notre base de données et l’afficher sur le site Web."
+
+#: website/v-recaptcha-mailhide.php:28 website/v-scrim.php:26
+msgid "Best spam protection"
+msgstr "Protection anti spam"
+
+#: website/v-recaptcha-mailhide.php:33 website/v-scrim.php:31
+msgid "Secure Captcha"
+msgstr "Captcha sécurisé"
+
+#: website/v-recaptcha-mailhide.php:38 website/v-scrim.php:46
+msgid "Multilingual"
+msgstr "Multilingue"
+
+#: website/v-recaptcha-mailhide.php:43 website/v-scrim.php:36
+msgid "Free"
+msgstr "Gratuit"
+
+#: website/v-recaptcha-mailhide.php:48 website/v-scrim.php:41
+msgid "API for developers"
+msgstr ""
+
+#: website/v-recaptcha-mailhide.php:53 website/v-scrim.php:51
+msgid "GDPR compliant"
+msgstr ""
+
+#: website/v-recaptcha-mailhide.php:58 website/v-scrim.php:56
+msgid "Encrypted database"
+msgstr ""
+
+#: website/v-recaptcha-mailhide.php:63 website/v-scrim.php:61
+msgid "Online"
+msgstr ""
+
+#: website/v-recaptcha-mailhide.php:65 website/v-scrim.php:63
+msgid "since"
+msgstr ""
+
 #: website/v-recaptcha-mailhide.php:69 website/v-scrim.php:67
 msgid "discontinued"
 msgstr ""
+
+#: website/v-recaptcha-mailhide.php:70 website/v-scrim.php:68
+msgid "Start using Spamty"
+msgstr "Commencez à utiliser Spamty"
 
 #: website/v-scrim.php:4
 msgid "Spamty vs. scr.im"
@@ -1601,6 +1561,20 @@ msgid ""
 "Spamty offers a great alternative for the discontinued service 'scr.im' to "
 "get less email spam."
 msgstr ""
+
+#~ msgid "<a>Please use GPG to encrypt emails!</a>"
+#~ msgstr "<a>S’il vous plaît utiliser GPG pour chiffrer les e-mails!</a>"
+
+#~ msgid "https://emailselfdefense.fsf.org/en/windows.html"
+#~ msgstr "https://emailselfdefense.fsf.org/fr/windows.html"
+
+#, fuzzy
+#~| msgid "You can also subscribe us on"
+#~ msgid "You can also subscribe on"
+#~ msgstr "Vous pouvez également nous abonner sur"
+
+#~ msgid "You can <a>contact me</a> if you have questions."
+#~ msgstr "Vous pouvez <a>me contacter</a> si vous avez des questions."
 
 #~ msgid ""
 #~ "If you publish your email address in forums, on Twitter or somewhere else "
