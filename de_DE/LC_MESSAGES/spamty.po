@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2021-01-14 21:52+0100\n"
-"PO-Revision-Date: 2021-01-14 21:52+0100\n"
+"POT-Creation-Date: 2021-01-16 20:56+0100\n"
+"PO-Revision-Date: 2021-01-16 20:56+0100\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: de\n"
@@ -420,15 +420,15 @@ msgstr "Spamty News Blog"
 msgid "The news feed is only available in English."
 msgstr "Der Newsfeed ist nur in englischer Sprache verfügbar."
 
-#: website/includes/ws-foot.php:6 website/includes/ws-foot.php:78
+#: website/includes/ws-foot.php:6 website/includes/ws-foot.php:81
 msgid "Language"
 msgstr "Sprache"
 
-#: website/includes/ws-foot.php:41
+#: website/includes/ws-foot.php:44
 msgid "Translate"
 msgstr "Übersetzen"
 
-#: website/includes/ws-foot.php:55
+#: website/includes/ws-foot.php:58
 msgid ""
 "This is going to create a Cookie to store your preferred language. Is this "
 "okay?"
