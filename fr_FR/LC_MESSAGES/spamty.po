@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2021-01-14 21:55+0100\n"
-"PO-Revision-Date: 2021-01-14 21:57+0100\n"
+"POT-Creation-Date: 2021-01-16 20:49+0100\n"
+"PO-Revision-Date: 2021-01-16 20:54+0100\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: fr\n"
@@ -428,15 +428,15 @@ msgstr "Spamty blog nouvelles"
 msgid "The news feed is only available in English."
 msgstr "Le fil d’actualité n’est disponible qu’en anglais."
 
-#: website/includes/ws-foot.php:6 website/includes/ws-foot.php:78
+#: website/includes/ws-foot.php:6 website/includes/ws-foot.php:81
 msgid "Language"
 msgstr "Langue"
 
-#: website/includes/ws-foot.php:41
+#: website/includes/ws-foot.php:44
 msgid "Translate"
 msgstr "Aide à la traduction"
 
-#: website/includes/ws-foot.php:55
+#: website/includes/ws-foot.php:58
 msgid ""
 "This is going to create a Cookie to store your preferred language. Is this "
 "okay?"
@@ -714,52 +714,41 @@ msgstr "Il y avait un problème avec le « sel » du cryptage. "
 
 #: website/index_text.php:4
 msgid "Protect your data with Spamty"
-msgstr ""
+msgstr "Protégez vos données avec Spamty"
 
 #: website/index_text.php:5
-#, fuzzy
-#| msgid ""
-#| "Create a Spamty link and protect your email address on the internet "
-#| "against spam."
 msgid ""
 "Create a Spamty link and protect your contact information or any other data "
 "on the internet against spam bots."
 msgstr ""
-"Créer un lien de Spamty et de protéger votre adresse e-mail sur internet "
-"contre le spam."
+"Créez un lien Spamty et protégez vos coordonnées ou toute autre donnée sur "
+"Internet contre les spam bots."
 
 #: website/index_text.php:20
-#, fuzzy
-#| msgid "Protect your Email"
 msgid "Protect your data"
-msgstr "Protéger votre adresse E-mail"
+msgstr "Protégez vos données"
 
 #: website/index_text.php:21
-#, fuzzy
-#| msgid ""
-#| "Enter your email address below and we will encrypt it and give you a "
-#| "link. If somebody opens the link he has to solve a captcha and then he is "
-#| "able to see your email address."
 msgid ""
 "Enter any sensitive information below and we will encrypt it and give you a "
 "link. If somebody opens the link he has to solve a captcha and then he is "
 "able to see the information."
 msgstr ""
-"Entrez votre adresse email ci-dessous et nous allons crypter et de vous "
-"donner un lien. Si quelqu’un ouvre le lien qu’il a à résoudre un captcha et "
-"puis il est capable de voir votre adresse email."
+"Entrez toutes les informations sensibles ci-dessous et nous les chiffrerons "
+"et vous donnerons un lien. Si quelqu’un ouvre le lien, il doit résoudre un "
+"captcha et puis il est en mesure de voir l’information."
 
 #: website/index_text.php:27
-#, fuzzy
-#| msgid "More Informationen"
 msgid "Your data/ information/ text"
-msgstr "Plus d’informations"
+msgstr "Vos données/ informations/ texte"
 
 #: website/index_text.php:40
 msgid ""
 "This email address is used for a confirmation email and will not be "
 "published."
 msgstr ""
+"Cette adresse e-mail est utilisée pour un e-mail de confirmation et ne sera "
+"pas publiée."
 
 #: website/index_text.php:50
 msgid ""
@@ -767,34 +756,30 @@ msgid ""
 "database. This means we cannot read it unless we get your Spamty link. Your "
 "email address is stored in cleartext."
 msgstr ""
+"Nous stockerons le texte que vous avez entré avec le chiffrement AES-256 "
+"dans notre base de données. Cela signifie que nous ne pouvons pas le lire à "
+"moins que nous obions votre lien Spamty. Votre adresse e-mail est stockée "
+"dans cleartext."
 
 #: website/index_text.php:99
 msgid "Your text was too long. There is a limit of 200 characters. "
-msgstr ""
+msgstr "Ton texte était trop long. Il y a une limite de 200 caractères. "
 
 #: website/index_text.php:141
-#, fuzzy
-#| msgid "Share your link"
 msgid "This is your link:"
-msgstr "Partager le lien"
+msgstr "Partager le lien :"
 
 #: website/index_text.php:179
-#, fuzzy
-#| msgid "Protected against spam"
 msgid "Protected text: "
-msgstr "Protégé contre le spam"
+msgstr "Texte protégé : "
 
 #: website/index_text.php:182
-#, fuzzy
-#| msgid "More contact options"
 msgid "Link the information"
-msgstr "Plusieurs options de contact"
+msgstr "Protéger les autres coordonnées"
 
 #: website/index_text.php:182
-#, fuzzy
-#| msgid "You can find my email address here: "
 msgid "You can find the information here: "
-msgstr "Vous pouvez trouver mon adresse email ici: "
+msgstr "Vous pouvez trouver l’information ici: "
 
 #: website/legal.php:5
 msgid ""
@@ -805,16 +790,12 @@ msgstr ""
 "selon la loi allemande."
 
 #: website/legal.php:14
-#, fuzzy
-#| msgid ""
-#| "This is the legal notice according to &sect; 5 TMG (German teleservices "
-#| "act) for the following websites:"
 msgid ""
 "This is the legal notice according to sect. 5 TMG (German teleservices act) "
 "for the following websites and our social media accounts:"
 msgstr ""
-"Ceci est l’avis juridique selon § 5 TMG (loi allemande sur les téléservices) "
-"pour les sites:"
+"Il s’agit de l’avis juridique selon la secte 5 TMG (loi allemande sur les "
+"téléservices) pour les sites Web suivants et nos comptes de médias sociaux :"
 
 #: website/legal.php:18
 msgid "This Website is provided by:"
@@ -829,20 +810,12 @@ msgid "Not Commercial"
 msgstr "Non Commercial"
 
 #: website/legal.php:29
-#, fuzzy
-#| msgid ""
-#| "This webservice is provided without a gainful intension. Spamty is "
-#| "completely ad-free."
 msgid "This webservice is provided without a gainful intension."
-msgstr ""
-"Ce webservice est fourni sans intension lucrative. Spamty est complètement "
-"libre de toute publicité."
+msgstr "Ce service web est fourni sans une intension ré gainée."
 
 #: website/legal.php:31
-#, fuzzy
-#| msgid "<a>Learn more!</a>"
 msgid "Learn more!"
-msgstr "<a>En savoir plus!</a>"
+msgstr "Pour en savoir plus!"
 
 #: website/legal.php:33
 msgid "Disclaimer"
@@ -853,6 +826,8 @@ msgid ""
 "As a service provider, we are responsible only for our own content on these "
 "pages according to sect. 7(1) TMG. "
 msgstr ""
+"En tant que fournisseur de services, nous ne sommes responsables que de "
+"notre propre contenu sur ces pages selon la secte 7(1) TMG. "
 
 #: website/legal.php:35
 msgid ""
@@ -862,6 +837,11 @@ msgid ""
 "notice any illegal content or other legal infringements, we will of course "
 "remove them immediately. "
 msgstr ""
+"En outre, selon la secte 7-10 TMG, en tant que fournisseur de ce site Web "
+"(fournisseur de services), nous ne sommes pas obligés de surveiller le "
+"contenu des utilisateurs ou d’enquêter sur les circonstances qui indiquent "
+"une activité illégale. Si nous remarquons tout contenu illégal ou d’autres "
+"infractions légales, nous les supprimerons bien sûr immédiatement. "
 
 #: website/legal.php:36
 msgid ""
@@ -869,6 +849,10 @@ msgid ""
 "comments in the blog). Any liability in this regard is possible at the "
 "earliest from the time of knowledge of a concrete infringement. "
 msgstr ""
+"Nous ne sommes pas responsables du contenu créé par les utilisateurs (en "
+"particulier les messages et les commentaires dans le blog). Toute "
+"responsabilité à cet égard est possible au plus tôt dès la connaissance "
+"d’une infraction concrète. "
 
 #: website/legal.php:37
 msgid ""
@@ -877,6 +861,10 @@ msgid ""
 "party content. The respective provider or operator is always responsible for "
 "the content of the linked websites. "
 msgstr ""
+"Ce site web contient des liens vers des sites Web tiers. Nous n’avons aucune "
+"influence sur le contenu de ces sites Web et ne pouvons accepter aucune "
+"responsabilité pour ce contenu tiers. Le fournisseur ou l’opérateur concerné "
+"est toujours responsable du contenu des sites web liés. "
 
 #: website/legal.php:38
 msgid ""
@@ -885,10 +873,15 @@ msgid ""
 "infringements, we will remove the corresponding links immediately. A "
 "permanent control of the linked websites is not reasonable. "
 msgstr ""
+"Au moment de relier nous ne pouvions pas trouver de contenu illégal sur ces "
+"sites. Si nous prenons connaissance de contenus illégaux ou d’autres "
+"infractions légales, nous supprimerons immédiatement les liens "
+"correspondants. Un contrôle permanent des sites web liés n’est pas "
+"raisonnable. "
 
 #: website/legal.php:40
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: website/legal.php:41
 msgid ""
@@ -896,6 +889,9 @@ msgid ""
 "editing and distribution requires the consent of the respective copyright "
 "holder. "
 msgstr ""
+"Les contenus publiés sur ce site sont soumis au droit d’auteur. La copie, "
+"l’édition et la distribution nécessitent le consentement du titulaire du "
+"droit d’auteur respectif. "
 
 #: website/legal.php:42
 msgid ""
@@ -903,12 +899,17 @@ msgid ""
 "As far as the content on this site was not created by us, the copyrights of "
 "third parties are respected. "
 msgstr ""
+"Le contenu qui n’a pas été créé par nous est indiqué, si un marquage est "
+"nécessaire. En ce qui concerne le contenu de ce site n’a pas été créé par "
+"nous, les droits d’auteur de tiers sont respectés. "
 
 #: website/legal.php:43
 msgid ""
 "Should you become aware of a copyright infringement, please inform us and we "
 "will remove the content immediately. "
 msgstr ""
+"Si vous êtes au courant d’une violation du droit d’auteur, veuillez nous en "
+"informer et nous supprimerons le contenu immédiatement. "
 
 #: website/legal.php:45
 msgid "Data Protection"
@@ -919,16 +920,12 @@ msgid "You can find our <a>privacy policy here</a>. "
 msgstr "Vous pouvez trouver notre <a>politique de confidentialité ici</a>. "
 
 #: website/legal.php:47
-#, fuzzy
-#| msgid ""
-#| "There are detailed information about cookies, our newsletter and the "
-#| "storage of personal data."
 msgid ""
 "There are detailed information about cookies and the storage and processing "
 "of personal data."
 msgstr ""
-"Il ya des informations détaillées sur les cookies, notre bulletin "
-"d’information et le stockage des données personnelles."
+"Il existe des informations détaillées sur les cookies et le stockage et le "
+"traitement des données personnelles."
 
 #: website/privacy.php:5
 msgid ""
@@ -961,29 +958,22 @@ msgid "What kind of information do we store?"
 msgstr "Quel genre d’information ne nous stockons?"
 
 #: website/privacy.php:19
-#, fuzzy
-#| msgid ""
-#| "If you <a>create a link to your email address</a> we will store your "
-#| "email encrypted in our database. "
 msgid ""
 "If you <a>create a link to your email address</a> we will store your email "
 "address encrypted in our database. "
 msgstr ""
-"Si vous <a>créez un lien vers votre adresse e-mail</a>, nous allons stocker "
-"votre e-mail crypté dans notre base de données. "
+"Si vous créez <a>un lien vers votre adresse e-mail, nous</a> stockerons "
+"votre adresse e-mail cryptée dans notre base de données. "
 
 #: website/privacy.php:20
-#, fuzzy
-#| msgid ""
-#| "If you <a>create a link to your email address</a> we will store your "
-#| "email encrypted in our database. "
 msgid ""
 "If you <a>create a Spamty link for other personal information</a> we will "
 "store the text that you enter in the textfield encrypted in our database and "
 "your email address in cleartext. "
 msgstr ""
-"Si vous <a>créez un lien vers votre adresse e-mail</a>, nous allons stocker "
-"votre e-mail crypté dans notre base de données. "
+"Si vous <a>créez un lien Spamty pour d’autres informations personnelles,</a> "
+"nous stockerons le texte que vous entrez dans le champ de texte crypté dans "
+"notre base de données et votre adresse e-mail en texte clair. "
 
 #: website/privacy.php:21
 msgid "Furthermore we store the date and time when the link was generated. "
@@ -991,70 +981,50 @@ msgstr ""
 "En outre, nous stockons la date et l’heure lorsque le lien a été généré. "
 
 #: website/privacy.php:22
-#, fuzzy
-#| msgid ""
-#| "We store your email address as long as you do not ask us to delete it but "
-#| "we cannot guarantee any service or the availability of Spamty."
 msgid ""
 "We store this data as long as you do not ask us to delete it but we cannot "
 "guarantee any service or the availability of Spamty."
 msgstr ""
-"Nous conservons votre adresse électronique tant que vous ne nous demandez "
-"pas de la supprimer, mais nous ne pouvons garantir aucun service ni la "
-"disponibilité de Spamty."
+"Nous stockons ces données tant que vous ne nous demandez pas de les "
+"supprimer, mais nous ne pouvons garantir aucun service ou la disponibilité "
+"de Spamty."
 
 #: website/privacy.php:24
-#, fuzzy
-#| msgid "How is the email address encrypted?"
 msgid "How is the data encrypted?"
-msgstr "Comment l’adresse e-mail est crypté?"
+msgstr "Comment les données sont-elles chiffrées ?"
 
 #: website/privacy.php:25
-#, fuzzy
-#| msgid ""
-#| "We encrypt the address with the <a>AES-256 algorithm</a> which is also "
-#| "used in the US to encrypt \"Top Secret\" documents."
 msgid ""
 "We encrypt the data with the AES-256 algorithm which is also used in the US "
 "to encrypt \"Top Secret\" documents."
 msgstr ""
-"Nous chiffrons l’adresse avec <a>l’algorithme AES-256</a> qui est également "
-"utilisé aux États-Unis pour chiffrer les documents „Top Secret“."
+"Nous cryptons les données avec l’algorithme AES-256 qui est également "
+"utilisé aux États-Unis pour chiffrer les documents « Top Secret »."
 
 #: website/privacy.php:26
-#, fuzzy
-#| msgid ""
-#| "The key for the encryption is randomly generated. It is not stored on our "
-#| "server. It is contained in the link to your email address. A decryption "
-#| "without this key is impossible."
 msgid ""
 "The key for the encryption is randomly generated. It is not stored on our "
 "server but contained in the link that you created. A decryption without this "
 "key is not possible."
 msgstr ""
-"La clé pour le cryptage est générée de façon aléatoire. Ce ne sont pas "
-"stockées sur notre serveur. Elle est contenue dans le lien à votre adresse e-"
-"mail. Un décryptage sans cette clé est impossible."
+"La clé du chiffrement est générée au hasard. Il n’est pas stocké sur notre "
+"serveur mais contenu dans le lien que vous avez créé. Un décryptage sans "
+"cette clé n’est pas possible."
 
 #: website/privacy.php:28
 msgid "Sharing of personal data"
 msgstr "Partage des données personnelles"
 
 #: website/privacy.php:29
-#, fuzzy
-#| msgid ""
-#| "If someone clicks on the link to your email address he will be able to "
-#| "see your email after he solved a captcha. You shouldn't share the link "
-#| "with anyone who is not allowed to view your email address."
 msgid ""
 "If someone clicks on the Spamty link he will be able to see your email "
 "address or the data after he solved a captcha. You shouldn't share the link "
 "with anyone who is not allowed to view this information."
 msgstr ""
-"Si quelqu'un clique sur le lien vers votre adresse e-mail, il pourra voir "
-"votre e-mail après avoir résolu un captcha. Vous ne devez pas partager le "
-"lien avec une personne qui n'est pas autorisée à voir votre adresse "
-"électronique."
+"Si quelqu’un clique sur le lien Spamty, il sera en mesure de voir votre "
+"adresse e-mail ou les données après avoir résolu un captcha. Vous ne devriez "
+"pas partager le lien avec toute personne qui n’est pas autorisée à consulter "
+"ces informations."
 
 #: website/privacy.php:30
 msgid ""
@@ -1074,42 +1044,54 @@ msgid ""
 "Customers’ websites, devices, applications, and/or networks. Cloudflare "
 "keeps user-level data for less than 24 hours."
 msgstr ""
+"Cloudflare traite les informations des utilisateurs finaux dans les "
+"journaux. Les informations traitées peuvent inclure, mais ne se limitent pas "
+"aux adresses IP, aux informations de configuration du système et à d’autres "
+"informations sur le trafic vers et depuis les sites Web, les appareils, les "
+"applications et/ou les réseaux des clients. Cloudflare conserve les données "
+"au niveau de l’utilisateur pendant moins de 24 heures."
 
 #: website/privacy.php:32
 msgid ""
 "We use hCaptcha (a service by Intuition Machines, Inc.) for the captchas to "
 "protect your email address against spam bots. "
 msgstr ""
+"Nous utilisons hCaptcha (un service d’Intuition Machines, Inc.) pour les "
+"captchas afin de protéger votre adresse e-mail contre les spam bots. "
 
 #: website/privacy.php:33
 msgid ""
 "This service provider collects data only to verify that you are a human and "
 "not a bot. Your email address is not shared with hCaptcha."
 msgstr ""
+"Ce fournisseur de services recueille des données uniquement pour vérifier "
+"que vous êtes un humain et non un bot. Votre adresse e-mail n’est pas "
+"partagée avec hCaptcha."
 
 #: website/privacy.php:34
 msgid ""
 "Our hosting provider is Uberspace (a service by Jonas Pasche, Kaiserstr. 15, "
 "55116 Mainz, Germany). "
 msgstr ""
+"Notre fournisseur d’hébergement est Uberspace (un service de Jonas Pasche, "
+"Kaiserstr. 15, 55116 Mayence, Allemagne). "
 
 #: website/privacy.php:35
 msgid ""
 "The data protection agreement according to art. 28 GDPR can be found on "
 "<a>their website</a>."
 msgstr ""
+"L’accord de protection des données selon l’art. 28 GDPR peut être trouvé sur "
+"<a>leur site Web</a>."
 
 #: website/privacy.php:37
 msgid "How can I delete my data?"
 msgstr "Comment puis-je supprimer mes données?"
 
 #: website/privacy.php:38
-#, fuzzy
-#| msgid ""
-#| "Please <a>contact us</a> to deactivate the link or to delete your data."
 msgid "Please <a>contact me</a> to deactivate the link or to delete your data."
 msgstr ""
-"S’il vous plaît <a>nous contacter</a> pour désactiver le lien ou de "
+"S’il vous plaît <a>contactez-moi</a> pour désactiver le lien ou pour "
 "supprimer vos données."
 
 #: website/privacy.php:39
@@ -1117,6 +1099,8 @@ msgid ""
 "I can add a hash of your email address to the blacklist so no one can use it "
 "on this website again."
 msgstr ""
+"Je peux ajouter un hachage de votre adresse e-mail à la liste noire afin que "
+"personne ne puisse l’utiliser sur ce site à nouveau."
 
 #: website/privacy.php:40 website/privacy.php:127
 msgid ""
@@ -1134,7 +1118,7 @@ msgstr ""
 
 #: website/privacy.php:44
 msgid "Tracking and Webserver logs"
-msgstr ""
+msgstr "Journaux de suivi et de serveur web"
 
 #: website/privacy.php:45
 msgid ""
@@ -1166,10 +1150,12 @@ msgid ""
 "Furthermore Cloudflare has logs about user data as stated above. These logs "
 "are kept for less than 24 hours."
 msgstr ""
+"En outre Cloudflare a des journaux sur les données utilisateur comme indiqué "
+"ci-dessus. Ces journaux sont conservés moins de 24 heures."
 
 #: website/privacy.php:50
 msgid "Cookie policy"
-msgstr ""
+msgstr "Politique de cookies"
 
 #: website/privacy.php:51
 msgid ""
@@ -1181,16 +1167,13 @@ msgstr ""
 "de langue préférée."
 
 #: website/privacy.php:52
-#, fuzzy
-#| msgid ""
-#| "You can disable cookies in your browser's setting. Then we won't be able "
-#| "to store them."
 msgid ""
 "You can disable cookies in your browser settings then we won't be able to "
 "store them. You can also delete cookies in your browser."
 msgstr ""
-"Vous pouvez désactiver les cookies dans les paramètres de votre navigateur. "
-"Ensuite, nous ne serons pas capables de les stocker."
+"Vous pouvez désactiver les cookies dans les paramètres de votre navigateur, "
+"alors nous ne pourrons pas les stocker. Vous pouvez également supprimer des "
+"cookies dans votre navigateur."
 
 #: website/privacy.php:53
 msgid ""
@@ -1198,6 +1181,10 @@ msgid ""
 "following link (we can still use cookies without consent on the basis of "
 "art. 6 GDPR) or by deleting your cookies in your browser."
 msgstr ""
+"Vous pouvez retirer votre consentement pour stocker des cookies en cliquant "
+"sur le lien suivant (nous pouvons toujours utiliser des cookies sans "
+"consentement sur la base de l’art. 6 GDPR) ou en supprimant vos cookies dans "
+"votre navigateur."
 
 #: website/privacy.php:53
 msgid "withdraw consent"
@@ -1208,26 +1195,20 @@ msgid "withdrawed consent"
 msgstr ""
 
 #: website/privacy.php:64
-#, fuzzy
-#| msgid "Your name"
 msgid "Cookie name"
-msgstr "Votre nom"
+msgstr ""
 
 #: website/privacy.php:65
-#, fuzzy
-#| msgid "Encryption"
 msgid "Description"
-msgstr "Cryptage"
+msgstr ""
 
 #: website/privacy.php:66
 msgid "Expires"
 msgstr ""
 
 #: website/privacy.php:67
-#, fuzzy
-#| msgid "Legal Notice"
 msgid "Legal basis"
-msgstr "Mentions légales"
+msgstr ""
 
 #: website/privacy.php:74
 msgid "This cookie is created to store your consent for cookies."
@@ -1335,11 +1316,8 @@ msgstr ""
 "Nous ne connaissons pas non plus le lien correct. "
 
 #: website/show.php:40 website/show_js.php:54
-#, fuzzy
-#| msgid "Please solve the captcha below to see the email address:"
 msgid "Please solve the captcha below to see the requested information:"
 msgstr ""
-"S’il vous plaît résoudre le captcha ci-dessous pour voir l’adresse e-mail:"
 
 #: website/show.php:47 website/show_js.php:61
 msgid ""
@@ -1348,39 +1326,24 @@ msgid ""
 msgstr ""
 
 #: website/show.php:52 website/show_js.php:67
-#, fuzzy
-#| msgid "Show Email"
 msgid "Show me!"
-msgstr "Afficher Email"
+msgstr ""
 
 #: website/show.php:56 website/show_js.php:71
 msgid "Why?"
 msgstr "Le Pourquoi ?"
 
 #: website/show.php:57 website/show_js.php:72
-#, fuzzy
-#| msgid ""
-#| "Some people use robots to search the internet for email addresses and "
-#| "send spam mails to them."
 msgid ""
 "Some people use robots to search the internet for contact information and "
 "email addresses to send spam mails."
 msgstr ""
-"Certaines personnes utilisent des robots pour rechercher sur Internet des "
-"adresses e-mail et envoyer des messages de spam pour eux."
 
 #: website/show.php:58 website/show_js.php:73
-#, fuzzy
-#| msgid ""
-#| "To protect against spam you were redirected to this website. We will "
-#| "check if you are a human and if we can show you the email address."
 msgid ""
 "To protect against spam you were redirected to this website. We will check "
 "if you are a human and if we can show you the requested information."
 msgstr ""
-"Pour protéger contre le spam vous étiez redirigé vers ce site. Nous allons "
-"vérifier si vous êtes un humain et si nous pouvons vous montrer l’adresse e-"
-"mail."
 
 #: website/show.php:67 website/show_js.php:88
 msgid "Please do not fill out the email field. It is for spam protection only."
@@ -1394,23 +1357,16 @@ msgid "Go back and try again."
 msgstr "Veuillez revenir en arrière et réessayer."
 
 #: website/show.php:70 website/show.php:93 website/show.php:114
-#, fuzzy
-#| msgid "<a>Contact me</a> if you need help."
 msgid "<a>Contact the Spamty.eu team</a> if you need help."
-msgstr "<a>Contactez-moi</a> si vous avez besoin d’aide."
+msgstr ""
 
 #: website/show.php:90 website/show_js.php:111
 msgid "We couldn't verify that you are a human. "
 msgstr "Nous ne pouvions pas vérifier que vous êtes un être humain. "
 
 #: website/show.php:122 website/show_js.php:129
-#, fuzzy
-#| msgid ""
-#| "Please send an email to contact@spamty.eu with the following error code. "
 msgid "Please send an email to contact@spamty.eu with this error code. "
 msgstr ""
-"S’il vous plaît envoyez un courriel à contact@spamty.eu avec le code "
-"d’erreur suivant. "
 
 #: website/show.php:123 website/show_js.php:131
 msgid ""
@@ -1433,10 +1389,8 @@ msgid "Powered by"
 msgstr "Realisé Par"
 
 #: website/show_js.php:62
-#, fuzzy
-#| msgid "If you have problems try a <a>different image</a>."
 msgid "If you have problems <a>contact me</a>."
-msgstr "Si vous avez des problèmes, essayez une <a>image différente</a>."
+msgstr ""
 
 #: website/show_js.php:130
 msgid "You can also <a>use our contact form</a>. "
