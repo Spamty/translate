@@ -24,7 +24,7 @@ Spamty is currently available in:
 |Arabic   |:x:                |TBD        |ar  |              |            |
 |English  |:white_check_mark: |primary    |en  |en_US         |en_US.UTF-8 |
 |Spanish  |:x:                |Incomplete |es  |es_ES         |es_ES.UTF-8 |
-|French   |:x:                |~50%       |fr  |fr_FR         |fr_FR.UTF-8 |
+|French   |:white_check_mark: |needs check|fr  |fr_FR         |fr_FR.UTF-8 |
 |Chinese  |:x:                |Incomplete |zh  |zh_CN         |zh_CN.UTF-8 |
 
 For URLs we prefer to use *ISO 639-1 codes* <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>.

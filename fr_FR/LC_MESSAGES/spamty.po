@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2021-01-16 20:49+0100\n"
-"PO-Revision-Date: 2021-01-16 20:54+0100\n"
+"POT-Creation-Date: 2021-01-17 13:10+0100\n"
+"PO-Revision-Date: 2021-01-17 13:10+0100\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp Rackevei <http://3q3.de/spamty>\n"
 "Language: fr\n"
@@ -1188,95 +1188,98 @@ msgstr ""
 
 #: website/privacy.php:53
 msgid "withdraw consent"
-msgstr ""
+msgstr "retirer le consentement"
 
 #: website/privacy.php:58
 msgid "withdrawed consent"
-msgstr ""
+msgstr "consentement retiré"
 
 #: website/privacy.php:64
 msgid "Cookie name"
-msgstr ""
+msgstr "Nom du cookie"
 
 #: website/privacy.php:65
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: website/privacy.php:66
 msgid "Expires"
-msgstr ""
+msgstr "Expire"
 
 #: website/privacy.php:67
 msgid "Legal basis"
-msgstr ""
+msgstr "Base juridique"
 
 #: website/privacy.php:74
 msgid "This cookie is created to store your consent for cookies."
-msgstr ""
+msgstr "Ce cookie est créé pour stocker votre consentement pour les cookies."
 
 #: website/privacy.php:75 website/privacy.php:81
 msgid "1 year"
-msgstr ""
+msgstr "1 année"
 
 #: website/privacy.php:76 website/privacy.php:82
 msgid "Consent"
-msgstr ""
+msgstr "Consentement"
 
 #: website/privacy.php:80
 msgid "This cookie stores your preffered language."
-msgstr ""
+msgstr "Ce cookie stocke votre langue préffered."
 
 #: website/privacy.php:86
 msgid ""
 "The PHP Session ID is required for the captcha and for security purposes."
 msgstr ""
+"L’ID de session PHP est requis pour le captcha et à des fins de sécurité."
 
 #: website/privacy.php:87
 msgid "Session"
-msgstr ""
+msgstr "Session"
 
 #: website/privacy.php:88 website/privacy.php:95 website/privacy.php:101
 #: website/privacy.php:107
 msgid "Art. 6 (1)(f) GDPR"
-msgstr ""
+msgstr "Art. 6 (1)(f) GDPR"
 
 #: website/privacy.php:93
 msgid ""
 "This cookie helps Cloudflare detect malicious visitors and is for security "
 "purposes."
 msgstr ""
+"Ce cookie aide Cloudflare à détecter les visiteurs malveillants et est à des "
+"fins de sécurité."
 
 #: website/privacy.php:94 website/privacy.php:100
 msgid "1 day"
-msgstr ""
+msgstr "1 jour"
 
 #: website/privacy.php:99
 msgid "This cookie helps Cloudflare to correctly handle HTTP requests."
-msgstr ""
+msgstr "Ce cookie aide Cloudflare à gérer correctement les demandes HTTP."
 
 #: website/privacy.php:105
 msgid "This cookie is required by Cloudflare to handle bots."
-msgstr ""
+msgstr "Ce cookie est requis par Cloudflare pour gérer les bots."
 
 #: website/privacy.php:106
 msgid "30 minutes"
-msgstr ""
+msgstr "30 minutes"
 
 #: website/privacy.php:111 website/privacy.php:117
 msgid "Cookie required by Cloudflare to keep this website online."
-msgstr ""
+msgstr "Cookie requis par Cloudflare pour garder ce site en ligne."
 
 #: website/privacy.php:112 website/privacy.php:118
 msgid "as required"
-msgstr ""
+msgstr "au besoin"
 
 #: website/privacy.php:113 website/privacy.php:119
 msgid "Art. 6 (1)(b) GDPR"
-msgstr ""
+msgstr "Art. 6 (1)(b) GDPR"
 
 #: website/privacy.php:125
 msgid "Other rights"
-msgstr ""
+msgstr "Autres droits"
 
 #: website/privacy.php:126
 msgid ""
@@ -1318,16 +1321,20 @@ msgstr ""
 #: website/show.php:40 website/show_js.php:54
 msgid "Please solve the captcha below to see the requested information:"
 msgstr ""
+"S’il vous plaît résoudre le captcha ci-dessous pour voir les informations "
+"demandées:"
 
 #: website/show.php:47 website/show_js.php:61
 msgid ""
 "Please click this box and follow possible instructions to verify that you "
 "are a human. "
 msgstr ""
+"S’il vous plaît cliquez sur cette boîte et suivez les instructions possibles "
+"pour vérifier que vous êtes un être humain. "
 
 #: website/show.php:52 website/show_js.php:67
 msgid "Show me!"
-msgstr ""
+msgstr "Montre-moi!"
 
 #: website/show.php:56 website/show_js.php:71
 msgid "Why?"
@@ -1338,12 +1345,17 @@ msgid ""
 "Some people use robots to search the internet for contact information and "
 "email addresses to send spam mails."
 msgstr ""
+"Certaines personnes utilisent des robots pour rechercher sur Internet des "
+"coordonnées et des adresses e-mail pour envoyer des spams."
 
 #: website/show.php:58 website/show_js.php:73
 msgid ""
 "To protect against spam you were redirected to this website. We will check "
 "if you are a human and if we can show you the requested information."
 msgstr ""
+"Pour vous protéger contre le spam, vous avez été redirigé vers ce site. Nous "
+"vérifierons si vous êtes un humain et si nous pouvons vous montrer les "
+"informations demandées."
 
 #: website/show.php:67 website/show_js.php:88
 msgid "Please do not fill out the email field. It is for spam protection only."
@@ -1358,7 +1370,7 @@ msgstr "Veuillez revenir en arrière et réessayer."
 
 #: website/show.php:70 website/show.php:93 website/show.php:114
 msgid "<a>Contact the Spamty.eu team</a> if you need help."
-msgstr ""
+msgstr "<a>Contactez Spamty.eu</a> si vous avez besoin d’aide."
 
 #: website/show.php:90 website/show_js.php:111
 msgid "We couldn't verify that you are a human. "
@@ -1366,7 +1378,7 @@ msgstr "Nous ne pouvions pas vérifier que vous êtes un être humain. "
 
 #: website/show.php:122 website/show_js.php:129
 msgid "Please send an email to contact@spamty.eu with this error code. "
-msgstr ""
+msgstr "S’il vous plaît envoyer un e-contact@spamty.eu avec ce code d’erreur. "
 
 #: website/show.php:123 website/show_js.php:131
 msgid ""
@@ -1390,7 +1402,7 @@ msgstr "Realisé Par"
 
 #: website/show_js.php:62
 msgid "If you have problems <a>contact me</a>."
-msgstr ""
+msgstr "Si vous avez des problèmes <a>contactez-moi</a>."
 
 #: website/show_js.php:130
 msgid "You can also <a>use our contact form</a>. "
@@ -1402,37 +1414,39 @@ msgstr "Status Page"
 
 #: website/status.php:16
 msgid "Usage"
-msgstr ""
+msgstr "Utilisation"
 
 #: website/status.php:17
 msgid "Statistics about the usage of Spamty:"
-msgstr ""
+msgstr "Statistiques sur l’utilisation de Spamty:"
 
 #: website/status.php:22
 msgid "Active Spamty links"
-msgstr ""
+msgstr "Liens Spamty actifs"
 
 #: website/status.php:23 website/status.php:55
 msgid "Number of clicks"
-msgstr ""
+msgstr "Nombre de clics"
 
 #: website/status.php:54
 msgid "Disabled Spamty links"
-msgstr ""
+msgstr "Liens Spamty désactivés"
 
 #: website/v-recaptcha-mailhide.php:4
 msgid "Spamty vs. reCAPTCHA Mailhide"
-msgstr ""
+msgstr "Spamty vs reCAPTCHA Mailhide"
 
 #: website/v-recaptcha-mailhide.php:5 website/v-recaptcha-mailhide.php:16
 msgid ""
 "Spamty is a great alternative for reCAPTCHA Mailhide since it was "
 "discontinued."
 msgstr ""
+"Spamty est une excellente alternative pour reCAPTCHA Mailhide depuis qu’il a "
+"été discontinué."
 
 #: website/v-recaptcha-mailhide.php:13
 msgid "reCAPTCHA Mailhide alternative"
-msgstr ""
+msgstr "reCAPTCHA Mailhide alternative"
 
 #: website/v-recaptcha-mailhide.php:14
 msgid ""
@@ -1471,27 +1485,27 @@ msgstr "Gratuit"
 
 #: website/v-recaptcha-mailhide.php:48 website/v-scrim.php:41
 msgid "API for developers"
-msgstr ""
+msgstr "API pour les développeurs"
 
 #: website/v-recaptcha-mailhide.php:53 website/v-scrim.php:51
 msgid "GDPR compliant"
-msgstr ""
+msgstr "Conforme au GDPR"
 
 #: website/v-recaptcha-mailhide.php:58 website/v-scrim.php:56
 msgid "Encrypted database"
-msgstr ""
+msgstr "Base de données cryptée"
 
 #: website/v-recaptcha-mailhide.php:63 website/v-scrim.php:61
 msgid "Online"
-msgstr ""
+msgstr "Connecté"
 
 #: website/v-recaptcha-mailhide.php:65 website/v-scrim.php:63
 msgid "since"
-msgstr ""
+msgstr "depuis"
 
 #: website/v-recaptcha-mailhide.php:69 website/v-scrim.php:67
 msgid "discontinued"
-msgstr ""
+msgstr "abandonné"
 
 #: website/v-recaptcha-mailhide.php:70 website/v-scrim.php:68
 msgid "Start using Spamty"
@@ -1499,22 +1513,26 @@ msgstr "Commencez à utiliser Spamty"
 
 #: website/v-scrim.php:4
 msgid "Spamty vs. scr.im"
-msgstr ""
+msgstr "Spamty vs scr.im"
 
 #: website/v-scrim.php:5
 msgid ""
 "Spamty offers a great alternative for the discontinued service 'scr.im'."
 msgstr ""
+"Spamty offre une excellente alternative au service \"scr.im\" qui a été "
+"interrompu."
 
 #: website/v-scrim.php:13
 msgid "scr.im alternative"
-msgstr ""
+msgstr "scr.im alternative"
 
 #: website/v-scrim.php:14
 msgid ""
 "Spamty offers a great alternative for the discontinued service 'scr.im' to "
 "get less email spam."
 msgstr ""
+"Spamty offre une excellente alternative au service \"scr.im\", qui a été "
+"supprimé, pour réduire le nombre de courriers électroniques indésirables."
 
 #~ msgid "<a>Please use GPG to encrypt emails!</a>"
 #~ msgstr "<a>S’il vous plaît utiliser GPG pour chiffrer les e-mails!</a>"
