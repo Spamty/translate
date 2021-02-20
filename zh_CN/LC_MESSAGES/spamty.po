@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2021-02-20 14:26+0100\n"
-"PO-Revision-Date: 2021-02-20 14:26+0100\n"
+"POT-Creation-Date: 2021-02-20 19:20+0100\n"
+"PO-Revision-Date: 2021-02-20 19:20+0100\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp\n"
 "Language: zh_CN\n"
@@ -23,9 +23,10 @@ msgstr ""
 msgid "Feel free to contact Spamty.eu if you need help or just want to talk."
 msgstr ""
 
-#: website/contact.php:15
-msgid "Feel free to contact me via email:"
-msgstr "请随时通过电子邮件与我联系："
+#: website/contact.php:15 website/contact.php:36 website/index.php:26
+#: website/index_bulk.php:25 website/index_js.php:98 website/index_text.php:37
+msgid "Email"
+msgstr "电子信箱"
 
 #: website/contact.php:16
 msgid "Go to my email address on Spamty."
@@ -124,10 +125,6 @@ msgstr ""
 
 #: website/donate.php:96 website/donate.php:106 website/donate.php:116
 msgid "costs:"
-msgstr ""
-
-#: website/donate.php:105 website/donate.php:115 website/donate.php:124
-msgid "no donations collected"
 msgstr ""
 
 #: website/error-404.php:6
@@ -406,7 +403,7 @@ msgid "Protect your Email Address against Spam"
 msgstr "保护你抗击垃圾邮件的电子邮件地址"
 
 #: website/includes/ws-head.php:116 website/index.php:5
-#: website/index_bulk.php:5 website/index_js.php:5 website/legal.php:30
+#: website/index_bulk.php:5 website/index_js.php:5 website/legal.php:31
 msgid ""
 "Tired of spam? Spamty helps you to protect your email address on the web by "
 "asking people to solve a captcha before they see it."
@@ -453,11 +450,6 @@ msgstr ""
 #: website/index.php:20 website/index_js.php:20 website/index_text.php:21
 msgid "<a>Learn more!</a>"
 msgstr ""
-
-#: website/index.php:26 website/index_bulk.php:25 website/index_js.php:98
-#: website/index_text.php:37
-msgid "Email"
-msgstr "电子信箱"
 
 #: website/index.php:27 website/index_js.php:99 website/index_text.php:38
 msgid "Your email address"
@@ -704,29 +696,33 @@ msgstr ""
 msgid "You can contact me via email:"
 msgstr ""
 
-#: website/legal.php:28
-msgid "Not Commercial"
+#: website/legal.php:27
+msgid "You can find our <a>privacy policy here</a>. "
 msgstr ""
 
 #: website/legal.php:29
+msgid "Not Commercial"
+msgstr ""
+
+#: website/legal.php:30
 msgid "This webservice is provided without a gainful intension."
 msgstr ""
 
-#: website/legal.php:31
+#: website/legal.php:32
 msgid "Learn more!"
 msgstr ""
 
-#: website/legal.php:33
+#: website/legal.php:34
 msgid "Disclaimer"
 msgstr ""
 
-#: website/legal.php:34
+#: website/legal.php:35
 msgid ""
 "As a service provider, we are responsible only for our own content on these "
 "pages according to sect. 7(1) TMG. "
 msgstr ""
 
-#: website/legal.php:35
+#: website/legal.php:36
 msgid ""
 "Furthermore, according to sect. 7-10 TMG, as the provider of this website "
 "(service provider) we are not obliged to monitor the contents of the users "
@@ -735,14 +731,14 @@ msgid ""
 "remove them immediately. "
 msgstr ""
 
-#: website/legal.php:36
+#: website/legal.php:37
 msgid ""
 "We are not liable for content created by users (especially posts and "
 "comments in the blog). Any liability in this regard is possible at the "
 "earliest from the time of knowledge of a concrete infringement. "
 msgstr ""
 
-#: website/legal.php:37
+#: website/legal.php:38
 msgid ""
 "This website contains links to third party websites. We have no influence on "
 "the content of these websites and cannot accept any liability for such third-"
@@ -750,7 +746,7 @@ msgid ""
 "the content of the linked websites. "
 msgstr ""
 
-#: website/legal.php:38
+#: website/legal.php:39
 msgid ""
 "At the time of linking we could not find any illegal content on these "
 "websites. If we become aware of illegal content or other legal "
@@ -758,42 +754,28 @@ msgid ""
 "permanent control of the linked websites is not reasonable. "
 msgstr ""
 
-#: website/legal.php:40
+#: website/legal.php:41
 msgid "Copyright"
 msgstr ""
 
-#: website/legal.php:41
+#: website/legal.php:42
 msgid ""
 "The contents published on this website are subject to copyright. Copying, "
 "editing and distribution requires the consent of the respective copyright "
 "holder. "
 msgstr ""
 
-#: website/legal.php:42
+#: website/legal.php:43
 msgid ""
 "Content that was not created by us is indicated, if a marking is required. "
 "As far as the content on this site was not created by us, the copyrights of "
 "third parties are respected. "
 msgstr ""
 
-#: website/legal.php:43
+#: website/legal.php:44
 msgid ""
 "Should you become aware of a copyright infringement, please inform us and we "
 "will remove the content immediately. "
-msgstr ""
-
-#: website/legal.php:45
-msgid "Data Protection"
-msgstr ""
-
-#: website/legal.php:46
-msgid "You can find our <a>privacy policy here</a>. "
-msgstr ""
-
-#: website/legal.php:47
-msgid ""
-"There are detailed information about cookies and the storage and processing "
-"of personal data."
 msgstr ""
 
 #: website/privacy.php:5
@@ -1150,30 +1132,6 @@ msgstr ""
 msgid "Powered by"
 msgstr "技术提供"
 
-#: website/status.php:4
-msgid "Statuspage"
-msgstr ""
-
-#: website/status.php:16
-msgid "Usage"
-msgstr ""
-
-#: website/status.php:17
-msgid "Statistics about the usage of Spamty:"
-msgstr ""
-
-#: website/status.php:22
-msgid "Active Spamty links"
-msgstr ""
-
-#: website/status.php:23 website/status.php:55
-msgid "Number of clicks"
-msgstr ""
-
-#: website/status.php:54
-msgid "Disabled Spamty links"
-msgstr ""
-
 #: website/v-recaptcha-mailhide.php:4
 msgid "Spamty vs. reCAPTCHA Mailhide"
 msgstr ""
@@ -1263,6 +1221,9 @@ msgid ""
 "Spamty offers a great alternative for the discontinued service 'scr.im' to "
 "get less email spam."
 msgstr ""
+
+#~ msgid "Feel free to contact me via email:"
+#~ msgstr "请随时通过电子邮件与我联系："
 
 #~ msgid "https://emailselfdefense.fsf.org/en/windows.html"
 #~ msgstr "https://emailselfdefense.fsf.org/zh-hans/windows.html"

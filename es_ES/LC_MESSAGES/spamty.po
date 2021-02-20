@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2021-02-20 14:21+0100\n"
-"PO-Revision-Date: 2021-02-20 14:23+0100\n"
+"POT-Creation-Date: 2021-02-20 19:20+0100\n"
+"PO-Revision-Date: 2021-02-20 19:20+0100\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp\n"
 "Language: es\n"
@@ -28,9 +28,10 @@ msgstr ""
 "No dude en ponerse en contacto con Spamty.eu si necesita ayuda o simplemente "
 "desea hablar."
 
-#: website/contact.php:15
-msgid "Feel free to contact me via email:"
-msgstr ""
+#: website/contact.php:15 website/contact.php:36 website/index.php:26
+#: website/index_bulk.php:25 website/index_js.php:98 website/index_text.php:37
+msgid "Email"
+msgstr "Correo electrónico"
 
 #: website/contact.php:16
 msgid "Go to my email address on Spamty."
@@ -130,10 +131,6 @@ msgstr ""
 #: website/donate.php:96 website/donate.php:106 website/donate.php:116
 msgid "costs:"
 msgstr "costos:"
-
-#: website/donate.php:105 website/donate.php:115 website/donate.php:124
-msgid "no donations collected"
-msgstr ""
 
 #: website/error-404.php:6
 msgid "Page not found"
@@ -432,7 +429,7 @@ msgid "Protect your Email Address against Spam"
 msgstr "Protege tu dirección de correo electrónico contra el spam"
 
 #: website/includes/ws-head.php:116 website/index.php:5
-#: website/index_bulk.php:5 website/index_js.php:5 website/legal.php:30
+#: website/index_bulk.php:5 website/index_js.php:5 website/legal.php:31
 msgid ""
 "Tired of spam? Spamty helps you to protect your email address on the web by "
 "asking people to solve a captcha before they see it."
@@ -482,11 +479,6 @@ msgstr ""
 #: website/index.php:20 website/index_js.php:20 website/index_text.php:21
 msgid "<a>Learn more!</a>"
 msgstr ""
-
-#: website/index.php:26 website/index_bulk.php:25 website/index_js.php:98
-#: website/index_text.php:37
-msgid "Email"
-msgstr "Correo electrónico"
 
 #: website/index.php:27 website/index_js.php:99 website/index_text.php:38
 msgid "Your email address"
@@ -753,29 +745,33 @@ msgstr "Este sitio web es proporcionada por:"
 msgid "You can contact me via email:"
 msgstr ""
 
-#: website/legal.php:28
+#: website/legal.php:27
+msgid "You can find our <a>privacy policy here</a>. "
+msgstr "Usted puede encontrar nuestra <a>política de privacidad aquí.</a> "
+
+#: website/legal.php:29
 msgid "Not Commercial"
 msgstr "No Comercial"
 
-#: website/legal.php:29
+#: website/legal.php:30
 msgid "This webservice is provided without a gainful intension."
 msgstr "Este servicio web se proporciona sin una intensidad de ganancia."
 
-#: website/legal.php:31
+#: website/legal.php:32
 msgid "Learn more!"
 msgstr ""
 
-#: website/legal.php:33
+#: website/legal.php:34
 msgid "Disclaimer"
 msgstr "Descargo de responsabilidad"
 
-#: website/legal.php:34
+#: website/legal.php:35
 msgid ""
 "As a service provider, we are responsible only for our own content on these "
 "pages according to sect. 7(1) TMG. "
 msgstr ""
 
-#: website/legal.php:35
+#: website/legal.php:36
 msgid ""
 "Furthermore, according to sect. 7-10 TMG, as the provider of this website "
 "(service provider) we are not obliged to monitor the contents of the users "
@@ -784,14 +780,14 @@ msgid ""
 "remove them immediately. "
 msgstr ""
 
-#: website/legal.php:36
+#: website/legal.php:37
 msgid ""
 "We are not liable for content created by users (especially posts and "
 "comments in the blog). Any liability in this regard is possible at the "
 "earliest from the time of knowledge of a concrete infringement. "
 msgstr ""
 
-#: website/legal.php:37
+#: website/legal.php:38
 msgid ""
 "This website contains links to third party websites. We have no influence on "
 "the content of these websites and cannot accept any liability for such third-"
@@ -799,7 +795,7 @@ msgid ""
 "the content of the linked websites. "
 msgstr ""
 
-#: website/legal.php:38
+#: website/legal.php:39
 msgid ""
 "At the time of linking we could not find any illegal content on these "
 "websites. If we become aware of illegal content or other legal "
@@ -807,45 +803,29 @@ msgid ""
 "permanent control of the linked websites is not reasonable. "
 msgstr ""
 
-#: website/legal.php:40
+#: website/legal.php:41
 msgid "Copyright"
 msgstr ""
 
-#: website/legal.php:41
+#: website/legal.php:42
 msgid ""
 "The contents published on this website are subject to copyright. Copying, "
 "editing and distribution requires the consent of the respective copyright "
 "holder. "
 msgstr ""
 
-#: website/legal.php:42
+#: website/legal.php:43
 msgid ""
 "Content that was not created by us is indicated, if a marking is required. "
 "As far as the content on this site was not created by us, the copyrights of "
 "third parties are respected. "
 msgstr ""
 
-#: website/legal.php:43
+#: website/legal.php:44
 msgid ""
 "Should you become aware of a copyright infringement, please inform us and we "
 "will remove the content immediately. "
 msgstr ""
-
-#: website/legal.php:45
-msgid "Data Protection"
-msgstr "Protección de datos"
-
-#: website/legal.php:46
-msgid "You can find our <a>privacy policy here</a>. "
-msgstr "Usted puede encontrar nuestra <a>política de privacidad aquí.</a> "
-
-#: website/legal.php:47
-msgid ""
-"There are detailed information about cookies and the storage and processing "
-"of personal data."
-msgstr ""
-"Hay información detallada sobre las cookies y el almacenamiento y "
-"procesamiento de datos personales."
 
 #: website/privacy.php:5
 msgid ""
@@ -1230,30 +1210,6 @@ msgstr "Esta es la dirección de correo electrónico que quieres ver:"
 msgid "Powered by"
 msgstr "Funciona con"
 
-#: website/status.php:4
-msgid "Statuspage"
-msgstr ""
-
-#: website/status.php:16
-msgid "Usage"
-msgstr ""
-
-#: website/status.php:17
-msgid "Statistics about the usage of Spamty:"
-msgstr ""
-
-#: website/status.php:22
-msgid "Active Spamty links"
-msgstr ""
-
-#: website/status.php:23 website/status.php:55
-msgid "Number of clicks"
-msgstr ""
-
-#: website/status.php:54
-msgid "Disabled Spamty links"
-msgstr ""
-
 #: website/v-recaptcha-mailhide.php:4
 msgid "Spamty vs. reCAPTCHA Mailhide"
 msgstr ""
@@ -1350,6 +1306,16 @@ msgid ""
 "Spamty offers a great alternative for the discontinued service 'scr.im' to "
 "get less email spam."
 msgstr ""
+
+#~ msgid "Data Protection"
+#~ msgstr "Protección de datos"
+
+#~ msgid ""
+#~ "There are detailed information about cookies and the storage and "
+#~ "processing of personal data."
+#~ msgstr ""
+#~ "Hay información detallada sobre las cookies y el almacenamiento y "
+#~ "procesamiento de datos personales."
 
 #, fuzzy
 #~| msgid ""
