@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Spamty\n"
-"POT-Creation-Date: 2021-01-20 20:31+0100\n"
-"PO-Revision-Date: 2021-01-20 20:32+0100\n"
+"POT-Creation-Date: 2021-02-20 14:20+0100\n"
+"PO-Revision-Date: 2021-02-20 14:20+0100\n"
 "Last-Translator: Philipp Rackevei\n"
 "Language-Team: Philipp\n"
 "Language: de\n"
@@ -1179,10 +1179,6 @@ msgstr ""
 msgid "withdraw consent"
 msgstr "Einwilligung widerrufen"
 
-#: website/privacy.php:58
-msgid "withdrawed consent"
-msgstr "Einwilligung wurde widerrufen"
-
 #: website/privacy.php:64
 msgid "Cookie name"
 msgstr "Cookie Name"
@@ -1192,8 +1188,8 @@ msgid "Description"
 msgstr "Beschreibung"
 
 #: website/privacy.php:66
-msgid "Expires"
-msgstr "Ablauf"
+msgid "Expires in X days"
+msgstr "Läuft in X Tagen ab"
 
 #: website/privacy.php:67
 msgid "Legal basis"
@@ -1202,10 +1198,6 @@ msgstr "Rechtsgrundlage"
 #: website/privacy.php:74
 msgid "This cookie is created to store your consent for cookies."
 msgstr "Dieses Cookie speichert die Einwilligung für Cookies."
-
-#: website/privacy.php:75 website/privacy.php:81
-msgid "1 year"
-msgstr "1 Jahr"
 
 #: website/privacy.php:76 website/privacy.php:82
 msgid "Consent"
@@ -1225,11 +1217,6 @@ msgstr ""
 msgid "Session"
 msgstr "Sitzung"
 
-#: website/privacy.php:88 website/privacy.php:95 website/privacy.php:101
-#: website/privacy.php:107
-msgid "Art. 6 (1)(f) GDPR"
-msgstr "Art. 6 (1)(f) DSGVO"
-
 #: website/privacy.php:93
 msgid ""
 "This cookie helps Cloudflare detect malicious visitors and is for security "
@@ -1237,10 +1224,6 @@ msgid ""
 msgstr ""
 "Dieses Cookie hilft Cloudflare schädliche Nutzer der Website zu "
 "identifizieren."
-
-#: website/privacy.php:94 website/privacy.php:100
-msgid "1 day"
-msgstr "1 Tag"
 
 #: website/privacy.php:99
 msgid "This cookie helps Cloudflare to correctly handle HTTP requests."
@@ -1251,10 +1234,6 @@ msgstr ""
 msgid "This cookie is required by Cloudflare to handle bots."
 msgstr "Dieses Cookie wird von Cloudflare wegen Bots benötigt."
 
-#: website/privacy.php:106
-msgid "30 minutes"
-msgstr "30 Minuten"
-
 #: website/privacy.php:111 website/privacy.php:117
 msgid "Cookie required by Cloudflare to keep this website online."
 msgstr "Dieses Cookie benötigt Cloudflare um die Website online zu halten."
@@ -1262,10 +1241,6 @@ msgstr "Dieses Cookie benötigt Cloudflare um die Website online zu halten."
 #: website/privacy.php:112 website/privacy.php:118
 msgid "as required"
 msgstr "nach Bedarf"
-
-#: website/privacy.php:113 website/privacy.php:119
-msgid "Art. 6 (1)(b) GDPR"
-msgstr "Art. 6 (1)(b) DSGVO"
 
 #: website/privacy.php:125
 msgid "Other rights"
@@ -1511,6 +1486,27 @@ msgid ""
 msgstr ""
 "Spamty bietet eine gute Alternative um weniger Spam zu bekommen für scr.im "
 "an, da dieser Dienst beendet wurde."
+
+#~ msgid "withdrawed consent"
+#~ msgstr "Einwilligung wurde widerrufen"
+
+#~ msgid "Expires"
+#~ msgstr "Ablauf"
+
+#~ msgid "1 year"
+#~ msgstr "1 Jahr"
+
+#~ msgid "Art. 6 (1)(f) GDPR"
+#~ msgstr "Art. 6 (1)(f) DSGVO"
+
+#~ msgid "1 day"
+#~ msgstr "1 Tag"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 Minuten"
+
+#~ msgid "Art. 6 (1)(b) GDPR"
+#~ msgstr "Art. 6 (1)(b) DSGVO"
 
 #~ msgid "There was a problem with the \"ciphertext\" from encryption. "
 #~ msgstr "Es gab ein Problem mit dem \"ciphertext\" der Verschlüsselung. "
